@@ -1,5 +1,5 @@
 import React from 'react';
-import Testimonials from './testimonials';
+import Testimonials from './testimonial';
 import { BsBoxArrowInUpRight } from "react-icons/bs";
 const data = [
   {

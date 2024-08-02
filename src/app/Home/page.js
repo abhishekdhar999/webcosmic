@@ -12,10 +12,10 @@ import BlobMarquee from '@/Components/BlobMarquee/BlobMarquee';
 import { BlogSection } from '@/Components/Blogs/BlogsSection';
 import OurServicesComponent from '@/Components/OurServicesComponents/OurServicesComponents';
 import Reviews from '@/Components/Reviews/Reviews';
+import TestimonialSection from '@/Components/Testimonials/TestimonialsSection';
 
-import Model from '@/Components/Model/Model';
 import { ServicesSection } from '@/Components/Services/Services';
-
+const Model = dynamic(() => import('@/Components/Model/Model'), { ssr: false });
 gsap.registerPlugin(TextPlugin);
 const name = "Start Your Project"
 
@@ -35,18 +35,13 @@ export default function Homepage({loading}) {
 
   return (
     <>
-      {/* PreLoader Component */}
-      {/* <PreLoader /> */}
-
-      {/* Main Container */}
+      
       <div className='relative flex flex-col items-center justify-center h-screen p-4 sm:mt-[-45px] mt-[105px] '>
 
       <div className="absolute top-28  right-[-10px] mt-0 mr-4 sm:mt-0 sm:mr-8">
           <img className="lg:block hidden h-24 w-24 sm:h-[150px] sm:w-[150px]     " src="homepageimages/stars.png" alt="Stars" />
         </div>
-        {/* Rotating Text in Circle */}
-        {/* 
-        {/* Overlay text for large screens */}
+       
         <h1 ref={headingRef} className='text-4xl md:text-7xl font-extrabold font-serif text-gray-300 absolute top-[150px] md:top-[200px] mx-4 md:mx-12 left-4 md:left-[50px] z-10 hidden sm:block'>
           <span className='flex'>
             WEB C <span className='mr-[-60px] md:mr-[-110px] ml-[-60px] md:ml-[-110px] mt-[-25px] md:mt-[-55px]'><img className='h-[90px] md:h-[180px]' src="saturnHome.png" alt="Logo" /></span> SMIC
@@ -103,7 +98,9 @@ export default function Homepage({loading}) {
       <div>
 <Reviews></Reviews>
       </div>
-      
+      <div>
+        <TestimonialSection></TestimonialSection>
+      </div>
       
     </>
   );

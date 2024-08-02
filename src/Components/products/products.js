@@ -6,16 +6,16 @@ import Projects from '@/Components/Projects/Projects';
 import { LuArrowDownRightFromCircle } from 'react-icons/lu';
 import Earth from '@/Components/Earth/Earth';
 export default function Productspage() {
-//   const Earth = dynamic(() => import('@/Components/Earth/Earth'), {
-//     ssr: false,
-//     loading: () => (
-//       <img
-//         src="https://blog.olivierlarose.com/_next/image?url=%2Fmedias%2Ftutorials%2F3d-earth%2Fcolor.jpg&w=2048&q=75"
-//         alt="Loading..."
-//         className="w-full max-w-xs md:max-w-md mx-auto my-12"
-//       />
-//     ),
-//   });
+  const Earth = dynamic(() => import('@/Components/Earth/Earth'), {
+    ssr: false,
+    loading: () => (
+      <img
+        src="https://blog.olivierlarose.com/_next/image?url=%2Fmedias%2Ftutorials%2F3d-earth%2Fcolor.jpg&w=2048&q=75"
+        alt="Loading..."
+        className="w-full max-w-xs md:max-w-md mx-auto my-12"
+      />
+    ),
+  });
 
   return (
     <>
