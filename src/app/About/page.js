@@ -6,19 +6,19 @@ import Image from "next/image";
 const About = () => {
   const [isUsVisible, setIsUsVisible] = useState(false);
 
-  useEffect(() => {
-    const aboutElement = document.getElementById("about");
-    const handleAnimationEnd = () => {
-      setIsUsVisible(true);
-      aboutElement.removeEventListener("animationend", handleAnimationEnd);
-    };
+//   useEffect(() => {
+//     const aboutElement = document.getElementById("about");
+//     const handleAnimationEnd = () => {
+//       setIsUsVisible(true);
+//       aboutElement.removeEventListener("animationend", handleAnimationEnd);
+//     };
 
-    aboutElement.addEventListener("animationend", handleAnimationEnd);
+//     aboutElement.addEventListener("animationend", handleAnimationEnd);
 
-    return () => {
-      aboutElement.removeEventListener("animationend", handleAnimationEnd);
-    };
-  }, []);
+//     return () => {
+//       aboutElement.removeEventListener("animationend", handleAnimationEnd);
+//     };
+//   }, []);
 
   return (
     <>

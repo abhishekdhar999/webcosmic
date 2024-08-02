@@ -7,6 +7,10 @@ const Blob = () => {
   const mountRef = useRef(null);
 
   useEffect(() => {
+    if (typeof window === 'undefined' || typeof document === 'undefined') {
+      return; // Ensure that this code only runs on the client side
+    }
+
     const mount = mountRef.current;
 
     // Scene

@@ -7,7 +7,7 @@ const Preloader = () => {
   return (
 <>
 <div>
-        <img src="20240728_143228.png" alt="" />
+        <img src="preloading.png" alt="" />
       </div>
 
     
