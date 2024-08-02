@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "@/Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
-
+import Image from "next/image";
 const About = () => {
   const [isUsVisible, setIsUsVisible] = useState(false);
 
@@ -59,10 +59,12 @@ const About = () => {
               </p>
             </div>
             <div className="md:w-1/2 md:pr-8">
-              <img
-                src={`ourvisionnew.png`}
+              <Image
+                src={`/ourvisionnew.png`}
                 alt="Our Vision"
                 className="w-full h-auto max-w-xs mx-auto"
+                width={500} // Specify the width
+        height={300} // Specify the height
               />
             </div>
           </section>
@@ -80,10 +82,12 @@ const About = () => {
               </p>
             </div>
             <div className="md:w-1/2 md:pl-8">
-              <img
-                src={`approach.png`}
+              <Image
+                src={`/approach.png`}
                 alt="Our Approach"
                 className="w-full h-auto max-w-xs mx-auto"
+                width={500} // Specify the width
+        height={300} // Specify the height
               />
             </div>
           </section>

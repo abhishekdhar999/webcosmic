@@ -12,10 +12,10 @@ import BlobMarquee from '@/Components/BlobMarquee/BlobMarquee';
 import { BlogSection } from '@/Components/Blogs/BlogsSection';
 import OurServicesComponent from '@/Components/OurServicesComponents/OurServicesComponents';
 import Reviews from '@/Components/Reviews/Reviews';
-import TestimonialSection from '@/Components/Testimonials/TestimonialSection';
+
 import Model from '@/Components/Model/Model';
 import { ServicesSection } from '@/Components/Services/Services';
-// const Model = dynamic(() => import('@/Components/Model/Model'), { ssr: false });
+
 gsap.registerPlugin(TextPlugin);
 const name = "Start Your Project"
 
@@ -49,7 +49,7 @@ export default function Homepage({loading}) {
         {/* Overlay text for large screens */}
         <h1 ref={headingRef} className='text-4xl md:text-7xl font-extrabold font-serif text-gray-300 absolute top-[150px] md:top-[200px] mx-4 md:mx-12 left-4 md:left-[50px] z-10 hidden sm:block'>
           <span className='flex'>
-            WEB C <span className='mr-[-60px] md:mr-[-110px] ml-[-60px] md:ml-[-110px] mt-[-25px] md:mt-[-55px]'><img className='h-[90px] md:h-[180px]' src="Untitled_design__4_-removebg-preview (1).png" alt="Logo" /></span> SMIC
+            WEB C <span className='mr-[-60px] md:mr-[-110px] ml-[-60px] md:ml-[-110px] mt-[-25px] md:mt-[-55px]'><img className='h-[90px] md:h-[180px]' src="saturnHome.png" alt="Logo" /></span> SMIC
           </span>
         </h1>
         
@@ -103,9 +103,7 @@ export default function Homepage({loading}) {
       <div>
 <Reviews></Reviews>
       </div>
-      <div>
-        <TestimonialSection></TestimonialSection>
-      </div>
+      
       
     </>
   );

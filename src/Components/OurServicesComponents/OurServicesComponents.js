@@ -75,7 +75,7 @@ function OurServicesComponent({ loading }) {
                       <p className="text-left font-thin text-sm md:text-base leading-6 md:leading-7 sm:block hidden">
                         Building Digital Excellence. Our team of expert
                         developers and designers is dedicated to crafting
-                        personalized web solutions that elevate your brand's
+                        personalized web solutions that elevate your brands
                         online presence. We specialize in creating high-quality
                         websites and mobile applications tailored to your
                         unique business needs. By focusing on innovation,
@@ -132,7 +132,7 @@ function OurServicesComponent({ loading }) {
                       <p className="text-left font-thin text-sm md:text-base leading-6 md:leading-7 sm:block hidden">
                         Driving Success Through Strategy. Our dynamic digital
                         marketing team crafts data-driven campaigns that
-                        elevate your brand's online presence. We specialize in
+                        elevate your brands online presence. We specialize in
                         SEO, social media management, and targeted advertising
                         to boost engagement and conversions. With a focus on
                         creativity and analytics, we deliver impactful
@@ -185,7 +185,7 @@ function OurServicesComponent({ loading }) {
                         Branding
                       </h1>
                       <p className="text-left font-thin text-sm md:text-base leading-6 md:leading-7 sm:block hidden ">
-                      At the heart of every successful business is a captivating brand. Our branding solutions are tailored to capture your essence and vision, translating them into compelling visuals and messaging. We specialize in crafting logos, taglines, and brand guidelines that not only look great but also communicate your unique story. Whether you're a startup or an established company, our goal is to enhance your brand's presence and connect with your audience on a deeper level.
+                      At the heart of every successful business is a captivating brand. Our branding solutions are tailored to capture your essence and vision, translating them into compelling visuals and messaging. We specialize in crafting logos, taglines, and brand guidelines that not only look great but also communicate your unique story. Whether youre a startup or an established company, our goal is to enhance your brands presence and connect with your audience on a deeper level.
                       </p>
 
                       {/* <!-- Buttons Section --> */}
@@ -233,7 +233,7 @@ function OurServicesComponent({ loading }) {
                         App Design & Development
                       </h1>
                       <p className="text-left font-thin text-sm md:text-base leading-6 md:leading-7 sm:block hidden">
-                      Transform your ideas into intuitive, user-friendly apps with our app design and development services. Our talented team excels in creating seamless digital experiences across platforms, from iOS to Android, ensuring that your app meets the highest standards of performance and aesthetics. We focus on user-centric designs that enhance engagement and functionality, bringing your vision to life with cutting-edge technology and creativity. Whether it's a startup app or a complex enterprise solution, we deliver apps that not only meet but exceed your expectations.
+                      Transform your ideas into intuitive, user-friendly apps with our app design and development services. Our talented team excels in creating seamless digital experiences across platforms, from iOS to Android, ensuring that your app meets the highest standards of performance and aesthetics. We focus on user-centric designs that enhance engagement and functionality, bringing your vision to life with cutting-edge technology and creativity. Whether its a startup app or a complex enterprise solution, we deliver apps that not only meet but exceed your expectations.
                       </p>
 
                       {/* <!-- Buttons Section --> */}
