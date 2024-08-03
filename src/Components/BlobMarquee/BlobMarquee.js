@@ -1,7 +1,7 @@
 "use client";
 import React, { useRef, useEffect } from "react";
 import styled from "styled-components";
-import Blob from "../Blob/Blob";
+// import Blob from "../Blob/Blob";
 import Marquee from "../Marquee/Marquee";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
@@ -23,7 +23,7 @@ const trigRef =  useRef(null)
     <>
       <div ref={trigRef} className=" overflow-y-hidden"></div>
         <div className="relative">
-          <Blob />
+          {/* <Blob /> */}
           <span ref={slideRef} className=" absolute top-[25%] overflow-hidden">
             
             <Marquee className="overflow-hidden" text={text} />

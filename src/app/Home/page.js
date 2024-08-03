@@ -15,7 +15,7 @@ import Reviews from '@/Components/Reviews/Reviews';
 import TestimonialSection from '@/Components/Testimonials/TestimonialsSection';
 
 import { ServicesSection } from '@/Components/Services/Services';
-const Model = dynamic(() => import('@/Components/Model/Model'), { ssr: false });
+// const Model = dynamic(() => import('@/Components/Model/Model'), { ssr: false });
 gsap.registerPlugin(TextPlugin);
 const name = "Start Your Project"
 
@@ -60,7 +60,7 @@ export default function Homepage({loading}) {
         {/* 3D Model */}
         <div className='flex-1 w-full sm:mt-[-30px]  md:h-[600px] md:w-[600px] relative'>
           {/* <Blob /> */}
-          <Model />
+          {/* <Model /> */}
         </div>
 
         {/* Responsive text for mobile view */}
