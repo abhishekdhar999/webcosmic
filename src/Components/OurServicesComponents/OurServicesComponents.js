@@ -4,7 +4,7 @@ import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { BsBoxArrowInUpRight } from "react-icons/bs";
-
+import Image from "next/image";
 import Link from "next/link";
 function OurServicesComponent({ loading }) {
   const sectionRef = useRef(null);
@@ -114,8 +114,7 @@ function OurServicesComponent({ loading }) {
                     <div className="right w-full md:w-1/2 flex justify-center md:justify-end items-center">
                     <Image
                         className="h-64 w-64 md:h-96 md:w-96 object-cover rounded-2xl"
-                        src="https://cdn.pixabay.com/photo/2017/12/29/11/38/digital-marketing-3040907_1280.jpg"
-                        alt="Digital Marketing"
+                        src="/freelance-work-7308505_1920-removebg-preview.png"
                         width={640} // Actual width of the image
                         height={640} // Actual height of the image
                       />
@@ -171,8 +170,7 @@ function OurServicesComponent({ loading }) {
                     <div className="right w-full md:w-1/2 flex justify-center md:justify-end items-center">
                     <Image
                         className="h-64 w-64 md:h-96 md:w-96 object-cover rounded-2xl"
-                        src="https://cdn.pixabay.com/photo/2017/12/29/11/38/digital-marketing-3040907_1280.jpg"
-                        alt="Digital Marketing"
+                        src="/freelance-work-7308505_1920-removebg-preview.png"
                         width={640} // Actual width of the image
                         height={640} // Actual height of the image
                       />
@@ -221,8 +219,7 @@ function OurServicesComponent({ loading }) {
                     <div className="right w-full md:w-1/2 flex justify-center md:justify-end items-center">
                     <Image
                         className="h-64 w-64 md:h-96 md:w-96 object-cover rounded-2xl"
-                        src="https://cdn.pixabay.com/photo/2017/12/29/11/38/digital-marketing-3040907_1280.jpg"
-                        alt="Digital Marketing"
+                        src="/freelance-work-7308505_1920-removebg-preview.png"
                         width={640} // Actual width of the image
                         height={640} // Actual height of the image
                       />
@@ -271,8 +268,7 @@ function OurServicesComponent({ loading }) {
                     <div className="right w-full md:w-1/2 flex justify-center md:justify-end items-center">
                     <Image
                         className="h-64 w-64 md:h-96 md:w-96 object-cover rounded-2xl"
-                        src="https://cdn.pixabay.com/photo/2017/12/29/11/38/digital-marketing-3040907_1280.jpg"
-                        alt="Digital Marketing"
+                        src="/freelance-work-7308505_1920-removebg-preview.png"
                         width={640} // Actual width of the image
                         height={640} // Actual height of the image
                       />
