@@ -178,7 +178,7 @@ function OurServicesComponent({ loading }) {
 
                 {/* Third Service Section */}
                 <div className="scroll-section">
-                  <div className="w-full shadow-lg shadow-purple-400 bg-black flex flex-col md:flex-row rounded-2xl mx-6 md:mx-12 lg:mx-36 my-8">
+                  <div className="w-full shadow-lg shadow-blue-400 bg-black flex flex-col md:flex-row rounded-2xl mx-6 md:mx-12 lg:mx-36 my-8">
                     {/* <!-- Left Section --> */}
                     <div className="left md:w-1/2 w-full my-8 md:my-24 mx-4 md:mx-6">
                       <h1 className="text-2xl md:text-3xl font-extrabold text-left justify-center mb-4 md:mb-6">
