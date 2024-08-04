@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import gsap from "gsap";
-import './globals.css'
+import "../globals.css"
 import Link from 'next/link';
 import { TextPlugin } from "gsap/TextPlugin";
 import AnimatedList from '@/Components/AnimatedList/AnimatedList';
