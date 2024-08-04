@@ -41,7 +41,7 @@ body {
 }
 
 /* navbar css */
-nav {
+/* nav {
   width: 100%;
   
   background:black;
@@ -75,7 +75,8 @@ nav ul li a:hover {
 }
 
 /* SHIFT */
-nav.shift ul li a {
+
+/* nav.shift ul li a {
   position:relative;
   z-index: 1;
 }
@@ -104,7 +105,7 @@ nav.shift ul li a:hover:after {
   opacity: 1;
   visibility: visible;
   height: 100%;
-}
+} */ */
 
 /* marquee banner css */
 /* styles/MarqueeBanner.css */

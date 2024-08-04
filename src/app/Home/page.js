@@ -50,7 +50,7 @@ export default function Homepage({loading}) {
         </h1>
         
         <h1 className='text-base md:text-lg font-extrabold font-serif text-gray-300 absolute top-[220px] md:top-[300px] left-4 md:left-[50px] mx-8 md:mx-16 z-10 hidden md:block'>
-          {/* <AnimatedList words={['Word1', 'Word2', 'Word3', 'Word4', 'Word5']} /> */}
+          <AnimatedList words={['Word1', 'Word2', 'Word3', 'Word4', 'Word5']} />
         </h1>
 {/* for mobile */}
         <div className='text-container flex  items-center mt-[-80px] sm:hidden '>
