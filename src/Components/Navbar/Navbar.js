@@ -1,7 +1,7 @@
 "use client"
 import React, { useRef, useEffect, useState } from 'react';
 import Link from "next/link";
-import './globals.css'
+import '../../app/globals.css'
 import { FaBars } from "react-icons/fa6";
 import { RxCross1 } from "react-icons/rx";
 import SideNavbar from "../SideNavbar/SideNavbar";
