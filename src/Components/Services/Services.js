@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image"; // Importing Next.js Image component
 import { BsBoxArrowInUpRight } from "react-icons/bs";
 import { FaLocationArrow } from "react-icons/fa6";
 import { IoArrowRedo } from "react-icons/io5";
@@ -10,10 +11,17 @@ export const ServicesSection = () => {
       <div className="services-heading flex flex-col md:flex-row justify-between p-4 lg:mx-36 lg:my-24 sm:my-24 my-12">
         <div className="left text-center md:text-left">
           <h1 className="head-1 my-0 text-5xl md:text-[clamp(3.125rem,15vw,10rem)]">
-            <span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">O</span>UR
+            <span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">
+              O
+            </span>
+            UR
           </h1>
           <h1 className="head-1 md:ml-36 text-5xl md:text-[clamp(3.125rem,15vw,10rem)]">
-            W<span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">O</span>RK
+            W
+            <span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">
+              O
+            </span>
+            RK
           </h1>
         </div>
 
@@ -33,13 +41,26 @@ export const ServicesSection = () => {
                 BIOQUENCH
               </h3>
               <p className="mt-2 leading-6 text-base font-thin">
-              BioQuench offers advanced hydration solutions designed to enhance well-being through pure, filtered water. Committed to sustainability and innovation, BioQuench ensures high-quality products that deliver refreshing, revitalizing hydration for a healthier lifestyle.
+                BioQuench offers advanced hydration solutions designed to
+                enhance well-being through pure, filtered water. Committed to
+                sustainability and innovation, BioQuench ensures high-quality
+                products that deliver refreshing, revitalizing hydration for a
+                healthier lifestyle.
               </p>
-<a href="https://bioquench.in/"
+              <a
+                href="https://bioquench.in/"
                 target="_blank"
-                rel="noopener noreferrer">
-              <button type="button" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800  rounded-lg px-5 py-2 text-center me-2 mb-2 my-4 font-extrabold flex text-lg"> <span>visit</span> <span className="mt-1 mx-2"><IoArrowRedo /></span>
-              </button>
+                rel="noopener noreferrer"
+              >
+                <button
+                  type="button"
+                  className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800  rounded-lg px-5 py-2 text-center me-2 mb-2 my-4 font-extrabold flex text-lg"
+                >
+                  <span>visit</span>{" "}
+                  <span className="mt-1 mx-2">
+                    <IoArrowRedo />
+                  </span>
+                </button>
               </a>
               {/* <span className="absolute text-sm text-indigo-100/75 -top-5 left-2 whitespace-nowrap">Date 1</span> */}
             </div>
@@ -56,10 +77,13 @@ export const ServicesSection = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
+                {/* Using Image component from Next.js */}
+                <Image
                   src={`workImages/bioquench.jpg`}
-                  className="w-full h-auto max-w-full rounded-lg object-cover shadow-md transition-transform transform hover:scale-105 duration-300"
                   alt="Event 1"
+                  className="w-full h-auto max-w-full rounded-lg object-cover shadow-md transition-transform transform hover:scale-105 duration-300"
+                  width={800} // Provide actual width
+                  height={600} // Provide actual height
                 />
               </a>
             </div>
@@ -73,10 +97,13 @@ export const ServicesSection = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
+                {/* Using Image component from Next.js */}
+                <Image
                   src={`workImages/elitemuscle.png`}
-                  className="w-full h-auto max-w-full rounded-lg object-cover shadow-md transition-transform transform hover:scale-105 duration-300"
                   alt="Event 2"
+                  className="w-full h-auto max-w-full rounded-lg object-cover shadow-md transition-transform transform hover:scale-105 duration-300"
+                  width={800} // Provide actual width
+                  height={600} // Provide actual height
                 />
               </a>
             </div>
@@ -91,13 +118,26 @@ export const ServicesSection = () => {
                 ELITE MUSCLE
               </h3>
               <p className="mt-2 leading-6 text-base font-thin">
-              Elite Muscle specializes in premium sports nutrition and fitness supplements tailored to support intense training and optimal performance. With a focus on quality and efficacy, Elite Muscle provides athletes and fitness enthusiasts with cutting-edge products designed to enhance strength, endurance, and recovery.
+                Elite Muscle specializes in premium sports nutrition and fitness
+                supplements tailored to support intense training and optimal
+                performance. With a focus on quality and efficacy, Elite Muscle
+                provides athletes and fitness enthusiasts with cutting-edge
+                products designed to enhance strength, endurance, and recovery.
               </p>
-              <a href="https://elitemuscles.store/"
+              <a
+                href="https://elitemuscles.store/"
                 target="_blank"
-                rel="noopener noreferrer">
-              <button type="button" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800  rounded-lg px-5 py-2 text-center me-2 mb-2 my-4 font-extrabold flex text-lg"> <span>visit</span> <span className="mt-1 mx-2"><IoArrowRedo /></span>
-              </button>
+                rel="noopener noreferrer"
+              >
+                <button
+                  type="button"
+                  className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800  rounded-lg px-5 py-2 text-center me-2 mb-2 my-4 font-extrabold flex text-lg"
+                >
+                  <span>visit</span>{" "}
+                  <span className="mt-1 mx-2">
+                    <IoArrowRedo />
+                  </span>
+                </button>
               </a>
               {/* <span className="absolute text-sm text-indigo-100/75 -top-5 left-2 whitespace-nowrap">Date 2</span> */}
             </div>
@@ -110,13 +150,25 @@ export const ServicesSection = () => {
                 BETR
               </h3>
               <p className="mt-2 leading-6 text-base font-thin">
-              Established in 2024. BETR. IndiaFoodworks is an innovative force poised to make significant strides across diverse F&B sectors. The company envisions a dynamic presence in multiple verticals the F&B sector has to offer.
+                Established in 2024. BETR. IndiaFoodworks is an innovative force
+                poised to make significant strides across diverse F&B sectors.
+                The company envisions a dynamic presence in multiple verticals
+                the F&B sector has to offer.
               </p>
-              <a href="https://betr-seven.vercel.app/"
+              <a
+                href="https://betr-seven.vercel.app/"
                 target="_blank"
-                rel="noopener noreferrer">
-              <button type="button" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800  rounded-lg px-5 py-2 text-center me-2 mb-2 my-4 font-extrabold flex text-lg"> <span>visit</span> <span className="mt-1 mx-2"><IoArrowRedo /></span>
-              </button>
+                rel="noopener noreferrer"
+              >
+                <button
+                  type="button"
+                  className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800  rounded-lg px-5 py-2 text-center me-2 mb-2 my-4 font-extrabold flex text-lg"
+                >
+                  <span>visit</span>{" "}
+                  <span className="mt-1 mx-2">
+                    <IoArrowRedo />
+                  </span>
+                </button>
               </a>
               {/* <span className="absolute text-sm text-indigo-100/75 -top-5 left-2 whitespace-nowrap">Date 3</span> */}
             </div>
@@ -132,10 +184,13 @@ export const ServicesSection = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
+                {/* Using Image component from Next.js */}
+                <Image
                   src={`workImages/betr.png`}
-                  className="w-full h-auto max-w-full rounded-lg object-cover shadow-md transition-transform transform hover:scale-105 duration-300"
                   alt="Event 3"
+                  className="w-full h-auto max-w-full rounded-lg object-cover shadow-md transition-transform transform hover:scale-105 duration-300"
+                  width={800} // Provide actual width
+                  height={600} // Provide actual height
                 />
               </a>
             </div>
@@ -144,11 +199,9 @@ export const ServicesSection = () => {
 
         {/* Internal Link Button */}
         <Link href={"/Work"}>
-        <div className="text-center mt-16 font-extrabold  flex justify-center">
-          
-           {/* <MagicButton name={"see all projects"}></MagicButton> */}
-       
-        </div>
+          <div className="text-center mt-16 font-extrabold  flex justify-center">
+            {/* <MagicButton name={"see all projects"}></MagicButton> */}
+          </div>
         </Link>
       </div>
     </>
