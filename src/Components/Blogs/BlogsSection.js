@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export const BlogSection = () => {
   return (
@@ -13,22 +14,19 @@ export const BlogSection = () => {
           <p className="mx-auto mt-3 max-w-2xl text-lg sm:text-xl text-gray-400 sm:mt-4">
             This is your life and it&apos;s ending one minute @ a time...
           </p>
-          <div className="text-center mt-16 font-extrabold  flex justify-center">
-          
-           
-       
-        </div>
         </div>
 
         {/* Blog articles container */}
-        <div className="mt-12  grid gap-8 lg:gap-12 sm:grid-cols-2 md:grid-cols-3">
+        <div className="mt-12 grid gap-8 lg:gap-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {/* Individual blog article card */}
-          <div className="flex flex-col overflow-hidden rounded-lg shadow-lg shadow-red-200 rounded-b-2xl">
+          <div className="flex flex-col overflow-hidden rounded-lg shadow-lg shadow-red-200">
             <div className="flex-shrink-0">
-              <img
+              <Image
                 className="h-64 w-full object-cover"
-                src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+                src="/work/sample.webp"
                 alt="Article Cover"
+                width={400}
+                height={300}
               />
             </div>
             <div className="flex flex-1 flex-col justify-between bg-secondary p-8">
@@ -44,12 +42,14 @@ export const BlogSection = () => {
           </div>
 
           {/* Second blog article card */}
-          <div className="flex flex-col overflow-hidden rounded-b-lg shadow-lg shadow-red-200 ">
+          <div className="flex flex-col overflow-hidden rounded-lg shadow-lg shadow-red-200">
             <div className="flex-shrink-0">
-              <img
+              <Image
                 className="h-64 w-full object-cover"
-                src="https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+                src="/work/sample.webp"
                 alt="Article Cover"
+                width={400}
+                height={300}
               />
             </div>
             <div className="flex flex-1 flex-col justify-between bg-secondary p-8">
@@ -67,10 +67,12 @@ export const BlogSection = () => {
           {/* Third blog article card */}
           <div className="flex flex-col overflow-hidden rounded-lg shadow-lg shadow-red-200">
             <div className="flex-shrink-0">
-              <img
+              <Image
                 className="h-64 w-full object-cover"
-                src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
+                src="/work/sample.webp"
                 alt="Article Cover"
+                width={400}
+                height={300}
               />
             </div>
             <div className="flex flex-1 flex-col justify-between bg-secondary p-8">
