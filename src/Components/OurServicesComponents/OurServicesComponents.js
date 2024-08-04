@@ -112,10 +112,12 @@ function OurServicesComponent({ loading }) {
 
                     {/* <!-- Right Section --> */}
                     <div className="right w-full md:w-1/2 flex justify-center md:justify-end items-center">
-                      <img
+                    <Image
                         className="h-64 w-64 md:h-96 md:w-96 object-cover rounded-2xl"
-                        src="https://cdn.pixabay.com/photo/2019/10/09/07/28/development-4536630_1280.png"
-                        alt="Web Development"
+                        src="https://cdn.pixabay.com/photo/2017/12/29/11/38/digital-marketing-3040907_1280.jpg"
+                        alt="Digital Marketing"
+                        width={640} // Actual width of the image
+                        height={640} // Actual height of the image
                       />
                     </div>
                   </div>
@@ -167,10 +169,12 @@ function OurServicesComponent({ loading }) {
 
                     {/* <!-- Right Section --> */}
                     <div className="right w-full md:w-1/2 flex justify-center md:justify-end items-center">
-                      <img
-                        className="h-72 md:h-96 md:w-96 object-cover rounded-2xl"
-                        src="social-media-5187243_1920-removebg-preview.png"
+                    <Image
+                        className="h-64 w-64 md:h-96 md:w-96 object-cover rounded-2xl"
+                        src="https://cdn.pixabay.com/photo/2017/12/29/11/38/digital-marketing-3040907_1280.jpg"
                         alt="Digital Marketing"
+                        width={640} // Actual width of the image
+                        height={640} // Actual height of the image
                       />
                     </div>
                   </div>
@@ -215,10 +219,12 @@ function OurServicesComponent({ loading }) {
 
                     {/* <!-- Right Section --> */}
                     <div className="right w-full md:w-1/2 flex justify-center md:justify-end items-center">
-                      <img
-                        className="h-72 md:h-96 md:w-96 object-cover rounded-2xl"
-                        src="business-3639451-removebg-preview.png"
-                        alt="Graphic Design"
+                    <Image
+                        className="h-64 w-64 md:h-96 md:w-96 object-cover rounded-2xl"
+                        src="https://cdn.pixabay.com/photo/2017/12/29/11/38/digital-marketing-3040907_1280.jpg"
+                        alt="Digital Marketing"
+                        width={640} // Actual width of the image
+                        height={640} // Actual height of the image
                       />
                     </div>
                   </div>
@@ -263,10 +269,12 @@ function OurServicesComponent({ loading }) {
 
                     {/* <!-- Right Section --> */}
                     <div className="right w-full md:w-1/2 flex justify-center md:justify-end items-center">
-                      <img
-                        className="h-72 md:h-96 md:w-96 object-cover rounded-2xl"
-                        src="https://cdn.pixabay.com/photo/2023/02/26/07/37/android-mobile-app-development-7815022_1280.png"
-                        alt="Technology Solutions"
+                    <Image
+                        className="h-64 w-64 md:h-96 md:w-96 object-cover rounded-2xl"
+                        src="https://cdn.pixabay.com/photo/2017/12/29/11/38/digital-marketing-3040907_1280.jpg"
+                        alt="Digital Marketing"
+                        width={640} // Actual width of the image
+                        height={640} // Actual height of the image
                       />
                     </div>
                   </div>
@@ -277,12 +285,7 @@ function OurServicesComponent({ loading }) {
         )}
       </div>
 
-      {/* Magic Button Section */}
-      <Link href={"/OurServices"}>
-      <div className="flex justify-center items-center my-6 md:my-16">
-        {/* <MagicButton name={name} /> */}
-      </div>
-      </Link>
+      
     </>
   );
 }
