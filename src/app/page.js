@@ -1,6 +1,6 @@
 "use client"
 import {useState,useEffect} from 'react';
-import './styles/globals.css';
+import "../styles/globals.css"
 import Navbar from "../Components/Navbar/Navbar";
 import Homepage from "./Home/page";
 import Preloader from "@/Components/PreLoader/PreLoader";
