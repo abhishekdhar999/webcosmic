@@ -3,7 +3,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import Link from "next/link";
 import { FaBars } from "react-icons/fa6";
 import { RxCross1 } from "react-icons/rx";
-import SideNavbar from "../SideNavbar/SideNavbar";
+// import SideNavbar from "../SideNavbar/SideNavbar";
 import Image from 'next/image';
 import { Canvas} from '@react-three/fiber';
 import gsap from 'gsap';
@@ -61,7 +61,7 @@ export default function Navbar() {
   </div>
 </nav>
 
-            <SideNavbar active={active} setActive={setActive} />
+            {/* <SideNavbar active={active} setActive={setActive} /> */}
         </>
     );
 }
