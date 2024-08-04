@@ -3,7 +3,7 @@ import Link from "next/link";
 import { BsBoxArrowInUpRight } from "react-icons/bs";
 import { FaLocationArrow } from "react-icons/fa6";
 import { IoArrowRedo } from "react-icons/io5";
-import MagicButton from "@/Components/MagicButton/MagicButton";
+
 export const ServicesSection = () => {
   return (
     <>
@@ -146,7 +146,7 @@ export const ServicesSection = () => {
         <Link href={"/Work"}>
         <div className="text-center mt-16 font-extrabold  flex justify-center">
           
-           <MagicButton name={"see all projects"}></MagicButton>
+           {/* <MagicButton name={"see all projects"}></MagicButton> */}
        
         </div>
         </Link>

@@ -4,7 +4,7 @@ import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { BsBoxArrowInUpRight } from "react-icons/bs";
-import MagicButton from "../MagicButton/MagicButton";
+
 import Link from "next/link";
 function OurServicesComponent({ loading }) {
   const sectionRef = useRef(null);
@@ -280,7 +280,7 @@ function OurServicesComponent({ loading }) {
       {/* Magic Button Section */}
       <Link href={"/OurServices"}>
       <div className="flex justify-center items-center my-6 md:my-16">
-        <MagicButton name={name} />
+        {/* <MagicButton name={name} /> */}
       </div>
       </Link>
     </>

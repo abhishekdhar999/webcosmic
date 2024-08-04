@@ -5,10 +5,10 @@ import gsap from "gsap";
 import Link from 'next/link';
 import { TextPlugin } from "gsap/TextPlugin";
 import AnimatedList from '@/Components/AnimatedList/AnimatedList';
-import MagicButton from '@/Components/MagicButton/MagicButton';
+
 import dynamic from 'next/dynamic';
 import Productspage from '@/Components/products/products';
-import BlobMarquee from '@/Components/BlobMarquee/BlobMarquee';
+// import BlobMarquee from '@/Components/BlobMarquee/BlobMarquee';
 import { BlogSection } from '@/Components/Blogs/BlogsSection';
 import OurServicesComponent from '@/Components/OurServicesComponents/OurServicesComponents';
 import Reviews from '@/Components/Reviews/Reviews';
@@ -49,7 +49,7 @@ export default function Homepage({loading}) {
         </h1>
         
         <h1 className='text-base md:text-lg font-extrabold font-serif text-gray-300 absolute top-[220px] md:top-[300px] left-4 md:left-[50px] mx-8 md:mx-16 z-10 hidden md:block'>
-          <AnimatedList words={['Word1', 'Word2', 'Word3', 'Word4', 'Word5']} />
+          {/* <AnimatedList words={['Word1', 'Word2', 'Word3', 'Word4', 'Word5']} /> */}
         </h1>
 {/* for mobile */}
         <div className='text-container flex  items-center mt-[-80px] sm:hidden '>
@@ -69,7 +69,7 @@ export default function Homepage({loading}) {
         <div className='absolute left-8 md:left-24 bottom-20 md:bottom-40'>
           <Link href={"/Contacts"}>
           <div className='gradient-border flex bg-transparent border-2 border-gray-300 p-3 pl-6 pr-6 rounded-full'>
-            <MagicButton name={name} />
+           
           </div>
           </Link>
         </div>
@@ -89,9 +89,9 @@ export default function Homepage({loading}) {
       <div>
 <ServicesSection></ServicesSection>
       </div>
-      <div>
+      {/* <div>
 <BlobMarquee></BlobMarquee>
-      </div>
+      </div> */}
       <div>
 <BlogSection></BlogSection>
       </div>

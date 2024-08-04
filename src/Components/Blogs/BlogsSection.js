@@ -1,5 +1,5 @@
 import React from "react";
-import MagicButton from "@/Components/MagicButton/MagicButton";
+
 export const BlogSection = () => {
   return (
     <div className="bg-transparent py-16 lg:py-24">
@@ -15,7 +15,7 @@ export const BlogSection = () => {
           </p>
           <div className="text-center mt-16 font-extrabold  flex justify-center">
           
-           <MagicButton name={"View all blogs"}></MagicButton>
+           
        
         </div>
         </div>

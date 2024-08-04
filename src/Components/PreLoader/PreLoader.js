@@ -7,7 +7,7 @@ const Preloader = () => {
   return (
 <>
 <div>
-        <img src="preloading.png" alt="" />
+        <img src="preloader.png" alt="" />
       </div>
 
     
@@ -15,7 +15,7 @@ const Preloader = () => {
 
       
       <div className='animate-diagonal h-[200px] w-[200px]'>
-        <img src="3d-illustration-cartoon-character-snowboarder-with-snowboard-removebg-preview.png" alt="" />
+        <img src="preloader.png" alt="" />
       </div>
       <h2 className='text-4xl font-sans font-extrabold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text'>Happy Surrfing...</h2>
       <div className='loader'>
