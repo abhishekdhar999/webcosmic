@@ -1,0 +1,125 @@
+.scroll-section-inner {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    height: 100vh;
+  }
+  
+  .scroll-section {
+    min-width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .scroll-section .scrollSection {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .scroll-section .scrollSection .left {
+    max-width: 600px;
+  }
+  
+  .scroll-section .scrollSection .left h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  .scroll-section .scrollSection .left p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: #ddd;
+    margin-bottom: 2rem;
+  }
+  
+  .scroll-section .scrollSection .left .btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .scroll-section .scrollSection .left .btns div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .scroll-section .scrollSection .left .btns span {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-size: 0.875rem;
+  }
+  
+  .scroll-section .scrollSection .right {
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .scroll-section .scrollSection .right img {
+    max-width: 100%;
+    border-radius: 1rem;
+  }
+  
+  .servicesHeading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .servicesHeading .left h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+  }
+  
+  .servicesHeading .right span {
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+  .scroll-section-outer {
+    background: linear-gradient(45deg, #111, #333);
+  }
+  
+  .scroll-section-outer .scroll-section {
+    background-color: #222;
+    border-radius: 1rem;
+  }
+  
+  .scroll-section-outer .scroll-section:nth-child(even) {
+    background-color: #333;
+  }
+  
+  .scroll-section-outer .scroll-section:nth-child(odd) {
+    background-color: #444;
+  }
+  
+  @media (max-width: 768px) {
+    .servicesHeading .left h1 {
+      font-size: 3rem;
+    }
+  
+    .servicesHeading .right span {
+      font-size: 2rem;
+    }
+  
+    .scroll-section .scrollSection .left h1 {
+      font-size: 2rem;
+    }
+  
+    .scroll-section .scrollSection .left p {
+      font-size: 1rem;
+    }
+  }
