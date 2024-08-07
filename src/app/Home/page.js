@@ -14,7 +14,7 @@ import { BlogSection } from '@/app/Components/Blogs/BlogsSection';
 import OurServicesComponent from '@/app/Components/OurServicesComponents/OurServicesComponents';
 import Reviews from '@/app/Components/Reviews/Reviews';
 import TestimonialSection from '@/app/Components/Testimonials/TestimonialsSection';
-
+// import BlobMarquee from '../Components/BlobMarquee/BlobMarquee';
 import { ServicesSection } from '@/app/Components/Services/Services';
 // const Model = dynamic(() => import('@/Components/Model/Model'), { ssr: false });
 gsap.registerPlugin(TextPlugin);

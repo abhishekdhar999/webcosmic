@@ -33,9 +33,9 @@ export const ServicesSection = () => {
         </div>
       </div>
 
-      {/* Timeline Section */}
+      {/* Timeline Section bioquench */}
       <div className="bg-transparent sm:p-4">
-        <div className="flex flex-col md:grid grid-cols-9 p-2 mx-auto gap-y-12 md:gap-y-0">
+        <div className="flex flex-col md:grid grid-cols-9 p-2 mx-auto  md:gap-y-0">
           {/* Event 1 */}
           <div className="flex md:contents flex-row-reverse items-center">
             {/* Event Description for larger screens */}
@@ -43,7 +43,7 @@ export const ServicesSection = () => {
               <h3 className="text-lg font-medium md:text-3xl lg:text-4xl">
                 BIOQUENCH
               </h3>
-              <p className="mt-2 leading-6 text-base font-thin">
+              <p className="mt-2 sm:block hidden leading-6 text-base font-thin">
                 BioQuench offers advanced hydration solutions designed to
                 enhance well-being through pure, filtered water. Committed to
                 sustainability and innovation, BioQuench ensures high-quality
@@ -91,70 +91,15 @@ export const ServicesSection = () => {
                 />
               </a>
             </div>
-
-            {/* Event Description for smaller screens */}
-            <div className="md:hidden p-4 my-6 text-heading-white rounded-xl w-full">
-              <h3 className="text-lg font-medium text-3xl lg:text-4xl">
-                BIOQUENCH
-              </h3>
-              <p className="mt-2 leading-6 text-base font-thin">
-                BioQuench offers advanced hydration solutions designed to
-                enhance well-being through pure, filtered water. Committed to
-                sustainability and innovation, BioQuench ensures high-quality
-                products that deliver refreshing, revitalizing hydration for a
-                healthier lifestyle.
-              </p>
-              <a
-                href="https://bioquench.in/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button
-                  type="button"
-                  className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 rounded-lg px-5 py-2 text-center me-2 mb-2 my-4 font-extrabold flex text-lg"
-                >
-                  <span>visit</span>{" "}
-                  <span className="mt-1 mx-2">
-                    <IoArrowRedo />
-                  </span>
-                </button>
-              </a>
-            </div>
           </div>
 
-          {/* Event 2 */}
+          {/* Event 2 elite muscle */}
           <div className="flex md:contents items-center">
             {/* Event Description for smaller screens */}
-            <div className="md:hidden p-4 my-6 text-heading-white rounded-xl w-full">
-              <h3 className="text-lg font-medium text-3xl lg:text-4xl">
-                ELITE MUSCLE
-              </h3>
-              <p className="mt-2 leading-6 text-base font-thin">
-                Elite Muscle specializes in premium sports nutrition and fitness
-                supplements tailored to support intense training and optimal
-                performance. With a focus on quality and efficacy, Elite Muscle
-                provides athletes and fitness enthusiasts with cutting-edge
-                products designed to enhance strength, endurance, and recovery.
-              </p>
-              <a
-                href="https://elitemuscles.store/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button
-                  type="button"
-                  className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 rounded-lg px-5 py-2 text-center me-2 mb-2 my-4 font-extrabold flex text-lg"
-                >
-                  <span>visit</span>{" "}
-                  <span className="mt-1 mx-2">
-                    <IoArrowRedo />
-                  </span>
-                </button>
-              </a>
-            </div>
+            
 
             {/* Event Image */}
-            <div className="relative sm:p-4 my-6 p-2 text-heading-white col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
+            <div className="relative sm:p-4 my-6  text-heading-white col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
               <a
                 href="https://elitemuscles.store/"
                 target="_blank"
@@ -263,33 +208,7 @@ export const ServicesSection = () => {
               </a>
             </div>
 
-            {/* Event Description for smaller screens */}
-            <div className="md:hidden p-4 my-6 text-heading-white rounded-xl w-full">
-              <h3 className="text-lg font-medium text-3xl lg:text-4xl">
-                BETR
-              </h3>
-              <p className="mt-2 leading-6 text-base font-thin">
-                Established in 2024. BETR. IndiaFoodworks is an innovative force
-                poised to make significant strides across diverse F&B sectors.
-                The company envisions a dynamic presence in multiple verticals
-                the F&B sector has to offer.
-              </p>
-              <a
-                href="https://betr-seven.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button
-                  type="button"
-                  className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 rounded-lg px-5 py-2 text-center me-2 mb-2 my-4 font-extrabold flex text-lg"
-                >
-                  <span>visit</span>{" "}
-                  <span className="mt-1 mx-2">
-                    <IoArrowRedo />
-                  </span>
-                </button>
-              </a>
-            </div>
+           
           </div>
         </div>
 

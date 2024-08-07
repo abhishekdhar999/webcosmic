@@ -96,14 +96,14 @@
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    max-height: 0; /* Start closed */
+    max-height: 100px; /* Start closed */
     overflow: hidden;
     transition: max-height var(--transition-duration) ease-out;
     width: 100%; /* Full width on mobile */
   }
   
   .mobileMenuOpen {
-    max-height: 300px; /* Expanded height */
+    max-height: 1000px; /* Expanded height */
   }
   
   .mobileNavLinks {

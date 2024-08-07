@@ -3,6 +3,8 @@ import React, { useEffect, useState } from "react";
 import Navbar from "@/app/Components/Navbar/Navbar";
 import Footer from "../Components/Footer/Footer";
 import Image from "next/image";
+
+import style from './About.module.css'
 const About = () => {
   const [isUsVisible, setIsUsVisible] = useState(false);
 
@@ -23,35 +25,56 @@ const About = () => {
   return (
     <>
       <Navbar />
+
+      <div className={style.rowOuter}> {/* Use CSS Module class */}
+        <div className={style.wrapper}> {/* Use CSS Module class */}
+
+          <div className="flex sm:mt-64 md:mt-0 flex-col md:flex-row items-center justify-center w-full md:w-2/3 h-screen px-4 md:px-8 lg:px-16">
+            <div className="order-2 md:order-1 flex-1 md:text-left text-center p-4">
+              <div className="about-heading mb-4">
+                <h1 className="sm:text-4xl text-3xl lg:text-5xl font-extrabold leading-tight text-gray-800 dark:text-white">
+                  <span className="text-blue-600">WEB COSMIC</span> <br className="hidden md:block" /> Crafting the Future One Pixel at a Time
+                </h1>
+              </div>
+              <div className="about-text">
+                <p className="text-lg md:text-xl lg:text-2xl text-gray-600 dark:text-gray-300 leading-relaxed">
+                  Welcome to <span className="font-bold text-blue-600">WebCosmic</span>, where we don&apos;t just build websites—we craft digital experiences that are out of this world. As a forward-thinking web development agency, we&apos;re here to launch your business into the future with our innovative solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <span className={style.shape}></span> {/* Use CSS Module class */}
+          <span className={style.shape}></span> {/* Use CSS Module class */}
+          <span className={style.shape}></span> {/* Use CSS Module class */}
+          <span className={style.shape}></span> {/* Use CSS Module class */}
+          <span className={style.shape}></span> {/* Use CSS Module class */}
+          <span className={style.shape}></span> {/* Use CSS Module class */}
+        </div>
+      </div>
+      
+
+      
+
+
       <div className="relative min-h-screen bg-transparent text-white font-sans items-center p-2 md:p-12 pt-1">
         {/* <div className="absolute inset-0 bg-transparent opacity-90"></div> */}
         <div className="relative z-10  mx-4 md:mx-auto space-y-8 ">
-          <div className="h-auto md:h-80">
+          {/* <div className="h-auto md:h-80">
             <h1 id="about" className="animated-about lg:text-[700px]">
               ABOUT <span className="sm:hidden">US</span>
             </h1>
             <h1 id="us" className={`hidden sm:block lg:text-[700px] animated-us ${isUsVisible ? "visible" : ""}`}>
               US
             </h1>
-          </div>
-          <section className="flex flex-col md:flex-row sm:px-4 md:px-6 items-center justify-center text-center ">
-            <div className="max-w-lg">
-              <p className="text-base md:text-2xl font-thin leading-relaxed">
-                Welcome to <span className="font-bold">WebCosmic</span>, where
-                we don&apos;t just build websites—we craft digital experiences
-                that are out of this world. As a forward-thinking web
-                development agency, we&apos;re here to launch your business
-                into the future with our innovative solutions.
-              </p>
-            </div>
-          </section>
-
+          </div> */}
+          
           <section className="flex flex-col md:flex-row-reverse p-4 md:p-12 items-center md:items-start">
             <div className="md:w-1/2 md:pl-8 max-w-lg">
               <h2 className="text-3xl md:text-4xl font-syne mb-4 p-2 capsule-background">
                 Our Vision
               </h2>
-              <p className="text-base md:text-lg font-thin leading-relaxed">
+              <p className="text-lg md:text-xl text-center font-thin leading-relaxed">
                 At WebCosmic, we see a future where your brand stands out in the
                 digital universe. We&apos;re dedicated to creating
                 transformative digital experiences that propel your business
@@ -74,7 +97,7 @@ const About = () => {
               <h2 className="text-3xl md:text-4xl font-syne mb-4 p-2 capsule-background">
                 Our Approach
               </h2>
-              <p className="text-base md:text-lg font-thin leading-relaxed">
+              <p className="text-lg md:text-xl text-center font-thin leading-relaxed">
                 Innovation is our compass. We stay ahead of the curve with the
                 latest technologies and trends, ensuring your brand is always
                 future-ready. Our commitment to excellence means your business
@@ -91,6 +114,28 @@ const About = () => {
               />
             </div>
           </section>
+
+          <section className="flex flex-col md:flex-row p-4 md:p-12 items-center md:items-start mt-12">
+  <div className="md:w-1/2 md:pr-8">
+    <Image
+      src={`/AboutImages/aboutFront.png`}
+      alt="Our Mission"
+      className="w-full h-auto max-w-xs mx-auto"
+      width={500}
+      height={300}
+    />
+  </div>
+  <div className="md:w-1/2 md:pl-8 max-w-lg">
+    <h2 className="text-3xl md:text-4xl font-syne mb-4 p-2 capsule-background">
+      Our Mission
+    </h2>
+    <p className=" text-lg md:text-xl text-center font-thin leading-relaxed">
+      Our mission at WebCosmic is to revolutionize the digital world with
+      innovative and engaging web solutions. We strive to deliver excellence
+      by turning your ideas into dynamic web experiences.
+    </p>
+  </div>
+</section>
 
           <p className="text-center text-3xl md:text-5xl font-syne pt-12 pb-4 highlight-text gradient-glow-text animated-gradient-text">
             WebCosmic – Crafting the Future, One Pixel at a Time.

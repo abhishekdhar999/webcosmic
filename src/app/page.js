@@ -1,13 +1,13 @@
-
+"use client"
 import Navbar from "./Components/Navbar/Navbar";
 import Homepage from "./Home/page";
 
 import Footer from './Components/Footer/Footer';
-
+import MarqueeBanner from "./Components/MarqueeBanner/MarqueeBanner";
 export default function Home() {
 
 //   const [loading, setLoading] = useState(true);
-// const text = " FLAT 50% OFF FOR STUDENTS PORTFOLIO JUST RS.999"
+ const text = " FLAT 50% OFF FOR STUDENTS PORTFOLIO JUST RS.999"
   
 //   useEffect(() => {
 //     document.body.style.overflow = 'hidden';
@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <>
     
-    {/* <MarqueeBanner text={text}></MarqueeBanner> */}
+    <MarqueeBanner text={text}></MarqueeBanner>
     <Navbar></Navbar>
     <Homepage ></Homepage>
 <Footer></Footer>

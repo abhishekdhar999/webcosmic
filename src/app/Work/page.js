@@ -3,7 +3,7 @@ import WorkSection from '@/app/Components/work/WorkSection';
 
 import Navbar from '@/app/Components/Navbar/Navbar';
 import Footer from '../Components/Footer/Footer';
-export default function Work() {
+export default function page() {
 
 
 
@@ -56,7 +56,7 @@ link:"https://bioquench.in/"
 <Navbar></Navbar>
 <div className='headind  flex sm:flex-row flex-col sm:mx-12 mx-2 mt-16'>
   <div className='left sm:w-2/3'>
-  <h1 className='sm:text-4xl lg:text-5xl' > <span className='sm:text-6xl '></span>Explore our curated selection of projects<span className='text-[#9072d1]'> that showcase our commitment to excellence and innovation.</span>   <span className='sm:text-6xl'></span>
+  <h1 className='sm:text-4xl lg:text-6xl' > <span className='sm:text-6xl '></span>Explore our curated selection of projects<span className='text-[#9072d1]'> that showcase our commitment to excellence and innovation.</span>   <span className='sm:text-6xl'></span>
 
 </h1>
 </div>

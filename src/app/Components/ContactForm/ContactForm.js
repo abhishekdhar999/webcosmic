@@ -1,6 +1,9 @@
 "use client";
 import React, { useState, useRef, useEffect } from 'react';
 import Navbar from '@/app/Components/Navbar/Navbar';
+
+import Footer from '../Footer/Footer';
+import Image from 'next/image';
 const ContactForm = () => {
   const [selectedOptions, setSelectedOptions] = useState([]);
   const [formData, setFormData] = useState({
@@ -93,6 +96,18 @@ const ContactForm = () => {
 
     <>
     <Navbar></Navbar>
+
+    <div className='flex justify-center'>
+      <div className='left w-1/2'>
+        <Image src="/ContactImages/contact-us-concept-landing-page_52683-22150-removebg-preview.png" alt=""
+        width={600}
+        height={300} />
+      </div>
+
+      {/* <div className='w-1/2'>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ut necessitatibus ipsam at consectetur non. Veniam sapiente dolor doloribus asperiores reprehenderit eum. Quos, vel voluptatum perspiciatis praesentium voluptates error obcaecati sit, aut molestiae porro exercitationem? Omnis quia saepe quasi necessitatibus facere consequuntur earum impedit recusandae fuga voluptatibus blanditiis veritatis, assumenda autem, dolor, enim porro aliquam tenetur atque temporibus commodi sequi beatae quisquam. Est voluptates aspernatur asperiores nihil nemo aut. Molestiae libero nobis quibusdam nostrum voluptatum vel? Laboriosam harum quas provident ullam soluta illum veritatis nisi dolores nihil explicabo alias temporibus totam maiores optio porro deserunt, velit exercitationem officia minus quibusdam! </p>
+      </div> */}
+    </div>
     <div className="w-full bg-transparent text-white">
       <div className="max-w-4xl mx-auto p-4 sm:p-8">
         <div className="flex items-center justify-center text-center mb-8">
@@ -152,7 +167,7 @@ const ContactForm = () => {
                 type="button"
                 key={text}
                 onClick={() => toggleOption(text)}
-                className={`border border-white rounded-full px-4 sm:px-6 py-2 text-sm sm:text-base hover:bg-heading-white hover:text-black transition-colors duration-300 ${selectedOptions.includes(text) ? 'bg-white text-black' : ''}`}
+                className={`border border-white rounded-full px-4 sm:px-6 py-2 text-sm sm:text-base hover:bg-white hover:text-black  transition-colors duration-300 ${selectedOptions.includes(text) ? 'bg-white text-black' : ''}`}
               >
                 {text}
               </button>
@@ -223,6 +238,13 @@ const ContactForm = () => {
           </div>
         </form>
       </div>
+    </div>
+
+    {/* <div>
+<BlobMarquee></BlobMarquee>
+    </div> */}
+    <div>
+<Footer></Footer>
     </div>
     </>
   );

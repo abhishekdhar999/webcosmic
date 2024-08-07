@@ -45,11 +45,11 @@ function OurServicesComponent({ loading }) {
           <div className="left text-center md:text-left">
             <h1 className="head-1 my-0 text-5xl ">
             <span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">O</span>UR
-            SE<span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">R</span>VIC<span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">E</span>S
+            
             </h1>
-            {/* <h1 className="head-1 md:ml-36 text-5xl md:text-[clamp(3.125rem,15vw,10rem)]">
+            <h1 className="head-1 md:ml-36 text-5xl md:text-[clamp(3.125rem,15vw,10rem)]">
               SE<span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">R</span>VIC<span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">E</span>S
-            </h1> */}
+            </h1>
           </div>
 
           <div className="right mt-4 md:mt-36 flex justify-center md:justify-start">
@@ -171,7 +171,7 @@ function OurServicesComponent({ loading }) {
                     <div className="right w-full md:w-1/2 flex justify-center md:justify-end items-center">
                     <Image
                         className="h-64 w-64 md:h-96 md:w-96 object-cover rounded-2xl"
-                        src="/freelance-work-7308505_1920-removebg-preview.png"
+                        src="/business-3639451-removebg-preview.png"
                         alt="Digital Marketing"
                         width={640} // Actual width of the image
                         height={640} // Actual height of the image
@@ -182,7 +182,7 @@ function OurServicesComponent({ loading }) {
 
                 {/* Third Service Section */}
                 <div className="scroll-section">
-                  <div className="w-full shadow-lg shadow-blue-400 bg-black flex flex-col md:flex-row rounded-2xl mx-6 md:mx-12 lg:mx-36 my-8">
+                  <div className="w-full shadow-lg shadow-purple-400 bg-black flex flex-col md:flex-row rounded-2xl mx-6 md:mx-12 lg:mx-36 my-8">
                     {/* <!-- Left Section --> */}
                     <div className="left md:w-1/2 w-full my-8 md:my-24 mx-4 md:mx-6">
                       <h1 className="text-2xl md:text-3xl font-extrabold text-left justify-center mb-4 md:mb-6">
@@ -221,7 +221,7 @@ function OurServicesComponent({ loading }) {
                     <div className="right w-full md:w-1/2 flex justify-center md:justify-end items-center">
                     <Image
                         className="h-64 w-64 md:h-96 md:w-96 object-cover rounded-2xl"
-                        src="/freelance-work-7308505_1920-removebg-preview.png"
+                        src="/social-media-5187243_1920-removebg-preview.png"
                         alt="Digital Marketing"
                         width={640} // Actual width of the image
                         height={640} // Actual height of the image
@@ -271,7 +271,7 @@ function OurServicesComponent({ loading }) {
                     <div className="right w-full md:w-1/2 flex justify-center md:justify-end items-center">
                     <Image
                         className="h-64 w-64 md:h-96 md:w-96 object-cover rounded-2xl"
-                        src="/freelance-work-7308505_1920-removebg-preview.png"
+                        src="/android-mobile-app-development-7815022_1280.png"
                         width={640} // Actual width of the image
                         height={640} // Actual height of the image
                       />
