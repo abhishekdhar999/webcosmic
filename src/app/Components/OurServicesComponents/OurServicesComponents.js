@@ -43,13 +43,13 @@ function OurServicesComponent({ loading }) {
       <div className="h-full sm:mb-0 ">
         <div className="services-heading flex flex-col md:flex-row justify-between p-4 lg:mx-36 lg:my-24 my-24">
           <div className="left text-center md:text-left">
-            <h1 className="head-1 my-0 text-5xl md:text-[clamp(3.125rem,15vw,10rem)]">
+            <h1 className="head-1 my-0 text-5xl ">
             <span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">O</span>UR
             SE<span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">R</span>VIC<span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">E</span>S
             </h1>
-            <h1 className="head-1 md:ml-36 text-5xl md:text-[clamp(3.125rem,15vw,10rem)]">
+            {/* <h1 className="head-1 md:ml-36 text-5xl md:text-[clamp(3.125rem,15vw,10rem)]">
               SE<span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">R</span>VIC<span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">E</span>S
-            </h1>
+            </h1> */}
           </div>
 
           <div className="right mt-4 md:mt-36 flex justify-center md:justify-start">
