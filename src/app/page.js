@@ -1,4 +1,4 @@
-import "../globals.css"
+
 import Navbar from "../Components/Navbar/Navbar";
 import Homepage from "./Home/page";
 
