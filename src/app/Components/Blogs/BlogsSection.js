@@ -34,7 +34,7 @@ export const BlogSection = () => {
                 <p className="text-sm font-medium text-indigo-600">New</p>
                 <a href="#" className="mt-2 block">
                   <p className="text-xl font-semibold text-white">
-                  How an Outstanding Website Can Skyrocket Your Startup’s Growth!
+                  How an Outstanding Website Can Skyrocket Your Startups Growth!
                   </p>
                 </a>
               </div>
@@ -57,7 +57,7 @@ export const BlogSection = () => {
                 <p className="text-sm font-medium text-indigo-600">New</p>
                 <a href="#" className="mt-2 block">
                   <p className="text-xl font-semibold text-white">
-                  Web Development Trends Small Business Owners Can't Affend to Overlook in 2024
+                  Web Development Trends Small Business Owners Cant Affend to Overlook in 2024
 
                   </p>
                 </a>
