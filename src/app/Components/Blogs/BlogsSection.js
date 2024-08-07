@@ -23,7 +23,7 @@ export const BlogSection = () => {
             <div className="flex-shrink-0">
               <Image
                 className="h-64 w-full object-cover"
-                src="/work/sample.webp"
+                src="/BlogImages/blog1.jpeg"
                 alt="Article Cover"
                 width={400}
                 height={300}
@@ -34,7 +34,7 @@ export const BlogSection = () => {
                 <p className="text-sm font-medium text-indigo-600">New</p>
                 <a href="#" className="mt-2 block">
                   <p className="text-xl font-semibold text-white">
-                    Boost your conversion rate
+                  How an Outstanding Website Can Skyrocket Your Startup’s Growth!
                   </p>
                 </a>
               </div>
@@ -46,7 +46,7 @@ export const BlogSection = () => {
             <div className="flex-shrink-0">
               <Image
                 className="h-64 w-full object-cover"
-                src="/work/sample.webp"
+                src="/BlogImages/blog2.jpeg"
                 alt="Article Cover"
                 width={400}
                 height={300}
@@ -57,7 +57,8 @@ export const BlogSection = () => {
                 <p className="text-sm font-medium text-indigo-600">New</p>
                 <a href="#" className="mt-2 block">
                   <p className="text-xl font-semibold text-white">
-                    How to use search engine optimization to drive sales
+                  Web Development Trends Small Business Owners Can't Affend to Overlook in 2024
+
                   </p>
                 </a>
               </div>
@@ -69,7 +70,7 @@ export const BlogSection = () => {
             <div className="flex-shrink-0">
               <Image
                 className="h-64 w-full object-cover"
-                src="/work/sample.webp"
+                src="/BlogImages/blog3.jpeg"
                 alt="Article Cover"
                 width={400}
                 height={300}
@@ -80,7 +81,8 @@ export const BlogSection = () => {
                 <p className="text-sm font-medium text-indigo-600">New</p>
                 <a href="#" className="mt-2 block">
                   <p className="text-xl font-semibold text-white">
-                    Improve your customer experience
+                  Game-Changing Web Development Tips to Propel Your Small Business Forward in 2024!
+
                   </p>
                 </a>
               </div>

@@ -9,12 +9,12 @@ import AnimatedList from '@/app/Components/AnimatedList/AnimatedList';
 
 import dynamic from 'next/dynamic';
 import Productspage from '@/app/Components/products/products';
-// import BlobMarquee from '@/Components/BlobMarquee/BlobMarquee';
 import { BlogSection } from '@/app/Components/Blogs/BlogsSection';
 import OurServicesComponent from '@/app/Components/OurServicesComponents/OurServicesComponents';
 import Reviews from '@/app/Components/Reviews/Reviews';
 import TestimonialSection from '@/app/Components/Testimonials/TestimonialsSection';
-// import BlobMarquee from '../Components/BlobMarquee/BlobMarquee';
+ 
+ import BlobMarquee from '../Components/BlobMarquee/BlobMarquee';
 import { ServicesSection } from '@/app/Components/Services/Services';
 // const Model = dynamic(() => import('@/Components/Model/Model'), { ssr: false });
 gsap.registerPlugin(TextPlugin);
@@ -71,7 +71,7 @@ export default function Homepage({loading}) {
           <Link href={"/Contacts"}>
           <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
 <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-Purple to pink
+Start your project
 </span>
 </button>
           </Link>
@@ -92,9 +92,7 @@ Purple to pink
       <div>
 <ServicesSection></ServicesSection>
       </div>
-      {/* <div>
-<BlobMarquee></BlobMarquee>
-      </div> */}
+      
       <div>
 <BlogSection></BlogSection>
       </div>
@@ -104,7 +102,9 @@ Purple to pink
       <div>
         <TestimonialSection></TestimonialSection>
       </div>
-      
+      <div>
+<BlobMarquee></BlobMarquee>
+      </div>
     </>
   );
 }

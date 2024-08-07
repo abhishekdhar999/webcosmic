@@ -66,7 +66,7 @@ export default function Page() {
     {/* <!-- Left Section --> */}
     <div className="left flex  items-center w-full md:w-1/2">
       <div className="border-l-2 border-gray-300 h-full pl-4">
-        <h1 className="text-4xl my-12 font-bold text-left mx-2">SERVICES</h1>
+        <h1 className="text-4xl my-12 font-bold text-left mx-2"><span className='bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text'>S</span>ER<span className='bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text'>V</span>IC<span className='bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text'>E</span>S</h1>
       </div>
     </div>
 
