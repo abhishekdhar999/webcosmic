@@ -5,17 +5,17 @@ import gsap from "gsap";
 
 import Link from 'next/link';
 import { TextPlugin } from "gsap/TextPlugin";
-import AnimatedList from '@/Components/AnimatedList/AnimatedList';
+import AnimatedList from '@/app/Components/AnimatedList/AnimatedList';
 
 import dynamic from 'next/dynamic';
-import Productspage from '@/Components/products/products';
+import Productspage from '@/app/Components/products/products';
 // import BlobMarquee from '@/Components/BlobMarquee/BlobMarquee';
-import { BlogSection } from '@/Components/Blogs/BlogsSection';
-import OurServicesComponent from '@/Components/OurServicesComponents/OurServicesComponents';
-import Reviews from '@/Components/Reviews/Reviews';
-import TestimonialSection from '@/Components/Testimonials/TestimonialsSection';
+import { BlogSection } from '@/app/Components/Blogs/BlogsSection';
+import OurServicesComponent from '@/app/Components/OurServicesComponents/OurServicesComponents';
+import Reviews from '@/app/Components/Reviews/Reviews';
+import TestimonialSection from '@/app/Components/Testimonials/TestimonialsSection';
 
-import { ServicesSection } from '@/Components/Services/Services';
+import { ServicesSection } from '@/app/Components/Services/Services';
 // const Model = dynamic(() => import('@/Components/Model/Model'), { ssr: false });
 gsap.registerPlugin(TextPlugin);
 const name = "Start Your Project"

@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import Navbar from "@/Components/Navbar/Navbar";
-import Footer from "../../Components/Footer/Footer";
+import Navbar from "@/app/Components/Navbar/Navbar";
+import Footer from "../Components/Footer/Footer";
 import Image from "next/image";
 const About = () => {
   const [isUsVisible, setIsUsVisible] = useState(false);

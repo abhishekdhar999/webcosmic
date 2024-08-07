@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useRef, useEffect } from 'react';
-import Navbar from '@/Components/Navbar/Navbar';
+import Navbar from '@/app/Components/Navbar/Navbar';
 const ContactForm = () => {
   const [selectedOptions, setSelectedOptions] = useState([]);
   const [formData, setFormData] = useState({

@@ -1,8 +1,8 @@
 "use client"
 import React,{useRef} from 'react'
 import Link from 'next/link';
-import Navbar from '../../Components/Navbar/Navbar'
-import Footer from '../../Components/Footer/Footer';
+import Navbar from '../Components/Navbar/Navbar'
+import Footer from '../Components/Footer/Footer';
 import { FiArrowRight } from "react-icons/fi";
 import { BsFillMouse3Fill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";

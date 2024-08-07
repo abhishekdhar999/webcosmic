@@ -1,12 +1,12 @@
 import React from 'react';
 // import Earth from '@/Components/Earth/Earth';
-import SmoothScroller from '@/Components/SmoothScroller/SmoothScroller';
+import SmoothScroller from '@/app/Components/SmoothScroller/SmoothScroller';
 import dynamic from 'next/dynamic';
-import Projects from '@/Components/Projects/Projects';
+import Projects from '@/app/Components/Projects/Projects';
 import { LuArrowDownRightFromCircle } from 'react-icons/lu';
 
 export default function Productspage() {
-  const Earth = dynamic(() => import('@/Components/Earth/Earth'), {
+  const Earth = dynamic(() => import('@/app/Components/Earth/Earth'), {
     ssr: false,
     loading: () => (
       <img

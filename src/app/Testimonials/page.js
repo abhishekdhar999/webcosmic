@@ -1,8 +1,8 @@
 "use client";
 import React from 'react';
-import Testimonials from '@/Components/Testimonials/testimonial';
-import Navbar from '@/Components/Navbar/Navbar';
-import Footer from '../../Components/Footer/Footer';
+import Testimonials from '@/app/Components/Testimonials/testimonial';
+import Navbar from '@/app/Components/Navbar/Navbar';
+import Footer from '../Components/Footer/Footer';
 const Testimonial = () => {
     const data = [
         {

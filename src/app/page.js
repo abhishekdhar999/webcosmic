@@ -1,8 +1,8 @@
 import '@/app/styles/globals.css'
-import Navbar from "../Components/Navbar/Navbar";
+import Navbar from "./Components/Navbar/Navbar";
 import Homepage from "./Home/page";
 
-import Footer from '../Components/Footer/Footer';
+import Footer from './Components/Footer/Footer';
 
 export default function Home() {
 

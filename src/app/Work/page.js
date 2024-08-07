@@ -1,8 +1,8 @@
 
-import WorkSection from '@/Components/work/WorkSection';
+import WorkSection from '@/app/Components/work/WorkSection';
 
-import Navbar from '@/Components/Navbar/Navbar';
-import Footer from '../../Components/Footer/Footer';
+import Navbar from '@/app/Components/Navbar/Navbar';
+import Footer from '../Components/Footer/Footer';
 export default function Work() {
 
 
