@@ -2,8 +2,13 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-   "scripts": { "dev": "next dev", "build": "next build", "prebuild": "npx tailwindcss -i ./src/app/globals.css -o ./src/app/globals.css", "start": "next start", "lint": "next lint" },
-  
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "prebuild": "npx tailwindcss -i ./src/app/globals.css -o ./src/app/globals.css",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
     "@gsap/react": "^2.1.1",
     "@react-three/drei": "^9.109.2",
@@ -32,5 +37,17 @@
     "eslint-config-next": "14.2.5",
     "postcss": "^8.4.40",
     "tailwindcss": "^3.4.7"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishekdhar999/webcosmic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishekdhar999/webcosmic/issues"
+  },
+  "homepage": "https://github.com/abhishekdhar999/webcosmic#readme"
 }

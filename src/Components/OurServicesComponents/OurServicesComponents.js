@@ -45,6 +45,7 @@ function OurServicesComponent({ loading }) {
           <div className="left text-center md:text-left">
             <h1 className="head-1 my-0 text-5xl md:text-[clamp(3.125rem,15vw,10rem)]">
             <span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">O</span>UR
+            SE<span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">R</span>VIC<span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">E</span>S
             </h1>
             <h1 className="head-1 md:ml-36 text-5xl md:text-[clamp(3.125rem,15vw,10rem)]">
               SE<span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">R</span>VIC<span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">E</span>S
