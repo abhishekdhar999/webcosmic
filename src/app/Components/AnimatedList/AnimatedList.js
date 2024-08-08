@@ -15,12 +15,12 @@ const AnimatedList = () => {
       if (currentCharIndex < words[currentWordIndex].length - 1) {
         typingTimer = setTimeout(() => {
           setCurrentCharIndex(prevIndex => prevIndex + 1);
-        }, 100); // Adjust the speed of typing here
+        }, 100); 
       } else {
         wordChangeTimer = setTimeout(() => {
           setCurrentCharIndex(0);
           setCurrentWordIndex(prevIndex => (prevIndex + 1) % words.length);
-        }, 2000); // Adjust the delay between words here
+        }, 2000); 
       }
     };
 

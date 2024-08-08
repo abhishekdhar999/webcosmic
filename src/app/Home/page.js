@@ -43,7 +43,7 @@ export default function Homepage({loading}) {
        
         <h1 ref={headingRef} className='text-4xl md:text-7xl font-extrabold font-serif text-gray-300 absolute top-[150px] md:top-[200px] mx-4 md:mx-12 left-4 md:left-[50px] z-10 hidden sm:block'>
           <span className='flex'>
-            WEB C <span className='mr-[-60px] md:mr-[-110px] ml-[-60px] md:ml-[-110px] mt-[-25px] md:mt-[-55px]'><img className='h-[90px] md:h-[180px]' src="saturnHome.png" alt="Logo" /></span> SMIC
+            WEB C <span className='mr-[-60px] md:mr-[-110px] ml-[-60px] md:ml-[-110px] mt-[-25px] md:mt-[-55px]'><img className='h-[90px] md:h-[180px]' src="/saturnHome.png" alt="Logo" /></span> SMIC
           </span>
         </h1>
         

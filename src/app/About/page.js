@@ -59,16 +59,7 @@ const About = () => {
 
 
       <div className="relative min-h-screen bg-transparent text-white font-sans items-center p-2 md:p-12 pt-1">
-        {/* <div className="absolute inset-0 bg-transparent opacity-90"></div> */}
         <div className="relative z-10  mx-4 md:mx-auto space-y-8 ">
-          {/* <div className="h-auto md:h-80">
-            <h1 id="about" className="animated-about lg:text-[700px]">
-              ABOUT <span className="sm:hidden">US</span>
-            </h1>
-            <h1 id="us" className={`hidden sm:block lg:text-[700px] animated-us ${isUsVisible ? "visible" : ""}`}>
-              US
-            </h1>
-          </div> */}
           
           <section className="flex flex-col md:flex-row-reverse p-4 md:p-12 items-center md:items-start">
             <div className="md:w-1/2 md:pl-8 max-w-lg">
@@ -87,8 +78,8 @@ const About = () => {
                 src={`/ourvisionnew.png`}
                 alt="Our Vision"
                 className="w-full h-auto max-w-xs mx-auto"
-                width={500} // Specify the width
-        height={300} // Specify the height
+                width={500} 
+        height={300}
               />
             </div>
           </section>
@@ -110,8 +101,8 @@ const About = () => {
                 src={`/approach.png`}
                 alt="Our Approach"
                 className="w-full h-auto max-w-xs mx-auto"
-                width={500} // Specify the width
-        height={300} // Specify the height
+                width={500} 
+        height={300} 
               />
             </div>
           </section>
