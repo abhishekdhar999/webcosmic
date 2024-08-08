@@ -44,10 +44,10 @@ const About = () => {
             </div>
           </div>
 
-          <span className={`${style.shape} sm:block hidden overflow-hidden`} ></span> {/* Use CSS Module class */}
-          <span className={`${style.shape} sm:block hidden`}></span> {/* Use CSS Module class */}
-          <span className={`${style.shape} overflow-hidden`}></span> {/* Use CSS Module class */}
-          <span className={`${style.shape} sm:block hidden`}></span> {/* Use CSS Module class */}
+          <span className={`${style.shape} sm:block hidden overflow-hidden`} ></span> 
+          <span className={`${style.shape} sm:block hidden`}></span> 
+          <span className={`${style.shape} overflow-hidden`}></span> 
+          <span className={`${style.shape} sm:block hidden`}></span> 
           <span className={style.shape} ></span> 
           <span className={style.shape}></span> 
         </div>
