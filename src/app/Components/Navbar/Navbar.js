@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div>
       {/* Navbar container */}
-      <nav className=" h-16 bg-transparent">
+      <nav className=" h-16 bg-transparent ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
             <Image
@@ -25,7 +25,7 @@ const Navbar = () => {
               className="h-8"
               alt="Logo"
               height={150}
-              width={70}
+              width={75}
             />
           </a>
 
@@ -82,7 +82,7 @@ const Navbar = () => {
               <li>
                 <Link
                   href="/"
-                  className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                  className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 text-lg"
                   aria-current="page"
                 >
                   Home
@@ -91,15 +91,16 @@ const Navbar = () => {
               <li>
                 <Link
                   href="/About"
-                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0  md:p-0 dark:text-white   dark:hover:text-[#c367ca]md:dark:hover:bg-[#c367ca] md:dark:hover:text-[#c367ca] text-lg"
                 >
                   About
+                  
                 </Link>
               </li>
               <li>
                 <Link
                   href="/OurServices"
-                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-[#c367ca] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent text-lg"
                 >
                   Services
                 </Link>
@@ -107,7 +108,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="/Work"
-                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:text-[#c367ca] md:dark:hover:bg-transparent text-lg"
                 >
                   Showcase
                 </a>
@@ -115,7 +116,7 @@ const Navbar = () => {
               <li>
                 <Link
                   href="/Contacts"
-                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-[#c367ca] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent text-lg"
                 >
                   Contact
                 </Link>

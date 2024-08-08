@@ -26,7 +26,7 @@ const About = () => {
     <>
       <Navbar />
 
-      <div className={style.rowOuter}> {/* Use CSS Module class */}
+      <div className={`${style.rowOuter} overflow-hidden`}> {/* Use CSS Module class */}
         <div className={style.wrapper}> {/* Use CSS Module class */}
 
           <div className="flex sm:mt-64 md:mt-0 flex-col md:flex-row items-center justify-center w-full md:w-2/3 h-screen px-4 md:px-8 lg:px-16">
@@ -44,12 +44,12 @@ const About = () => {
             </div>
           </div>
 
-          <span className={style.shape}></span> {/* Use CSS Module class */}
-          <span className={style.shape}></span> {/* Use CSS Module class */}
-          <span className={style.shape}></span> {/* Use CSS Module class */}
-          <span className={style.shape}></span> {/* Use CSS Module class */}
-          <span className={style.shape}></span> {/* Use CSS Module class */}
-          <span className={style.shape}></span> {/* Use CSS Module class */}
+          <span className={`${style.shape} sm:block hidden overflow-hidden`} ></span> {/* Use CSS Module class */}
+          <span className={`${style.shape} sm:block hidden`}></span> {/* Use CSS Module class */}
+          <span className={`${style.shape} overflow-hidden`}></span> {/* Use CSS Module class */}
+          <span className={`${style.shape} sm:block hidden`}></span> {/* Use CSS Module class */}
+          <span className={style.shape} ></span> 
+          <span className={style.shape}></span> 
         </div>
       </div>
       

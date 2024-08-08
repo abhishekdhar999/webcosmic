@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { BsLinkedin, BsFacebook, BsInstagram, BsTwitterX } from "react-icons/bs";
 import { CopyToClipboard } from 'react-copy-to-clipboard';
-
+import Image from 'next/image';
 export default function Footer() {
   const [email, setEmail] = useState('');
   const [copied, setCopied] = useState(false);
@@ -277,7 +277,9 @@ export default function Footer() {
       <div className='bg-white w-full h-[1px] my-2'></div>
       <div className="footer-top">
         <div className="footer-logo">
-          <img src={`webcosmic.png`} alt="Logo" />
+          <Image src={`/logo/logo.png`} alt="Logo" 
+          width={100}
+          height={50}/>
         </div>
         <div className="footer-contact">
           <CopyToClipboard text="hello@webcosmic.com" onCopy={handleCopy}>

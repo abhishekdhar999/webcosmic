@@ -1,37 +1,49 @@
-import React from 'react';
+// import WorkSection from '../Components/work/WorkSection';
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 
-export default function WorkSection({ worksData }) {
-  return (
-    <div className="w-full col-span-12 px-0 sm:px-20 py-8 md:py-12">
-      {/* Grid setup with 2 columns on all screens */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 p-4 md:p-6 bg-background">
-        {worksData.map((work, index) => (
-          <a
-            key={index}
-            href={work.link}
-            className="shadow-md rounded-lg overflow-hidden relative group block transition-transform duration-300 hover:scale-105"
-          >
-            <span className="flex items-center justify-between p-4 bg-white border-t border-r border-l border-gray-600 md:rounded-t-lg">
-              <h3 className="text-lg md:text-xl font-medium text-gray-800">
-                {work.heading}
-              </h3>
-              <p className="text-sm md:text-base font-normal text-gray-600">
-                {work.year}
-              </p>
-            </span>
-            <span className="aspect-w-4 aspect-h-3 md:rounded-lg relative overflow-hidden">
-              <div className="absolute top-0 left-0 w-full h-full bg-black/80 p-4 md:p-8 opacity-0 transition-opacity duration-300 z-10 flex items-center justify-center text-white group-hover:opacity-100 text-center text-base md:text-lg font-light">
-                {work.description}
-              </div>
-              <img
-                src={work.image}
-                alt={work.name}
-                className="w-full h-full object-cover"
-              />
-            </span>
-          </a>
-        ))}
-      </div>
-    </div>
-  );
-}
+export default function WorkSection() {
+
+
+
+  const Data = [
+    {
+heading:"BIOQUENCH",
+image:"workImages/bioquench.jpg",
+year:"2024",
+description:"VISIT BIOQUENCH WEBSITE",
+link:"https://bioquench.in/"
+    },
+    {
+      heading:"ELITE MUSCLES",
+      image:"workImages/elitemuscle.png",
+      year:"2024",
+      description:"VISIT ELITE MUSCLES WEBSITE",
+      link:"https://elitemuscles.store/"
+          },
+          {
+            heading:"BETR",
+            image:"workImages/betr.png",
+            year:"2024",
+            description:"VISIT BETR WEBSITE",
+            link:"https://betr-seven.vercel.app/"
+                },
+                {
+                  heading:"STUDYWAVE",
+                  image:"workImages/studywave.png",
+                  year:"2024",
+                  description:"VISIT STUDYWAVE WEBSITE ",
+                  link:"https://thestudywave.com/"
+                      },
+                      {
+                        heading:"MAXXON",
+                        image:"workImages/maxxon.png",
+                        year:"2023",
+                        description:"VISIT MAXXON WEBSITE ",
+                        link:"https://maxxon.in/"
+                            },
+                            {
+                              heading:"TYCOON IMMIGRATION",
+                              image:"workImages/tycoonimmigration.png",
+                              year:"2023",
+                              description:"VI
