@@ -1,9 +1,8 @@
 import React from 'react';
-
-
 import Navbar from '../Components/Navbar/Navbar';
 import Footer from '../Components/Footer/Footer';
 import Image from 'next/image';
+import BlobMarquee from '../Components/BlobMarquee/BlobMarquee';
 export default function Page() {
   const data = [
     {
@@ -297,7 +296,10 @@ height={400}
     </div>
 
    
-    
+    <div>
+  <BlobMarquee></BlobMarquee>
+</div>
+
     <div className=''>
   <Footer></Footer>
 </div>

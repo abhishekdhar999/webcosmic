@@ -25,6 +25,8 @@ import { IoIosCreate } from "react-icons/io";
 import { AiOutlinePicture } from "react-icons/ai";
 import { MdLightbulbCircle } from "react-icons/md";
 import { FaApple } from "react-icons/fa";
+import BlobMarquee from '../Components/BlobMarquee/BlobMarquee';
+
 export default function Page() {
 
   const webDesignRef = useRef(null);
@@ -500,6 +502,10 @@ export default function Page() {
 
 </div>
 
+
+<div>
+  <BlobMarquee></BlobMarquee>
+</div>
 <div>
   <Footer></Footer>
 </div>

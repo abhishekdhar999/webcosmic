@@ -1,10 +1,9 @@
 "use client";
 import React, { useEffect, useState } from "react";
-
 import Navbar from "@/app/Components/Navbar/Navbar";
 import Footer from "../Components/Footer/Footer";
 import Image from "next/image";
-
+import BlobMarquee from "../Components/BlobMarquee/BlobMarquee";
 import style from './About.module.css'
 const About = () => {
   const [isUsVisible, setIsUsVisible] = useState(false);
@@ -293,7 +292,14 @@ const About = () => {
           }
         `}</style>
       </div>
+
+      <div>
+        <BlobMarquee></BlobMarquee>
+      </div>
+      <div>
       <Footer />
+      </div>
+      
     </>
   );
 };
