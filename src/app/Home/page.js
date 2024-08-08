@@ -2,11 +2,9 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import gsap from "gsap";
-
 import Link from 'next/link';
 import { TextPlugin } from "gsap/TextPlugin";
 import AnimatedList from '@/app/Components/AnimatedList/AnimatedList';
-
 import dynamic from 'next/dynamic';
 import Productspage from '@/app/Components/products/products';
 import { BlogSection } from '@/app/Components/Blogs/BlogsSection';

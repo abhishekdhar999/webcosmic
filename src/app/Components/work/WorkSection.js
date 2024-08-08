@@ -16,7 +16,7 @@ export default function WorkSection() {
     },
     {
       heading: "BETR",
-      image: "workImages/betr.png",
+      image: "/workImages/betr.png",
       year: "2024",
       link: "https://betr-seven.vercel.app/"
     },
@@ -51,4 +51,4 @@ export default function WorkSection() {
             className="shadow-md rounded-lg overflow-hidden relative group block transition-transform duration-300 hover:scale-105"
           >
             <div className="flex items-center justify-between p-4 bg-white border-t border-r border-l border-gray-600 md:rounded-t-lg">
-              <h3 className="text
+              <h3 className="tex
