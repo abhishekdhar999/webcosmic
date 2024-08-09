@@ -1,20 +1,20 @@
 "use client";
 
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from react;
 import gsap from "gsap";
-import Link from 'next/link';
+import Link from next/link;
 import { TextPlugin } from "gsap/TextPlugin";
-import AnimatedList from '@/app/Components/AnimatedList/AnimatedList';
-import dynamic from 'next/dynamic';
-import Productspage from '@/app/Components/products/products';
-import { BlogSection } from '@/app/Components/Blogs/BlogsSection';
-import OurServicesComponent from '@/app/Components/OurServicesComponents/OurServicesComponents';
-import Reviews from '@/app/Components/Reviews/Reviews';
-import TestimonialSection from '@/app/Components/Testimonials/TestimonialsSection';
+import AnimatedList from "@/app/Components/AnimatedList/AnimatedList";
+import dynamic from next/dynamic;
+import Productspage from "@/app/Components/products/products";
+import { BlogSection } from "@/app/Components/Blogs/BlogsSection";
+import OurServicesComponent from "@/app/Components/OurServicesComponents/OurServicesComponents";
+import Reviews from "@/app/Components/Reviews/Reviews";
+import TestimonialSection from "@/app/Components/Testimonials/TestimonialsSection";
  
- import BlobMarquee from '../Components/BlobMarquee/BlobMarquee';
-import { ServicesSection } from '@/app/Components/Services/Services';
-const Model = dynamic(() => import('../Components/Model/Model'), { ssr: false });
+ import BlobMarquee from "../Components/BlobMarquee/BlobMarquee";
+import { ServicesSection } from "@/app/Components/Services/Services";
+const Model = dynamic(() => import("../Components/Model/Model"), { ssr: false });
 gsap.registerPlugin(TextPlugin);
 const name = "Start Your Project"
 
@@ -58,7 +58,7 @@ export default function Homepage({loading}) {
   {/* Descriptive Text */}
   <div className="text text-center ml-2 md:text-left text-gray-700 dark:text-gray-400 max-w-xl text-xl leading-relaxed md:block hidden">
     <p>
-      Let's face it, first impressions matter. Your website's an opportunity to wow your audience, so why choose bad design? Brands win over fans when they are brave enough to go beyond their creative comfort zone.
+      Lets face it, first impressions matter. Your websites an opportunity to wow your audience, so why choose bad design? Brands win over fans when they are brave enough to go beyond their creative comfort zone.
     </p>
   </div>
 
@@ -98,7 +98,7 @@ export default function Homepage({loading}) {
 
   
       <div className="w-full text-center text-gray-300 bg-black font-thin rounded-xl bg-opacity-50 text-xl px-8 py-4">
-        Let's face it, first impressions matter. Your website's an opportunity to wow your audience, so why choose bad design? Brands win over fans when they're brave enough to go beyond their creative comfort zone.
+        Lets face it, first impressions matter. Your websites an opportunity to wow your audience, so why choose bad design? Brands win over fans when theyre brave enough to go beyond their creative comfort zone.
       </div>
 
      
