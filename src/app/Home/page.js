@@ -34,52 +34,93 @@ export default function Homepage({loading}) {
 
   return (
     <>
+      <div className="flex flex-col md:flex-row justify-center items-center h-[100vh]   lg:px-16 md:mt-0  mt-[50px] ">
+  {/* Left Section */}
+  <div className="relative lg:w-1/2 md:w-2/3 flex flex-col justify-center items-start space-y-6 p-6">
+  {/* Decorative Gradient Circles */}
+  <div className="absolute top-[-100px] left-[-100px] w-[250px] h-[250px] bg-gradient-to-br from-indigo-500 to-purple-500 opacity-30 rounded-full filter blur-xl"></div>
+  <div className="absolute bottom-[-100px]  w-[250px] h-[250px] bg-gradient-to-bl from-purple-500 to-indigo-500 opacity-30 rounded-full filter blur-xl"></div>
+
+  {/* Heading */}
+  <div className="heading text-center md:text-left">
+    <h1 className="head-1 text-4xl md:text-6xl lg:text-8xl font-extrabold text-gray-800 dark:text-yellow-600 leading-tight mb-4">
+      WEBCOSMIC
+    </h1>
+  </div>
+
+  {/* Animated List */}
+  <div className="w-full text-center md:text-left">
+    <h1 className="text-base md:text-lg font-extrabold font-serif text-gray-700 dark:text-gray-400 md:block hidden">
+      <AnimatedList words={["Innovate", "Design", "Develop", "Deploy", "Inspire"]} />
+    </h1>
+  </div>
+
+  {/* Descriptive Text */}
+  <div className="text text-center ml-2 md:text-left text-gray-700 dark:text-gray-400 max-w-xl text-xl leading-relaxed md:block hidden">
+    <p>
+      Let's face it, first impressions matter. Your website's an opportunity to wow your audience, so why choose bad design? Brands win over fans when they are brave enough to go beyond their creative comfort zone.
+    </p>
+  </div>
+
+  {/* Button */}
+  <div className="button md:block hidden">
+    <button className="bg-gradient-to-r from-purple-500 to-indigo-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:shadow-lg hover:from-indigo-600 hover:to-purple-500 transition-all duration-300 ease-in-out focus:outline-none focus:ring-4 focus:ring-purple-200">
+      Start Your Project
+    </button>
+  </div>
+</div>
+
+  {/* Right Section (3D Model) */}
+  <div className="md:w-1/2 flex-1 w-full  h-full justify-center items-center">
+    <Model />
+  </div>
+</div>
+
+      {/* <div className="relative flex md:flex-col flex-row items-center justify-center h-screen p-4 sm:mt-[-45px] mt-[105px] ">
+  
+  <div className="flex flex-col w-full h-full justify-center items-center space-y-8">
+
+  
+    <div className="flex flex-col items-center justify-center w-full h-auto p-4 space-y-4">
+
       
-      <div className='relative flex flex-col items-center justify-center h-screen p-4 sm:mt-[-45px] mt-[105px] '>
+      <h1
+        ref={headingRef}
+        className="text-4xl md:text-5xl lg:text-7xl font-extrabold font-serif text-gray-300"
+      >
+        WEBCOSMIC
+      </h1>
 
-      <div className="absolute top-28  right-[-10px] mt-0 mr-4 sm:mt-0 sm:mr-8">
-          <img className="lg:block hidden h-24 w-24 sm:h-[150px] sm:w-[150px]     " src="homepageimages/stars.png" alt="Stars" />
-        </div>
-       
-        <h1 ref={headingRef} className='text-4xl md:text-7xl font-extrabold font-serif text-gray-300 absolute top-[150px] md:top-[200px] mx-4 md:mx-12 left-4 md:left-[50px] z-10 hidden sm:block'>
-          <span className='flex'>
-            WEB C <span className='mr-[-60px] md:mr-[-110px] ml-[-60px] md:ml-[-110px] mt-[-25px] md:mt-[-55px]'><img className='h-[90px] md:h-[180px]' src="/saturnHome.png" alt="Logo" /></span> SMIC
-          </span>
-        </h1>
-        
-        <h1 className='text-base md:text-lg font-extrabold font-serif text-gray-300 absolute top-[220px] md:top-[300px] left-4 md:left-[50px] mx-8 md:mx-16 z-10 hidden md:block'>
-          <AnimatedList words={['Word1', 'Word2', 'Word3', 'Word4', 'Word5']} />
-        </h1>
-{/* for mobile */}
-        <div className='text-container flex  items-center mt-[-80px] sm:hidden '>
-          <h1 className='emerging-text text-3xl md:text-6xl font-extrabold font-serif text-blue-300 bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text mt-4'>
-            WEB COSMIC
-          </h1>
-        </div>
-        {/* 3D Model */}
-        <div className='flex-1 w-full sm:mt-[-30px]  md:h-[600px] md:w-[600px] relative'>
-         
-          <Model />
-        </div>
 
-        {/* Responsive text for mobile view */}
-        
+      <h1 className="text-base md:text-lg font-extrabold font-serif text-gray-300">
+        <AnimatedList words={["Word1", "Word2", "Word3", "Word4", "Word5"]} />
+      </h1>
 
-        <div className='absolute left-8 md:left-24 bottom-20 md:bottom-40'>
-          <Link href={"/Contacts"}>
-          <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
-<span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-Start your project
-</span>
-</button>
-          </Link>
-        </div>
-
-        {/* Right Bottom Text */}
-        <div className='absolute right-8 md:right-20 bottom-24 md:bottom-40 w-3/4 md:w-1/3 text-left text-gray-300 bg-black hidden md:block font-thin rounded-xl bg-opacity-50 p-4 shadow-lg shadow-[#c367ca]'>
-          Lets face it, first impressions matter. Your websites an opportunity to wow your audience, so why choose bad design? Brands win over fans when theyre brave enough to go beyond their creative comfort zone.
-        </div>
+  
+      <div className="w-full text-center text-gray-300 bg-black font-thin rounded-xl bg-opacity-50 text-xl px-8 py-4">
+        Let's face it, first impressions matter. Your website's an opportunity to wow your audience, so why choose bad design? Brands win over fans when they're brave enough to go beyond their creative comfort zone.
       </div>
+
+     
+      <div className="mt-6">
+        <Link href="/Contacts">
+          <button className="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
+            <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+              Start your project
+            </span>
+          </button>
+        </Link>
+      </div>
+    </div>
+
+    
+    <div className="flex-1 w-full flex items-center justify-center relative">
+      <Model />
+    </div>
+
+  </div>
+</div> */}
+
 
       <div>
 <OurServicesComponent loading={loading}></OurServicesComponent>

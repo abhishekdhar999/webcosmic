@@ -26,105 +26,119 @@ const About = () => {
     <>
       <Navbar />
 
-      <div className={`${style.rowOuter} overflow-hidden`}> {/* Use CSS Module class */}
-        <div className={style.wrapper}> {/* Use CSS Module class */}
-
-          <div className="flex sm:mt-64 md:mt-0 flex-col md:flex-row items-center justify-center w-full md:w-2/3 h-screen px-4 md:px-8 lg:px-16">
-            <div className="order-2 md:order-1 flex-1 md:text-left text-center p-4">
-              <div className="about-heading mb-4">
-                <h1 className="sm:text-4xl text-3xl lg:text-5xl font-extrabold leading-tight text-gray-800 dark:text-white">
-                  <span className="text-blue-600">WEB COSMIC</span> <br className="hidden md:block" /> Crafting the Future One Pixel at a Time
-                </h1>
-              </div>
-              <div className="about-text">
-                <p className="text-lg md:text-xl lg:text-2xl text-gray-600 dark:text-gray-300 leading-relaxed">
-                  Welcome to <span className="font-bold text-blue-600">WebCosmic</span>, where we don&apos;t just build websites—we craft digital experiences that are out of this world. As a forward-thinking web development agency, we&apos;re here to launch your business into the future with our innovative solutions.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <span className={`${style.shape} sm:block hidden overflow-hidden`} ></span> 
-          <span className={`${style.shape} sm:block hidden`}></span> 
-          <span className={`${style.shape} overflow-hidden`}></span> 
-          <span className={`${style.shape} sm:block hidden`}></span> 
-          <span className={style.shape} ></span> 
-          <span className={style.shape}></span> 
-        </div>
+      <div className=" mt-12">
+       <img className="h-[500px] mt-6 w-full" src="https://img.freepik.com/free-vector/innovation-concept-illustration-idea-creativity-improvement-ideas_613284-2114.jpg?t=st=1723158453~exp=1723162053~hmac=275884fea946580433bf00d1865d368d16bf7d74cc836c4d42257a3efdff21c0&w=2000" alt="" />
       </div>
-      
 
-      
+      <div className="middle  mx-auto max-w-screen-xl px-4 py-8 my-16">
+  <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-16">
+    {/* <!-- Left Section --> */}
+    <div className="left flex  items-center w-full md:w-1/2">
+      <div className="border-l-2 border-gray-300 h-full pl-4">
+        <h1 className="text-4xl my-12 font-bold text-left mx-2"> <span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">A</span>BO<span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">U</span>T</h1>
+      </div>
+    </div>
 
+    {/* <!-- Right Section --> */}
+    <div className="right flex-1 w-full md:w-1/2">
+      <p className="font-thin text-lg text-center md:text-left">
+      At Webcosmic, our clients are at the heart of everything we do. We pride ourselves on building lasting partnerships through transparency, trust, and dedication. Our team is committed to delivering reliable solutions that are tailored to your specific needs, ensuring your success every step of the way.
+      </p>
+    </div>
+  </div>
+</div>
+
+     
+
+      {/* first */}
+<section className="flex flex-col md:flex-row sm:px-4 md:px-6 items-center justify-center text-center my-24 ">
+            <div className="max-w-3xl">
+              <p className="text-base md:text-4xl font-thin leading-relaxed">
+                Welcome to <span className="font-bold">WebCosmic</span>, where
+                we don&apos;t just build websites—we craft digital experiences
+                that are out of this world. <span className="text-[#7bcfcf]">As a forward-thinking web
+                development agency, we&apos;re here to launch your business
+                into the future with our innovative solutions.</span>
+              </p>
+            </div>
+          </section>
 
       <div className="relative min-h-screen bg-transparent text-white font-sans items-center p-2 md:p-12 pt-1">
         <div className="relative z-10  mx-4 md:mx-auto space-y-8 ">
           
-          <section className="flex flex-col md:flex-row-reverse p-4 md:p-12 items-center md:items-start">
-            <div className="md:w-1/2 md:pl-8 max-w-lg">
-              <h2 className="text-3xl md:text-4xl font-syne mb-4 p-2 capsule-background">
-                Our Vision
-              </h2>
-              <p className="text-lg md:text-xl text-center font-thin leading-relaxed">
-                At WebCosmic, we see a future where your brand stands out in the
-                digital universe. We&apos;re dedicated to creating
-                transformative digital experiences that propel your business
-                forward.
-              </p>
-            </div>
-            <div className="md:w-1/2 md:pr-8">
-              <Image
-                src={`/ourvisionnew.png`}
-                alt="Our Vision"
-                className="w-full h-auto max-w-xs mx-auto"
-                width={500} 
-        height={300}
-              />
-            </div>
-          </section>
+        <section className="flex flex-col md:flex-row p-4 md:p-12 items-center md:items-start">
+  
 
-          <section className="flex flex-col md:flex-row p-4 md:p-12 items-center md:items-start">
-            <div className="md:w-1/2 md:pr-8 max-w-lg">
-              <h2 className="text-3xl md:text-4xl font-syne mb-4 p-2 capsule-background">
-                Our Approach
-              </h2>
-              <p className="text-lg md:text-xl text-center font-thin leading-relaxed">
-                Innovation is our compass. We stay ahead of the curve with the
-                latest technologies and trends, ensuring your brand is always
-                future-ready. Our commitment to excellence means your business
-                doesn&apos;t just survive—it thrives.
-              </p>
-            </div>
-            <div className="md:w-1/2 md:pl-8">
-              <Image
-                src={`/approach.png`}
-                alt="Our Approach"
-                className="w-full h-auto max-w-xs mx-auto"
-                width={500} 
-        height={300} 
-              />
-            </div>
-          </section>
+  {/* Text Section (Right Side) */}
+  <div className="md:w-2/3 lg:w-3/5 md:pl-8 mt-6 md:mt-0 max-w-lg">
+    <h2 className="text-3xl md:text-4xl font-syne mb-4 p-2 capsule-background text-center md:text-left">
+      Our Approach
+    </h2>
+    <p className="text-lg md:text-xl font-thin leading-relaxed text-center md:text-left text-gray-400">
+    At WebCosmic, we believe in a world where digital interactions are seamless and meaningful. Our vision is to bridge the gap between technology and human experience, creating digital ecosystems that empower businesses and enrich lives. We strive to push the boundaries of whats possible, fostering a culture of continuous learning and adaptation in an ever-evolving digital world.
+    </p>
+  </div>
 
-          <section className="flex flex-col md:flex-row p-4 md:p-12 items-center md:items-start mt-12">
-  <div className="md:w-1/2 md:pr-8">
+
+  {/* Image Section (Left Side) */}
+  <div className="md:w-1/3 lg:w-2/5 md:pr-8">
     <Image
-      src={`/AboutImages/aboutFront.png`}
-      alt="Our Mission"
-      className="w-full h-auto max-w-xs mx-auto"
-      width={500}
-      height={300}
+      src={`/approach.png`}
+      alt="Our Approach"
+      className="w-full h-auto max-w-xs mx-auto md:max-w-none"
+      width={500} 
+      height={300} 
     />
   </div>
-  <div className="md:w-1/2 md:pl-8 max-w-lg">
-    <h2 className="text-3xl md:text-4xl font-syne mb-4 p-2 capsule-background">
+</section>
+{/* second */}
+
+          <section className="flex flex-col md:flex-row p-4 md:p-12 items-center lg:ml-44">
+  {/* Image Section (Left Side) */}
+  <div className="md:w-1/3 lg:w-2/5 md:pr-8">
+    <Image
+      src={`/ourvisionnew.png`}
+      alt="Our Approach"
+      className="w-full h-auto max-w-xs mx-auto md:max-w-none"
+      width={500} 
+      height={300} 
+    />
+  </div>
+
+  {/* Text Section (Right Side) */}
+  <div className="md:w-2/3 lg:w-3/5 md:pl-8 mt-6 md:mt-0 max-w-lg">
+    <h2 className="text-3xl md:text-4xl font-syne mb-4 p-2 capsule-background text-center md:text-left">
       Our Mission
     </h2>
-    <p className=" text-lg md:text-xl text-center font-thin leading-relaxed">
-      Our mission at WebCosmic is to revolutionize the digital world with
-      innovative and engaging web solutions. We strive to deliver excellence
-      by turning your ideas into dynamic web experiences.
+    <p className="text-lg md:text-xl font-thin leading-relaxed text-center md:text-left text-gray-400">
+    Our mission is to empower brands by unlocking their true potential in the digital realm. We are dedicated to delivering innovative solutions that drive growth, enhance brand identity, and create memorable experiences for users. By aligning our expertise with your business goals, we aim to be a catalyst for your success, enabling you to thrive in the digital age.
     </p>
+  </div>
+</section>
+
+{/* third */}
+<section className="flex flex-col md:flex-row p-4 md:p-12 items-center md:items-start">
+  
+
+  {/* Text Section (Right Side) */}
+  <div className="md:w-2/3 lg:w-3/5 md:pl-8 mt-6 md:mt-0 max-w-lg">
+    <h2 className="text-3xl md:text-4xl font-syne mb-4 p-2 capsule-background text-center md:text-left">
+      Our Vision
+    </h2>
+    <p className="text-lg md:text-xl font-thin leading-relaxed text-center md:text-left text-gray-400">
+    At WebCosmic, we envision a digital world where creativity knows no bounds and technology is a bridge to infinite possibilities. We are committed to pushing the boundaries of what's possible, creating digital landscapes that inspire and engage. Our goal is to lead the charge in innovation, ensuring our clients are always at the forefront of the digital frontier. Join us as we journey into a future filled with endless opportunities, where your ideas can truly shine and make an impact.
+    </p>
+  </div>
+
+  {/* Image Section (Left Side) */}
+  <div className="md:w-1/3 lg:w-2/5 md:pr-8">
+    <Image
+      src={`/our_vision.png`}
+      alt="Our Approach"
+      className="w-full h-auto max-w-xs mx-auto md:max-w-none"
+      width={500} 
+      height={300} 
+    />
   </div>
 </section>
 

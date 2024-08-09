@@ -3,6 +3,7 @@ import Navbar from '../Components/Navbar/Navbar';
 import Footer from '../Components/Footer/Footer';
 import Image from 'next/image';
 import BlobMarquee from '../Components/BlobMarquee/BlobMarquee';
+import style from './Work.module.css'
 export default function Page() {
   const data = [
     {
@@ -51,7 +52,7 @@ link:"https://bioquench.in/"
   return (
 <>
 <Navbar></Navbar>
-<div className='headind  flex sm:flex-row flex-col sm:mx-12 mx-2 mt-16'>
+{/* <div className='headind  flex sm:flex-row flex-col sm:mx-12 mx-2 mt-16'>
   <div className='left sm:w-2/3'>
   <h1 className='sm:text-4xl lg:text-6xl' > <span className='sm:text-6xl '></span>Explore our curated selection of projects<span className='text-[#9072d1]'> that showcase our commitment to excellence and innovation.</span>   <span className='sm:text-6xl'></span>
 
@@ -61,7 +62,38 @@ link:"https://bioquench.in/"
   <img src="workImages/3d-metal-star-isolated_1308-119601-removebg-preview.png" alt="" />
 </div>
 
+</div> */}
+
+<div className={`${style.rowOuter} overflow-hidden`}> {/* Use CSS Module class */}
+        <div className={style.wrapper}> {/* Use CSS Module class */}
+
+          <div className="flex sm:mt-64 md:mt-0 flex-col md:flex-row items-center justify-center w-full md:w-2/3 h-screen px-4 md:px-8 lg:px-16">
+            <div className="order-2 md:order-1 flex-1 md:text-left text-center p-4">
+<div>
+  <h1 className='text-xl lg:mb-6'>Join us as we shape the future, one project at a time.</h1>
 </div>
+
+              <div className="about-heading mb-4">
+              <h1 className='sm:text-4xl lg:text-6xl' > <span className='sm:text-6xl '></span>Explore our curated selection of projects<span className='text-[#9072d1]'> that showcase our commitment to excellence and innovation.</span>   <span className='sm:text-6xl'></span>
+
+</h1>
+              </div>
+              {/* <div className="about-text">
+                <p className="text-lg md:text-xl lg:text-2xl text-gray-600 dark:text-gray-300 leading-relaxed">
+                  Welcome to <span className="font-bold text-blue-600">WebCosmic</span>, where we don&apos;t just build websites—we craft digital experiences that are out of this world. As a forward-thinking web development agency, we&apos;re here to launch your business into the future with our innovative solutions.
+                </p>
+              </div> */}
+            </div>
+          </div>
+
+          <span className={`${style.shape} sm:block hidden overflow-hidden`} ></span> 
+          <span className={`${style.shape} sm:block hidden`}></span> 
+          <span className={`${style.shape} overflow-hidden`}></span> 
+          <span className={`${style.shape} sm:block hidden`}></span> 
+          <span className={style.shape} ></span> 
+          <span className={style.shape}></span> 
+        </div>
+      </div>
 
 <div className="middle  mx-auto max-w-screen-xl px-4 py-8 my-16">
   <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-16">
@@ -84,7 +116,7 @@ link:"https://bioquench.in/"
 
 
 
-
+{/* first */}
 <div className="w-full flex justify-center items-center col-span-12 px-auto sm:px-20 py-8 md:py-12 ">
       {/* Grid setup with 2 columns on all screens */}
       <div className="grid grid-cols-1 sm:grid-cols-1 gap-6 p-4 md:p-6 bg-background">

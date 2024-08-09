@@ -17,8 +17,8 @@ const Navbar = () => {
   return (
     <div>
       {/* Navbar container */}
-      <nav className=" h-16 bg-transparent ">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <nav className=" h-16  bg-transparent ">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6">
           <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
             <Image
               src="/logo/logo.png"
@@ -34,12 +34,12 @@ const Navbar = () => {
             <button
               onClick={toggleMobileMenu}
               type="button"
-              className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden dark:text-gray-400"
+              className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden dark:text-gray-400 z-50"
               aria-controls="navbar-default"
               aria-expanded={isMobileMenuOpen}
             >
               {/* Close icon */}
-              <GiTireIronCross size={24} className="text-gray-900 dark:text-white" />
+              <GiTireIronCross size={24} className="text-gray-900 dark:text-white z-50" />
             </button>
           ) : (
             <button
