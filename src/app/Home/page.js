@@ -1,8 +1,6 @@
 "use client";
-
-import React, { useEffect, useRef, useState } from react;
+import React, { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
-import Link from next/link;
 import { TextPlugin } from "gsap/TextPlugin";
 import AnimatedList from "@/app/Components/AnimatedList/AnimatedList";
 import dynamic from next/dynamic;
@@ -11,7 +9,6 @@ import { BlogSection } from "@/app/Components/Blogs/BlogsSection";
 import OurServicesComponent from "@/app/Components/OurServicesComponents/OurServicesComponents";
 import Reviews from "@/app/Components/Reviews/Reviews";
 import TestimonialSection from "@/app/Components/Testimonials/TestimonialsSection";
- 
  import BlobMarquee from "../Components/BlobMarquee/BlobMarquee";
 import { ServicesSection } from "@/app/Components/Services/Services";
 const Model = dynamic(() => import("../Components/Model/Model"), { ssr: false });
@@ -75,51 +72,6 @@ export default function Homepage({loading}) {
     <Model />
   </div>
 </div>
-
-      {/* <div className="relative flex md:flex-col flex-row items-center justify-center h-screen p-4 sm:mt-[-45px] mt-[105px] ">
-  
-  <div className="flex flex-col w-full h-full justify-center items-center space-y-8">
-
-  
-    <div className="flex flex-col items-center justify-center w-full h-auto p-4 space-y-4">
-
-      
-      <h1
-        ref={headingRef}
-        className="text-4xl md:text-5xl lg:text-7xl font-extrabold font-serif text-gray-300"
-      >
-        WEBCOSMIC
-      </h1>
-
-
-      <h1 className="text-base md:text-lg font-extrabold font-serif text-gray-300">
-        <AnimatedList words={["Word1", "Word2", "Word3", "Word4", "Word5"]} />
-      </h1>
-
-  
-      <div className="w-full text-center text-gray-300 bg-black font-thin rounded-xl bg-opacity-50 text-xl px-8 py-4">
-        Lets face it, first impressions matter. Your websites an opportunity to wow your audience, so why choose bad design? Brands win over fans when theyre brave enough to go beyond their creative comfort zone.
-      </div>
-
-     
-      <div className="mt-6">
-        <Link href="/Contacts">
-          <button className="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
-            <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-              Start your project
-            </span>
-          </button>
-        </Link>
-      </div>
-    </div>
-
-    
-    <div className="flex-1 w-full flex items-center justify-center relative">
-      <Model />
-    </div>
-
-  </div>
-</div> */}
 
 
       <div>
