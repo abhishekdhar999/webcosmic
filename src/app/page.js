@@ -26,7 +26,10 @@ export default function Home() {
   return (
     <>
     
-    {/* <MarqueeBanner text={text}></MarqueeBanner> */}
+    <div className="flex justify-between items-center sm:flex-row flex-col sm:mx-6 mx-4 p-2 ">
+<h1 className="text-gray-400">FLAT 50% OFF ON STUDENTS PORTFOLIO IN JUST RS 999/-</h1>
+<p className="text-gray-400">Ph:8082810157, 7508857909</p>
+</div>
     <Navbar></Navbar>
     <Homepage ></Homepage>
 <Footer></Footer>

@@ -4,6 +4,8 @@ import Footer from '../Components/Footer/Footer';
 import Image from 'next/image';
 import BlobMarquee from '../Components/BlobMarquee/BlobMarquee';
 import style from './Work.module.css'
+import Link from 'next/link';
+import { FaArrowCircleRight } from "react-icons/fa";
 export default function Page() {
   const data = [
     {
@@ -67,22 +69,23 @@ link:"https://bioquench.in/"
 <div className={`${style.rowOuter} overflow-hidden`}> {/* Use CSS Module class */}
         <div className={style.wrapper}> {/* Use CSS Module class */}
 
-          <div className="flex sm:mt-64 md:mt-0 flex-col md:flex-row items-center justify-center w-full md:w-2/3 h-screen px-4 md:px-8 lg:px-16">
+          <div className="flex sm:mt-64 md:mt-0 flex-col md:flex-row items-center justify-center w-full md:w-2/3 h-screen sm:px-4 md:px-8 lg:px-16">
             <div className="order-2 md:order-1 flex-1 md:text-left text-center p-4">
-<div>
-  <h1 className='text-xl lg:mb-6'>Join us as we shape the future, one project at a time.</h1>
-</div>
+
 
               <div className="about-heading mb-4">
-              <h1 className='sm:text-4xl lg:text-6xl' > <span className='sm:text-6xl '></span>Explore our curated selection of projects<span className='text-[#9072d1]'> that showcase our commitment to excellence and innovation.</span>   <span className='sm:text-6xl'></span>
 
-</h1>
+              <div className="about-heading mb-4">
+              <h1 className="text-3xl sm:mt-0 mt-24 md:text-6xl lg:text-7xl font-bold leading-tight sm:px-4 text-gray-800 dark:text-gray-100">
+              Explore our curated selection of projects <br className="hidden md:block" />
+      <span className=" text-[#9072d1]">
+      that showcase our commitment to excellence and innovation.
+      </span>
+    </h1>
               </div>
-              {/* <div className="about-text">
-                <p className="text-lg md:text-xl lg:text-2xl text-gray-600 dark:text-gray-300 leading-relaxed">
-                  Welcome to <span className="font-bold text-blue-600">WebCosmic</span>, where we don&apos;t just build websites—we craft digital experiences that are out of this world. As a forward-thinking web development agency, we&apos;re here to launch your business into the future with our innovative solutions.
-                </p>
-              </div> */}
+              
+              </div>
+              
             </div>
           </div>
 
@@ -327,6 +330,12 @@ height={400}
       </div>
     </div>
 
+<div className='flex justify-center items-center my-6'>
+  <Link href={"Contacts"}>
+<button type="button" className="text-gray-300 bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800  rounded-lg  px-6 font-extrabold py-3 text-center me-2 mb-2 text-2xl flex "><span>Start your project</span> <span className='mx-2 mt-1'><FaArrowCircleRight /></span>
+</button>
+</Link>
+</div>
    
     <div>
   <BlobMarquee></BlobMarquee>

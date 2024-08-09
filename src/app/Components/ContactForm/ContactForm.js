@@ -97,21 +97,30 @@ const ContactForm = () => {
     <>
     <Navbar></Navbar>
 
-    <div className='flex justify-center'>
-      <div className='left w-1/2'>
-        <Image src="/ContactImages/contact-us-concept-landing-page_52683-22150-removebg-preview.png" alt=""
-        width={600}
-        height={300} />
-      </div>
+    <div className="heading-section flex flex-col md:flex-row justify-center items-center lg:items-stretch gap-6 bg-gradient-to-r from-gray-100 via-gray-200 to-gray-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 p-8 rounded-lg  mx-12 my-12 shadow-sm shadow-blue-400">
+  {/* <!-- Left Section --> */}
+  <div className="left w-full lg:w-2/2 flex justify-center items-center text-center lg:text-left p-4">
+    <h1 className="text-3xl md:text-6xl lg:text-7xl font-bold leading-tight px-4 text-gray-800 dark:text-gray-100">
+    Connect with Us:<br className="hidden md:block" />
+      <span className="text-blue-400 ">
+      Your Gateway to Exceptional Solutions:
+      </span>
+    </h1>
+  </div>
+  {/* <!-- Right Section --> */}
+  <div className="right w-full lg:w-1/2 flex justify-center items-center p-4">
+    <img
+      className="w-40 h-40 md:w-56 md:h-56 lg:w-[400px] lg:h-[400px] object-cover rounded-full border-4 border-blue-300 shadow-lg"
+      src="https://cdn.pixabay.com/photo/2024/03/28/19/43/customer-service-8661577_1280.png"
+      alt="Customer Service"
+    />
+  </div>
+</div>
 
-      {/* <div className='w-1/2'>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ut necessitatibus ipsam at consectetur non. Veniam sapiente dolor doloribus asperiores reprehenderit eum. Quos, vel voluptatum perspiciatis praesentium voluptates error obcaecati sit, aut molestiae porro exercitationem? Omnis quia saepe quasi necessitatibus facere consequuntur earum impedit recusandae fuga voluptatibus blanditiis veritatis, assumenda autem, dolor, enim porro aliquam tenetur atque temporibus commodi sequi beatae quisquam. Est voluptates aspernatur asperiores nihil nemo aut. Molestiae libero nobis quibusdam nostrum voluptatum vel? Laboriosam harum quas provident ullam soluta illum veritatis nisi dolores nihil explicabo alias temporibus totam maiores optio porro deserunt, velit exercitationem officia minus quibusdam! </p>
-      </div> */}
-    </div>
     <div className="w-full bg-transparent text-white">
-      <div className="max-w-4xl mx-auto p-4 sm:p-8">
+      <div className="max-w-5xl mx-auto p-4 sm:p-8">
         <div className="flex items-center justify-center text-center mb-8">
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight">
+          <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold leading-tight">
             Great ideas start with a simple &nbsp; &nbsp; {' '}
             <span
               className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 animate-gradient"

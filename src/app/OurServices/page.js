@@ -26,7 +26,7 @@ import { AiOutlinePicture } from "react-icons/ai";
 import { MdLightbulbCircle } from "react-icons/md";
 import { FaApple } from "react-icons/fa";
 import BlobMarquee from '../Components/BlobMarquee/BlobMarquee';
-
+import style from './OurServices.module.css'
 export default function Page() {
 
   const webDesignRef = useRef(null);
@@ -42,26 +42,51 @@ export default function Page() {
   return (
     <>
       <Navbar></Navbar>
-      <div className="wrap mx-auto my-12 p-4 max-w-screen-xl">
-      <div className="heading-section flex flex-col md:flex-row justify-center items-center lg:items-stretch gap-6 bg-gradient-to-r from-gray-100 via-gray-200 to-gray-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 p-8 rounded-lg shadow-lg">
-  {/* <!-- Left Section --> */}
-  <div className="left w-full lg:w-2/2 flex justify-center items-center text-center lg:text-left p-4">
-    <h1 className="text-3xl md:text-6xl lg:text-7xl font-bold leading-tight px-4 text-gray-800 dark:text-gray-100">
+
+
+
+      <div className={`${style.rowOuter} overflow-hidden`}> {/* Use CSS Module class */}
+        <div className={style.wrapper}> {/* Use CSS Module class */}
+
+          <div className="flex sm:mt-64 md:mt-0 flex-col md:flex-row items-center justify-center w-full md:w-2/3 h-screen md:px-8 lg:px-16">
+            <div className="order-2 md:order-1 flex-1 md:text-left text-center sm:p-4">
+
+
+              <div className="about-heading mb-4">
+              <h1 className="text-3xl sm:mt-0 mt-24 md:text-6xl lg:text-7xl font-bold leading-tight px-4 text-gray-800 dark:text-gray-100">
       Experience the Web Like Never Before: <br className="hidden md:block" />
       <span className="text-teal-500 dark:text-teal-300">
         Where the Ordinary Becomes Extraordinary
       </span>
     </h1>
-  </div>
-  {/* <!-- Right Section --> */}
-  <div className="right w-full lg:w-1/2 flex justify-center items-center p-4">
-    <img
-      className="w-40 h-40 md:w-56 md:h-56 lg:w-[400px] lg:h-[400px] object-cover rounded-full border-4 border-teal-500 shadow-lg"
-      src="https://img.freepik.com/free-photo/web-design-concept-with-drawings_1134-77.jpg?w=2000&t=st=1723203623~exp=1723204223~hmac=5f28aa52e7c66ae627f22bab32cc197a4ccaeaf13b27d460b02bebe59c2dc8bd"
-      alt="Customer Service"
-    />
-  </div>
-</div>
+              </div>
+              
+            </div>
+          </div>
+
+          <span className={`${style.shape} sm:block hidden overflow-hidden`} ></span> 
+          <span className={`${style.shape} sm:block hidden`}></span> 
+          <span className={`${style.shape} overflow-hidden`}></span> 
+          <span className={`${style.shape} sm:block hidden`}></span> 
+          <span className={style.shape} ></span> 
+          <span className={style.shape}></span> 
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div className="wrap mx-auto my-12 p-4 max-w-screen-xl">
+      
 
 
         <div className="middle  mx-auto max-w-screen-xl px-4 py-8 my-36">

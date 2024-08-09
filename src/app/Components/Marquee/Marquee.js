@@ -1,7 +1,7 @@
 // Marquee.js
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
-
+import Image from 'next/image';
 // Define the marquee animation
 const marquee = keyframes`
   0% {
@@ -41,8 +41,19 @@ const Marquee = ({ text }) => {
       <MarqueeText>
         {/* Repeat the text to create seamless scrolling */}
         <span className='head-1 text-8xl mt-24 flex'>
-        <img className='h-[180px] w-[160px]' src="logo.png" alt="" />
-{text} <img className='h-[180px] w-[160px]' src="logo.png" alt="" /> &nbsp; {text} <img className='h-[160px] w-[180px]' src="logo.png" alt="" />&nbsp; {/* Repeat twice for seamless transition */}
+
+        
+
+{text} <Image className='' src="/logo/logo.png" alt=""
+        width={140}
+        height={150} />
+
+ &nbsp; {text}
+ <Image className='' src="/logo/logo.png" alt=""
+        width={140}
+        height={150} />
+  &nbsp; {/* Repeat twice for seamless transition */}
+  
         </span>
       </MarqueeText>
     </MarqueeContainer>

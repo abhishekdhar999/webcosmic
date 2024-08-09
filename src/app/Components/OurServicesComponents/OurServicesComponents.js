@@ -284,6 +284,14 @@ function OurServicesComponent({ loading }) {
         )}
       </div>
 
+
+      <div className="button flex justify-center items-center my-12 ">
+        <Link href={"/OurServices"}>
+    <button className="bg-gradient-to-r from-purple-500 to-indigo-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:shadow-lg hover:from-indigo-600 hover:to-purple-500 transition-all duration-300 ease-in-out focus:outline-none focus:ring-4 focus:ring-purple-200">
+      View all Services
+    </button>
+    </Link>
+  </div>
       
     </>
   );
