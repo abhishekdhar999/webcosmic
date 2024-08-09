@@ -4,7 +4,7 @@ import Navbar from "@/app/Components/Navbar/Navbar";
 import Footer from "../Components/Footer/Footer";
 import Image from "next/image";
 import BlobMarquee from "../Components/BlobMarquee/BlobMarquee";
-import style from './About.module.css'
+import style from "./About.module.css"
 const About = () => {
   const [isUsVisible, setIsUsVisible] = useState(false);
 
@@ -126,7 +126,7 @@ const About = () => {
       Our Vision
     </h2>
     <p className="text-lg md:text-xl font-thin leading-relaxed text-center md:text-left text-gray-400">
-    At WebCosmic, we envision a digital world where creativity knows no bounds and technology is a bridge to infinite possibilities. We are committed to pushing the boundaries of what's possible, creating digital landscapes that inspire and engage. Our goal is to lead the charge in innovation, ensuring our clients are always at the forefront of the digital frontier. Join us as we journey into a future filled with endless opportunities, where your ideas can truly shine and make an impact.
+    At WebCosmic, we envision a digital world where creativity knows no bounds and technology is a bridge to infinite possibilities. We are committed to pushing the boundaries of whats possible, creating digital landscapes that inspire and engage. Our goal is to lead the charge in innovation, ensuring our clients are always at the forefront of the digital frontier. Join us as we journey into a future filled with endless opportunities, where your ideas can truly shine and make an impact.
     </p>
   </div>
 
@@ -257,7 +257,7 @@ const About = () => {
 
           .animated-us {
             animation: slideInFromAbove 1s ease-out forwards;
-            animation-delay: 1s; /* Delay to ensure 'US' appears after 'ABOUT' */
+            animation-delay: 1s; /* Delay to ensure US appears after ABOUT */
             opacity: 0;
             visibility: hidden;
             font-family: "Montreal", sans-serif;
