@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { TextPlugin } from "gsap/TextPlugin";
 import AnimatedList from "@/app/Components/AnimatedList/AnimatedList";
-import dynamic from next/dynamic;
+import dynamic from "next/dynamic";
 import Productspage from "@/app/Components/products/products";
 import { BlogSection } from "@/app/Components/Blogs/BlogsSection";
 import OurServicesComponent from "@/app/Components/OurServicesComponents/OurServicesComponents";
