@@ -115,7 +115,7 @@ const Testimonial = () => {
     return (
       <>
       
-        <div className=" min-h-screen md:mx-24  md:mb-0  mb-[400px] text-white">
+        <div className=" min-h-screen md:mx-24  md:mb-24  mb-[500px] text-white">
             <div className="container mx-auto py-16 px-4 relative">
                 <h2 className="md:text-6xl text-3xl  font-extrabold text-center mb-12 tracking-wider">
                     CLIENTS TESTIMONIALS
