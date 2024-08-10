@@ -105,7 +105,7 @@ export default function Homepage({loading}) {
       </div>
 
       <div className="button flex justify-center my-6">
-    <Link href={"Contacts"}>
+    <Link href={"/Contacts"}>
     <button className="flex bg-gradient-to-r from-purple-500 to-indigo-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:shadow-lg hover:from-indigo-600 hover:to-purple-500 transition-all duration-300 ease-in-out focus:outline-none focus:ring-4 focus:ring-purple-200">
       <span>Start Your Project</span>
       <span className="mx-2 my-1"><FaArrowCircleRight /></span>

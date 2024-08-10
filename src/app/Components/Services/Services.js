@@ -7,31 +7,19 @@ import { IoArrowRedo } from "react-icons/io5";
 export const ServicesSection = () => {
   return (
     <>
-      <div className="services-heading flex flex-col md:flex-row justify-between items-center p-4 lg:mx-36 lg:my-24 sm:my-24 my-12">
-        {/* Heading Section */}
-        <div className="left text-center md:text-left">
-          <h1 className="head-1 my-0 text-5xl md:text-[clamp(3.125rem,15vw,10rem)]">
-            <span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">
-              O
-            </span>
-            UR
-          </h1>
-          <h1 className="head-1 md:ml-36 text-5xl md:text-[clamp(3.125rem,15vw,10rem)]">
-            W
-            <span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">
-              O
-            </span>
-            RK
-          </h1>
-        </div>
+      <div className="flex flex-col md:flex-row justify-center items-center md:mx-auto mx-0 md:space-x-4 space-y-6 md:space-y-0 my-12">
+  
+  {/* Left Section */}
+  <div className="left text-center md:text-left">
+    <h1 className="text-4xl sm:text-6xl md:text-9xl lg:text-[150px] ">
+      <span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">O</span>UR
+    </h1>
+    <h1 className="text-4xl sm:text-6xl md:text-9xl lg:text-[150px]  mt-4 md:mt-0 md:ml-12">
+      W<span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">O</span>RK<span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text"></span>
+    </h1>
+  </div>
 
-        {/* Icon Section */}
-        <div className="right mt-4 md:mt-36 flex justify-center md:justify-start">
-          <span className="text-8xl lg:text-9xl">
-            <BsBoxArrowInUpRight />
-          </span>
-        </div>
-      </div>
+</div>
 
       {/* Timeline Section bioquench */}
       <div className="bg-transparent sm:p-4">

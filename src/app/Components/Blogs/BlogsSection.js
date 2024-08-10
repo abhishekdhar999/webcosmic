@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-
+import Link from "next/link";
 export const BlogSection = () => {
   return (
     <div className="bg-transparent py-16 lg:py-24">
@@ -19,6 +19,7 @@ export const BlogSection = () => {
         {/* Blog articles container */}
         <div className="mt-12 grid gap-8 lg:gap-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {/* Individual blog article card */}
+          <Link href={"/OuterBlog1"}>
           <div className="flex flex-col overflow-hidden rounded-lg shadow-lg shadow-red-200">
             <div className="flex-shrink-0">
               <Image
@@ -32,16 +33,17 @@ export const BlogSection = () => {
             <div className="flex flex-1 flex-col justify-between bg-secondary p-8">
               <div className="flex-1">
                 <p className="text-sm font-medium text-indigo-600">New</p>
-                <a href="#" className="mt-2 block">
+                <span  className="mt-2 block">
                   <p className="text-xl font-semibold text-white">
                   How an Outstanding Website Can Skyrocket Your Startups Growth!
                   </p>
-                </a>
+                </span>
               </div>
             </div>
           </div>
-
+          </Link>
           {/* Second blog article card */}
+          <Link href={"/OuterBlog2"}>
           <div className="flex flex-col overflow-hidden rounded-lg shadow-lg shadow-red-200">
             <div className="flex-shrink-0">
               <Image
@@ -55,17 +57,18 @@ export const BlogSection = () => {
             <div className="flex flex-1 flex-col justify-between bg-secondary p-8">
               <div className="flex-1">
                 <p className="text-sm font-medium text-indigo-600">New</p>
-                <a href="#" className="mt-2 block">
+                <span  className="mt-2 block">
                   <p className="text-xl font-semibold text-white">
                   Web Development Trends Small Business Owners Cant Affend to Overlook in 2024
 
                   </p>
-                </a>
+                </span>
               </div>
             </div>
           </div>
-
+          </Link>
           {/* Third blog article card */}
+          <Link href={"/OuterBlog3"}>
           <div className="flex flex-col overflow-hidden rounded-lg shadow-lg shadow-red-200">
             <div className="flex-shrink-0">
               <Image
@@ -79,15 +82,17 @@ export const BlogSection = () => {
             <div className="flex flex-1 flex-col justify-between bg-secondary p-8">
               <div className="flex-1">
                 <p className="text-sm font-medium text-indigo-600">New</p>
-                <a href="#" className="mt-2 block">
+                <span className="mt-2 block">
                   <p className="text-xl font-semibold text-white">
                   Game-Changing Web Development Tips to Propel Your Small Business Forward in 2024!
 
                   </p>
-                </a>
+                </span>
               </div>
             </div>
           </div>
+          </Link>
+
         </div>
       </div>
     </div>

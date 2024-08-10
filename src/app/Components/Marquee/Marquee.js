@@ -44,14 +44,10 @@ const Marquee = ({ text }) => {
 
         
 
-{text} <Image className='' src="/logo/logo.png" alt=""
-        width={140}
-        height={150} />
+{text} 
 
  &nbsp; {text}
- <Image className='' src="/logo/logo.png" alt=""
-        width={140}
-        height={150} />
+ 
   &nbsp; {/* Repeat twice for seamless transition */}
   
         </span>

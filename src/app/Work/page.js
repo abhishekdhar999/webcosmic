@@ -122,7 +122,7 @@ link:"https://bioquench.in/"
 {/* first */}
 <div className="w-full flex justify-center items-center col-span-12 px-auto sm:px-20 py-8 md:py-12 ">
       {/* Grid setup with 2 columns on all screens */}
-      <div className="grid grid-cols-1 sm:grid-cols-1 gap-6 p-4 md:p-6 bg-background">
+      <div className="grid grid-cols-1 sm:grid-cols-1 gap-6 p-4 md:p-6 bg-background shadow-lg shadow-white">
         
           <a
            
@@ -157,7 +157,7 @@ link:"https://bioquench.in/"
 {/* second */}
     <div className="w-full flex justify-center  col-span-12 px-0 sm:px-20 py-8 md:py-12">
       {/* Grid setup with 2 columns on all screens */}
-      <div className="grid w-[900px] grid-cols-1 sm:grid-cols-1 gap-6 p-4 md:p-6 bg-background">
+      <div className="grid w-[900px] grid-cols-1 sm:grid-cols-1 gap-6 p-4 md:p-6 bg-background shadow-lg shadow-white">
         
           <a
            
@@ -193,7 +193,7 @@ height={400}
 {/* third */}
     <div className="w-full flex justify-center col-span-12 px-0 sm:px-20 py-8 md:py-12">
       {/* Grid setup with 2 columns on all screens */}
-      <div className="grid w-[900px] grid-cols-1 sm:grid-cols-1 gap-6 p-4 md:p-6 bg-background">
+      <div className="grid w-[900px] grid-cols-1 sm:grid-cols-1 gap-6 p-4 md:p-6 bg-background shadow-lg shadow-white">
         
           <a
            
@@ -228,7 +228,7 @@ height={400}
 {/* fourth */}
     <div className="w-full flex justify-center col-span-12 px-0 sm:px-20 py-8 md:py-12">
       {/* Grid setup with 2 columns on all screens */}
-      <div className="grid w-[900px] grid-cols-1 sm:grid-cols-1 gap-6 p-4 md:p-6 bg-background">
+      <div className="grid w-[900px] grid-cols-1 sm:grid-cols-1 gap-6 p-4 md:p-6 bg-background shadow-lg shadow-white">
         
           <a
            
@@ -263,7 +263,7 @@ height={400}
 {/* fifth */}
     <div className="w-full flex justify-center col-span-12 px-0 sm:px-20 py-8 md:py-12">
       {/* Grid setup with 2 columns on all screens */}
-      <div className="grid w-[900px] grid-cols-1 sm:grid-cols-1 gap-6 p-4 md:p-6 bg-background">
+      <div className="grid w-[900px] grid-cols-1 sm:grid-cols-1 gap-6 p-4 md:p-6 bg-background shadow-lg shadow-white">
         
           <a
            
@@ -296,14 +296,14 @@ height={400}
     </div>
 
 {/* sixth */}
-<div className="w-full flex justify-center col-span-12 px-0 sm:px-20 py-8 md:py-12">
+<div className="w-full flex justify-center col-span-12 px-0 sm:px-20 py-8 md:py-12 ">
       {/* Grid setup with 2 columns on all screens */}
-      <div className="grid w-[900px] grid-cols-1 sm:grid-cols-1 gap-6 p-4 md:p-6 bg-background">
+      <div className="grid w-[900px] grid-cols-1 sm:grid-cols-1 gap-6 p-4 md:p-6 bg-background shadow-lg shadow-white">
         
           <a
            
             href="https://thestudywave.com/"
-            className="shadow-md rounded-lg overflow-hidden relative group block transition-transform duration-300 hover:scale-105"
+            className=" rounded-lg overflow-hidden relative group block transition-transform duration-300 hover:scale-105 shadow-lg "
           >
             <div className="flex  items-center justify-between p-4 bg-white border-t border-r border-l border-gray-600 md:rounded-t-lg">
               <h3 className="text-lg md:text-xl font-medium text-gray-800">

@@ -32,7 +32,7 @@ const Testimonials = ({ testimonials, showViewMore }) => {
         
           {showViewMore && (
             
-            <Link href={"/testimonial"}>
+            <Link href={"/Testimonials"}>
           <span href={`${process.env.NEXT_PUBLIC_BASE_PATH}/testimonial`} className="p-8 text-left text-blue-500 mt-2 hover:underline">View other 20 testimonials →</span>
           </Link>)}
         </div>

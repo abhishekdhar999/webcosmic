@@ -17,7 +17,7 @@ const ContactForm = () => {
   });
   const [successMessage, setSuccessMessage] = useState('');
   const [greeting, setGreeting] = useState('hello');
-  const greetings = ['hello', 'hi', 'hey', 'greetings', 'howdy'];
+  const greetings = ['Hello', 'Hi', 'Hey', 'Greetings', 'Howdy'];
   const fileInputRef = useRef(null);
 
   useEffect(() => {
@@ -99,14 +99,16 @@ const ContactForm = () => {
 
     <div className="heading-section flex flex-col md:flex-row justify-center items-center lg:items-stretch gap-6 bg-gradient-to-r from-gray-100 via-gray-200 to-gray-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 p-8 rounded-lg  mx-12 my-12 shadow-sm shadow-blue-400">
   {/* <!-- Left Section --> */}
-  <div className="left w-full lg:w-2/2 flex justify-center items-center text-center lg:text-left p-4">
-    <h1 className="text-3xl md:text-6xl lg:text-7xl font-bold leading-tight px-4 text-gray-800 dark:text-gray-100">
-    Connect with Us:<br className="hidden md:block" />
-      <span className="text-blue-400 ">
-      Your Gateway to Exceptional Solutions:
-      </span>
-    </h1>
-  </div>
+  <div className="flex items-center justify-center text-center mb-8">
+          <h1 className="text-3xl md:text-5xl lg:text-8xl font-bold leading-tight">
+            Great ideas start with a simple <br></br> {' '}
+            <span
+              className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 animate-gradient"
+            >
+              {greeting}
+            </span>.
+          </h1>
+        </div>
   {/* <!-- Right Section --> */}
   <div className="right w-full lg:w-1/2 flex justify-center items-center p-4">
     <img
@@ -119,18 +121,9 @@ const ContactForm = () => {
 
     <div className="w-full bg-transparent text-white">
       <div className="max-w-5xl mx-auto p-4 sm:p-8">
-        <div className="flex items-center justify-center text-center mb-8">
-          <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold leading-tight">
-            Great ideas start with a simple &nbsp; &nbsp; {' '}
-            <span
-              className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 animate-gradient"
-            >
-              {greeting}
-            </span>.
-          </h1>
-        </div>
+        
 
-        <div className="middle mx-auto max-w-screen-xl px-4 py-8 my-8">
+   <div className="middle mx-auto max-w-screen-xl px-4 py-8 my-8">
           <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
             {/* <!-- Left Section --> */}
             <div className="left flex items-center w-full md:w-1/2">
@@ -147,7 +140,7 @@ const ContactForm = () => {
                   T
                 </h1>
               </div>
-            </div>
+            </div> 
 
             {/* <!-- Right Section --> */}
             <div className="right flex-1 w-full md:w-1/2">

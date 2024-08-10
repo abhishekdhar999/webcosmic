@@ -507,40 +507,8 @@ body {
 }
 
 /* View 3D geometric elements */
-.button:hover img {
-  opacity: 1;
-}
-
-.button:hover .button__cone {
-  transform: translate(-38px, -10px) scale(1.2);
-}
-
-.button:hover .button__torus {
-  transform: translate(7px, -32px) scale(1.1);
-}
-
-.button:hover .button__icosahedron {
-  transform: translate(50px, -20px) scale(1.1);
-}
-
-.button:hover .button__sphere {
-  transform: translate(-14px, 20px) scale(1.1);
-}
 
 
-/* .curved-line::after {
-  content: "";
-  display: block;
-  width: 20%;
-  height: 1px;
-  background-color: white;
-  border-bottom: 5px solid red;
-   
-  border-radius: 0 0 30px 10px; 
-  margin-top: 10px; 
-  margin-left: 400px;
-  
-} */
 @media (min-width: 1024px) { /* Adjust the breakpoint as needed */
   .curved-line::after {
     margin-left: 600px; /* Margin-left for large screens */
@@ -579,121 +547,8 @@ body {
   }
 }
 
-.rotating-text-container {
-  position: absolute;
-  width: 500px;
-  height: 500px;
-  
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  top: 30%;
-  right: 60%;
-  /* transform: translateY(-50%); */
-  transform: translateX(50%);
-  z-index: 20;
-  background: none;
-  display: hidden;
-}
 
-.rotating-text {
-  position: absolute;
-  transform-origin: center;
-  animation: rotate 10s linear infinite;
-  display: hidden;
-}
 
-.rotating-text span {
-  position: absolute;
-  top: 0%;
-  left: 40%;
-  transform-origin: center;
-  transform: translate(-30%, -50%);
-  font-size: 1em;
-  font-weight: bold;
-  color: #4a4848;
-
-}
-.rotating-text span:nth-child(1) { transform: rotate(0deg)   translateX(80px); }
-.rotating-text span:nth-child(2) { transform: rotate(10deg)  translateX(80px); }
-.rotating-text span:nth-child(3) { transform: rotate(20deg)  translateX(80px); }
-.rotating-text span:nth-child(4) { transform: rotate(30deg)  translateX(80px); }
-.rotating-text span:nth-child(5) { transform: rotate(40deg)  translateX(80px); }
-.rotating-text span:nth-child(6) { transform: rotate(50deg)  translateX(80px); }
-.rotating-text span:nth-child(7) { transform: rotate(60deg)  translateX(80px); }
-.rotating-text span:nth-child(8) { transform: rotate(70deg)  translateX(80px); }
-.rotating-text span:nth-child(9) { transform: rotate(80deg)  translateX(80px); }
-.rotating-text span:nth-child(10) { transform: rotate(90deg) translateX(80px); }
-.rotating-text span:nth-child(11) { transform: rotate(100deg) translateX(80px); }
-.rotating-text span:nth-child(12) { transform: rotate(110deg) translateX(80px); }
-.rotating-text span:nth-child(13) { transform: rotate(120deg) translateX(80px); }
-.rotating-text span:nth-child(14) { transform: rotate(130deg) translateX(80px); }
-.rotating-text span:nth-child(15) { transform: rotate(140deg) translateX(80px); }
-.rotating-text span:nth-child(16) { transform: rotate(150deg) translateX(80px); }
-.rotating-text span:nth-child(17) { transform: rotate(160deg) translateX(80px); }
-.rotating-text span:nth-child(18) { transform: rotate(170deg) translateX(80px); }
-.rotating-text span:nth-child(19) { transform: rotate(180deg) translateX(80px); }
-.rotating-text span:nth-child(20) { transform: rotate(190deg) translateX(80px); }
-.rotating-text span:nth-child(21) { transform: rotate(200deg) translateX(80px); }
-.rotating-text span:nth-child(22) { transform: rotate(210deg) translateX(80px); }
-.rotating-text span:nth-child(23) { transform: rotate(220deg) translateX(80px); }
-.rotating-text span:nth-child(24) { transform: rotate(230deg) translateX(80px); }
-.rotating-text span:nth-child(25) { transform: rotate(240deg) translateX(80px); }
-.rotating-text span:nth-child(26) { transform: rotate(250deg) translateX(80px); }
-.rotating-text span:nth-child(27) { transform: rotate(260deg) translateX(80px); }
-.rotating-text span:nth-child(28) { transform: rotate(270deg) translateX(80px); }
-.rotating-text span:nth-child(29) { transform: rotate(280deg) translateX(80px); }
-.rotating-text span:nth-child(30) { transform: rotate(290deg) translateX(80px); }
-.rotating-text span:nth-child(31) { transform: rotate(300deg) translateX(80px); }
-.rotating-text span:nth-child(32) { transform: rotate(310deg) translateX(80px); }
-.rotating-text span:nth-child(33) { transform: rotate(320deg) translateX(80px); }
-.rotating-text span:nth-child(34) { transform: rotate(330deg) translateX(80px); }
-.rotating-text span:nth-child(35) { transform: rotate(340deg) translateX(80px); }
-.rotating-text span:nth-child(36) { transform: rotate(360deg) translateX(80px); }
-.rotating-text span:nth-child(37) { transform: rotate(360deg) translateX(80px); }
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.allServiceHead {
-  position: relative; /* Ensure relative positioning for the pseudo-element */
-  text-align: center; /* Center the heading text */
-  font: serif;
-  color:rgb(200, 196, 196);
-  font-weight: 800;
-}
-
-.allServiceHead::after {
-  content: "";
-  display: block;
-  width: 60%; /* Use percentage for responsive width */
-  height: 0.5px;
-  background-color: white;
-  border-radius: 0 0 30px 10px; /* Create a curved effect */
-  margin: 10px auto 0 auto; /* Center the line below the heading */
-  transition: width 0.3s ease, margin-left 0.3s ease; /* Smooth transition effect for responsive changes */
-}
-
-@media screen and (max-width: 768px) {
-  .allServiceHead::after {
-    width: 70%; /* Slightly wider on smaller screens */
-    border-radius: 0 0 20px 10px; /* Adjust the curve for smaller screens */
-    margin-left: auto; /* Center alignment */
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .allServiceHead::after {
-    width: 80%; /* Even wider for mobile screens */
-    border-radius: 0 0 15px 5px; /* Further adjust the curve */
-    margin-left: auto; /* Center alignment */
-  }
-}
 
 
 
@@ -755,104 +610,19 @@ body {
     transform: translate(0, 0); /* Move up-left back to original position */
   }
 }
-
 .animate-diagonal img {
   animation: diagonalMove 3s ease-in-out infinite;
   display: block; /* Ensures the image is displayed properly */
 }
 
+
 html, body {
   overflow-x: hidden;
 }
 
-.drop-shadow-image {
-  filter: drop-shadow(0 4px 8px rgba(192, 22, 22, 0.5));
-}
 
-/* about */
-/* .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-}
-.shape:nth-of-type(1) {
-    width: 400px;
-    height: 400px;
-    background: linear-gradient(64deg, #f34868 23%, #f24768 23%,#9e00ec 80% );
-    animation: wave 8s ease-in-out infinite;
-    overflow: hidden;
-}
-.shape:nth-of-type(2) {
-    width: 800px;
-    height: 800px;
-    background: #7998ff;
-    position: absolute;
-    top: -200px;
-    left: -400px;
-    opacity: .2;
-    z-index: -1;
-    animation: wave 5s ease-in-out infinite;
-    overflow: hidden;
-}
-.shape:nth-of-type(3) {
-    width: 500px;
-    height: 500px;
-    background: #379eff;
-    position: absolute;
-    bottom: -25%;
-    right: -5%;
-    opacity: .3;
-    z-index: -1;
-    animation: wave 12s ease-in-out infinite;
-    overflow: hidden;
-}
-.shape:nth-of-type(4) {
-    width: 250px;
-    height: 250px;
-    background: #fbff0d;
-    position: absolute;
-    bottom: -120px;
-    left: 50%;
-    opacity: .4;
-    z-index: -1;
-    animation: wave 6s ease-in-out infinite;
-    overflow: hidden;
-}
-.shape:nth-of-type(5) {
-    width: 350px;
-    height: 350px;
-    background: #ff4343;
-    position: absolute;
-    top: -8%;
-    right: 10%;
-    opacity: .2;
-    z-index: -1;
-    animation: wave 15s ease-in-out infinite;
-    overflow: hidden;
-}
-.shape:nth-of-type(6) {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 40%;
-    right: 25%;
-    opacity: .5;
-    z-index: -1;
-    transform: rotate(90deg);
-    animation: wave 15s ease-in-out infinite;
-    overflow: hidden;
-}
-@keyframes wave {
-    0%, 100% {
-        border-radius: 66% 34% 37% 63% / 57% 31% 69% 43%;
-    }
-    50%{
-        border-radius: 26% 74% 51% 49% / 22% 53% 47% 78%;
-    }
-} */
+
+
 
 /* .heading-section {
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('/AboutImages/Designer (7).jpeg');
