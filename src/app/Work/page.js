@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import Navbar from '../Components/Navbar/Navbar';
 import Footer from '../Components/Footer/Footer';
@@ -5,8 +6,40 @@ import Image from 'next/image';
 import BlobMarquee from '../Components/BlobMarquee/BlobMarquee';
 import style from './Work.module.css'
 import Link from 'next/link';
+import { useRef,useEffect } from 'react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { FaArrowCircleRight } from "react-icons/fa";
+
+gsap.registerPlugin(ScrollTrigger);
+
+
 export default function Page() {
+
+  const imageRefs = useRef([useRef(), useRef(), useRef(), useRef(), useRef(),useRef()]);
+
+  useEffect(() => {
+    imageRefs.current.forEach((ref) => {
+      gsap.fromTo(
+        ref.current,
+        { scale: 0.5, opacity: 0 }, // Initial state: small size and transparent
+        {
+          scale: 1, // Final state: normal size
+          opacity: 1,
+          duration: 1.5,
+          ease: 'power2.out',
+          scrollTrigger: {
+            trigger: ref.current,
+            start: 'top 80%', // Start the animation when the image is 80% from the top of the viewport
+            end: 'top 20%', // End the animation when the image is 30% from the top of the viewport
+            scrub: true, // Smooth scrolling animation
+            markers: true, // Debugging markers to see when the trigger starts and ends
+          },
+        }
+      );
+    });
+  }, []);
+  
   const data = [
     {
 heading:"BIOQUENCH",
@@ -54,17 +87,7 @@ link:"https://bioquench.in/"
   return (
 <>
 <Navbar></Navbar>
-{/* <div className='headind  flex sm:flex-row flex-col sm:mx-12 mx-2 mt-16'>
-  <div className='left sm:w-2/3'>
-  <h1 className='sm:text-4xl lg:text-6xl' > <span className='sm:text-6xl '></span>Explore our curated selection of projects<span className='text-[#9072d1]'> that showcase our commitment to excellence and innovation.</span>   <span className='sm:text-6xl'></span>
 
-</h1>
-</div>
-<div className='right '>
-  <img src="workImages/3d-metal-star-isolated_1308-119601-removebg-preview.png" alt="" />
-</div>
-
-</div> */}
 
 <div className={`${style.rowOuter} overflow-hidden`}> {/* Use CSS Module class */}
         <div className={style.wrapper}> {/* Use CSS Module class */}
@@ -120,7 +143,8 @@ link:"https://bioquench.in/"
 
 
 {/* first */}
-<div className="w-full flex justify-center items-center col-span-12 px-auto sm:px-20 py-8 md:py-12 ">
+<div ref={imageRefs.current[0]}
+ className="w-full flex justify-center items-center col-span-12 px-auto sm:px-20 py-8 md:py-12 ">
       {/* Grid setup with 2 columns on all screens */}
       <div className="grid grid-cols-1 sm:grid-cols-1 gap-6 p-4 md:p-6 bg-background shadow-lg shadow-white">
         
@@ -153,7 +177,8 @@ link:"https://bioquench.in/"
     </div>
 
 {/* second */}
-    <div className="w-full flex justify-center  col-span-12 px-0 sm:px-20 py-8 md:py-12">
+    <div       ref={imageRefs.current[1]}
+ className="w-full flex justify-center  col-span-12 px-0 sm:px-20 py-8 md:py-12">
       {/* Grid setup with 2 columns on all screens */}
       <div className="grid w-[900px] grid-cols-1 sm:grid-cols-1 gap-6 p-4 md:p-6 bg-background shadow-lg shadow-white">
         
@@ -189,7 +214,8 @@ height={400}
 
 
 {/* third */}
-    <div className="w-full flex justify-center col-span-12 px-0 sm:px-20 py-8 md:py-12">
+    <div       ref={imageRefs.current[2]}
+ className="w-full flex justify-center col-span-12 px-0 sm:px-20 py-8 md:py-12">
       {/* Grid setup with 2 columns on all screens */}
       <div className="grid w-[900px] grid-cols-1 sm:grid-cols-1 gap-6 p-4 md:p-6 bg-background shadow-lg shadow-white">
         
@@ -224,7 +250,8 @@ height={400}
     </div>
 
 {/* fourth */}
-    <div className="w-full flex justify-center col-span-12 px-0 sm:px-20 py-8 md:py-12">
+    <div       ref={imageRefs.current[3]}
+ className="w-full flex justify-center col-span-12 px-0 sm:px-20 py-8 md:py-12">
       {/* Grid setup with 2 columns on all screens */}
       <div className="grid w-[900px] grid-cols-1 sm:grid-cols-1 gap-6 p-4 md:p-6 bg-background shadow-lg shadow-white">
         
@@ -259,7 +286,8 @@ height={400}
     </div>
 
 {/* fifth */}
-    <div className="w-full flex justify-center col-span-12 px-0 sm:px-20 py-8 md:py-12">
+    <div       ref={imageRefs.current[4]}
+ className="w-full flex justify-center col-span-12 px-0 sm:px-20 py-8 md:py-12">
       {/* Grid setup with 2 columns on all screens */}
       <div className="grid w-[900px] grid-cols-1 sm:grid-cols-1 gap-6 p-4 md:p-6 bg-background shadow-lg shadow-white">
         
@@ -294,7 +322,8 @@ height={400}
     </div>
 
 {/* sixth */}
-<div className="w-full flex justify-center col-span-12 px-0 sm:px-20 py-8 md:py-12 ">
+<div       ref={imageRefs.current[5]}
+ className="w-full flex justify-center col-span-12 px-0 sm:px-20 py-8 md:py-12 ">
       {/* Grid setup with 2 columns on all screens */}
       <div className="grid w-[900px] grid-cols-1 sm:grid-cols-1 gap-6 p-4 md:p-6 bg-background shadow-lg shadow-white">
         

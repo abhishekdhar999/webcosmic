@@ -1,10 +1,38 @@
+"use client"
+import { useRef,useEffect } from "react";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image"; // Importing Next.js Image component
 import { BsBoxArrowInUpRight } from "react-icons/bs";
 import { IoArrowRedo } from "react-icons/io5";
+import gsap from "gsap";
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
 
 export const ServicesSection = () => {
+  const imageRef = useRef(null);
+
+  useEffect(() => {
+    gsap.fromTo(
+      imageRef.current,
+      { x: '100%', opacity: 0 }, // Initial state: off-screen to the right
+      {
+        x: '0%', // Final state: in the correct position
+        opacity: 1,
+        duration: 1.5,
+        ease: 'power2.out',
+        scrollTrigger: {
+          trigger: imageRef.current,
+          start: 'top bottom', // Start the animation when the image is 80% from the top of the viewport
+          end: 'top top', // End the animation when the image is 30% from the top of the viewport
+          scrub: true, // Smooth scrolling animation
+          markers:true,
+        },
+      }
+    );
+  }, []);
+
   return (
     <>
       <div className="flex flex-col md:flex-row justify-center items-center md:mx-auto mx-0 md:space-x-4 space-y-6 md:space-y-0 my-12">
@@ -64,13 +92,14 @@ export const ServicesSection = () => {
             </div>
 
             {/* Event Image */}
-            <div className="relative sm:p-4 sm:my-6 text-heading-white col-start-6 col-end-10 mr-auto">
+            <div  className="relative sm:p-4 sm:my-6 text-heading-white col-start-6 col-end-10 mr-auto">
               <a
                 href="https://bioquench.in/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Image
+                ref={imageRef}
                   src="/workImages/bioquench.jpg" // Corrected image path
                   alt="Event 1"
                   className="w-full h-auto max-w-full rounded-lg object-cover shadow-md transition-transform transform hover:scale-105 duration-300"
