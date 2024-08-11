@@ -21,7 +21,7 @@ export default function Productspage() {
     <>
       {/* Heading Section */}
       <div className="flex flex-col lg:flex-row justify-center items-center text-center mx-4 sm:mx-8 md:mx-24 lg:mx-40 my-16 lg:my-24  overflow-hidden">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-thin">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-thin ">
           We engineer one-of-a-kind websites with a focus on these core principles
         </h1>
         <span className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl mt-8 lg:mt-0 lg:ml-8">

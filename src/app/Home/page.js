@@ -1,4 +1,5 @@
 "use client";
+import { Whisper } from "next/font/google";
 import React, { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { FaArrowCircleRight } from "react-icons/fa";
@@ -35,7 +36,7 @@ export default function Homepage({loading}) {
     <>
 
 
-      <div className="flex flex-col md:flex-row justify-center items-center h-[100vh]   lg:px-16 md:mt-0  mt-[50px] ">
+      <div className="flex mt-[130px] md:mb-0  mb-60 flex-col-reverse md:flex-row justify-center items-center h-[100vh]   lg:px-16 md:mt-0  sm:mt-[100px] ">
   {/* Left Section */}
   <div className="relative lg:w-1/2 md:w-2/3 flex flex-col justify-center items-start space-y-6 p-6 mx-2">
   {/* Decorative Gradient Circles */}
@@ -44,9 +45,12 @@ export default function Homepage({loading}) {
 
   {/* Heading */}
   <div className="heading text-center md:text-left p-1">
-    <h1 className="head-1 text-[45px] md:text-6xl lg:text-8xl font-extrabold  text-yellow-500 sm:text-yellow-600  leading-tight mb-4">
-      WEBCOSMIC
-    </h1>
+  <h1 className=" text-4xl sm:text-6xl md:hidden block md:text-6xl lg:text-8xl  bg-gradient-to-r from-purple-500 to-indigo-600 bg-clip-text text-transparent leading-tight mb-4  ">
+  WEBCOSMIC
+</h1>
+  <h1 className="teko md:block hidden sm:text-4xl md:text-6xl lg:text-8xl  bg-gradient-to-r from-purple-500 to-indigo-600 bg-clip-text text-transparent leading-tight mb-4  ">
+  WEBCOSMIC
+</h1>
   </div>
 
   {/* Animated List */}
@@ -57,14 +61,14 @@ export default function Homepage({loading}) {
   </div>
 
   {/* Descriptive Text */}
-  <div className="text text-center ml-2 md:text-left text-gray-700 dark:text-yellow-100 max-w-xl text-xl leading-relaxed md:block hidden">
-    <p className=" font-serif">
+  <div className=" text-center ml-2 md:text-left text-gray-700 dark:text-gray-100 max-w-xl text-xl leading-relaxed md:block hidden">
+    <p className="teko">
       Lets face it, first impressions matter. Your websites an opportunity to wow your audience, so why choose bad design? Brands win over fans when they are brave enough to go beyond their creative comfort zone.
     </p>
   </div>
 
   {/* Button */}
-  <div className="button sm:flex justify-center my-6 hidden ">
+  <div className="button sm:flex justify-center my-6  ">
     <Link href={"Contacts"}>
     <button className="flex bg-gradient-to-r from-purple-500 to-indigo-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:shadow-lg hover:from-indigo-600 hover:to-purple-500 transition-all duration-300 ease-in-out focus:outline-none focus:ring-4 focus:ring-purple-200">
       <span>Start Your Project</span>
@@ -75,7 +79,7 @@ export default function Homepage({loading}) {
 </div>
 
   {/* Right Section (3D Model) */}
-  <div className="md:w-1/2   w-full  h-full justify-center items-center">
+  <div className="md:w-1/2 md:mt-0 sm:mt-44   w-full  h-full justify-center items-center">
     <Model />
   </div>
 </div>

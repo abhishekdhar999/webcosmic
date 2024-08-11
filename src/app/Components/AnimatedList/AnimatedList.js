@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import { Whisper } from 'next/font/google';
 const AnimatedList = () => {
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [currentCharIndex, setCurrentCharIndex] = useState(0);
@@ -34,8 +34,8 @@ const AnimatedList = () => {
 
   return (
     <div className=''>
-      <div className='we-left  mx-6 text-lg font-semibold'>
-        Crafting the <span className='text-[#7938c9] rounded-lg border-[#7938c9] border-2 p-2'>{displayedText}</span> one pixel at a time
+      <div className='we-left  mx-6 text-lg font-semibold text-gray-100'>
+        Crafting the <span className='whisper text-purple-400 rounded-lg border-purple-400 border-2 p-2 '>{displayedText}</span> one pixel at a time
         </div>
       <div className='right mx-6 '>
         <div className="typewriter text-5xl font-extrabold ">

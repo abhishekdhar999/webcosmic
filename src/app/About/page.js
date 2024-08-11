@@ -41,7 +41,7 @@ const About = () => {
 
     {/* <!-- Right Section --> */}
     <div className="right flex-1 w-full md:w-1/2">
-      <p className="font-thin text-lg text-center md:text-left">
+      <p className="font-thin text-lg text-center md:text-left teko text-gray-300">
       At Webcosmic, our clients are at the heart of everything we do. We pride ourselves on building lasting partnerships through transparency, trust, and dedication. Our team is committed to delivering reliable solutions that are tailored to your specific needs, ensuring your success every step of the way.
       </p>
     </div>
@@ -71,10 +71,10 @@ const About = () => {
 
   {/* Text Section (Right Side) */}
   <div className="md:w-2/3 lg:w-3/5 md:pl-8 mt-6 md:mt-0 max-w-lg">
-    <h2 className="text-3xl md:text-4xl font-syne mb-4 p-2 capsule-background text-center md:text-left">
+    <h2 className="text-3xl md:text-4xl font-syne mb-4 p-2 capsule-background text-center md:text-left teko">
       Our Approach
     </h2>
-    <p className="text-lg md:text-xl font-thin leading-relaxed text-center md:text-left text-gray-400">
+    <p className="text-lg md:text-xl font-thin leading-relaxed text-center md:text-left text-gray-400 teko ">
     At WebCosmic, we believe in a world where digital interactions are seamless and meaningful. Our vision is to bridge the gap between technology and human experience, creating digital ecosystems that empower businesses and enrich lives. We strive to push the boundaries of whats possible, fostering a culture of continuous learning and adaptation in an ever-evolving digital world.
     </p>
   </div>
@@ -107,10 +107,10 @@ const About = () => {
 
   {/* Text Section (Right Side) */}
   <div className="md:w-2/3 lg:w-3/5 md:pl-8 mt-6 md:mt-0 max-w-lg">
-    <h2 className="text-3xl md:text-4xl font-syne mb-4 p-2 capsule-background text-center md:text-left">
+    <h2 className="text-3xl md:text-4xl font-syne mb-4 p-2 capsule-background text-center md:text-left  teko">
       Our Mission
     </h2>
-    <p className="text-lg md:text-xl font-thin leading-relaxed text-center md:text-left text-gray-400">
+    <p className="text-lg md:text-xl font-thin leading-relaxed text-center md:text-left text-gray-400 teko ">
     Our mission is to empower brands by unlocking their true potential in the digital realm. We are dedicated to delivering innovative solutions that drive growth, enhance brand identity, and create memorable experiences for users. By aligning our expertise with your business goals, we aim to be a catalyst for your success, enabling you to thrive in the digital age.
     </p>
   </div>
@@ -122,10 +122,10 @@ const About = () => {
 
   {/* Text Section (Right Side) */}
   <div className="md:w-2/3 lg:w-3/5 md:pl-8 mt-6 md:mt-0 max-w-lg">
-    <h2 className="text-3xl md:text-4xl font-syne mb-4 p-2 capsule-background text-center md:text-left">
+    <h2 className="text-3xl md:text-4xl font-syne mb-4 p-2 capsule-background text-center md:text-left  teko">
       Our Vision
     </h2>
-    <p className="text-lg md:text-xl font-thin leading-relaxed text-center md:text-left text-gray-400">
+    <p className="text-lg md:text-xl font-thin leading-relaxed text-center md:text-left text-gray-400 teko">
     At WebCosmic, we envision a digital world where creativity knows no bounds and technology is a bridge to infinite possibilities. We are committed to pushing the boundaries of whats possible, creating digital landscapes that inspire and engage. Our goal is to lead the charge in innovation, ensuring our clients are always at the forefront of the digital frontier. Join us as we journey into a future filled with endless opportunities, where your ideas can truly shine and make an impact.
     </p>
   </div>

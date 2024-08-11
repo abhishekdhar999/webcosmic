@@ -1,6 +1,6 @@
-import React from 'react';
-import Image from 'next/image';
-import Navbar from '../Components/Navbar/Navbar';
+import React from react;
+import Image from next/image;
+import Navbar from "../Components/Navbar/Navbar";
 export default function Page() {
   return (
     <>
@@ -18,18 +18,18 @@ export default function Page() {
 
       <div className="text p-4 sm:p-8 lg:p-12 max-w-4xl mx-auto">
         <h1 className="heading text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-gray-900 dark:text-white">
-          Web Development Trends Small Business Owners Can't Afford to Overlook in 2024
+          Web Development Trends Small Business Owners Cant Afford to Overlook in 2024
         </h1>
 
-        <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
-          <span className="font-semibold text-gray-900 dark:text-white">Introduction:</span> In 2024, remaining abreast of the latest web development trends is what small business owners must do to stay ahead. Of course, these trends will evolve with the changing user expectations and cutting-edge technologies that massively influence your online presence and business growth. So, are you ready to let your website be the very first in innovation? Here's a look at the top web development trends you can't afford to ignore this year.
+        <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed ">
+          <span className="font-semibold text-gray-900 dark:text-white">Introduction:</span> In 2024, remaining abreast of the latest web development trends is what small business owners must do to stay ahead. Of course, these trends will evolve with the changing user expectations and cutting-edge technologies that massively influence your online presence and business growth. So, are you ready to let your website be the very first in innovation? Heres a look at the top web development trends you cant afford to ignore this year.
         </p>
 
         <h2 className="text-2xl sm:text-3xl font-semibold mt-8 mb-4 text-gray-900 dark:text-white">
           1. Progressive Web Apps: The Best of Both Worlds
         </h2>
         <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
-          Progressive Web Apps give you the features that a native app has, but with the reach of a website. Here's why you want them in your life:
+          Progressive Web Apps give you the features that a native app has, but with the reach of a website. Heres why you want them in your life:
         </p>
         <ul className="list-disc pl-6 mt-4">
           <li className="mt-2">
@@ -57,7 +57,7 @@ export default function Page() {
             <span className="font-semibold text-gray-900 dark:text-white">FAQ Sections:</span> After developing thorough FAQ sections, answer frequently asked questions using voice search queries, answering them in conversational form.
           </li>
           <li className="mt-2">
-            <span className="font-semibold text-gray-900 dark:text-white">Local SEO:</span> Make sure you're optimized for local search since most of the voice searches are location-based.
+            <span className="font-semibold text-gray-900 dark:text-white">Local SEO:</span> Make sure youre optimized for local search since most of the voice searches are location-based.
           </li>
         </ul>
 
@@ -119,7 +119,7 @@ export default function Page() {
           6. Interactives and Immersives: Engage Users Like Never Before
         </h2>
         <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
-          Developing interactives and immersives will blow your audience's minds and really engage them:
+          Developing interactives and immersives will blow your audiences minds and really engage them:
         </p>
         <ul className="list-disc pl-6 mt-4">
           <li className="mt-2">

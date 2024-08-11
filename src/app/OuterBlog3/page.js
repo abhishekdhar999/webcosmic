@@ -22,14 +22,14 @@ export default function Page() {
         </h1>
 
         <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-          <span className="font-semibold text-gray-900 dark:text-white">Introduction:</span> In the ever-evolving digital landscape of 2024, a small business’s website is its most powerful asset. But with so many changes and innovations, how can you ensure your online presence stands out and drives growth? From sleek design to smart functionality, the right web development strategies can turn your website into a magnet for customers. Ready to elevate your business? Dive into these essential web development tips to catapult your small business to new heights this year!
+          <span className="font-semibold text-gray-900 dark:text-white">Introduction:</span> In the ever-evolving digital landscape of 2024, a small businesss website is its most powerful asset. But with so many changes and innovations, how can you ensure your online presence stands out and drives growth? From sleek design to smart functionality, the right web development strategies can turn your website into a magnet for customers. Ready to elevate your business? Dive into these essential web development tips to catapult your small business to new heights this year!
         </p>
 
         <h2 className="text-2xl sm:text-3xl font-semibold mt-8 mb-4 text-gray-900 dark:text-white">
           1. Go Mobile-First: Capture Your Audience on the Go
         </h2>
         <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-          With mobile internet usage surpassing desktop, a mobile-first approach isn’t just smart—it’s essential. A mobile-friendly site ensures that your customers have a seamless experience no matter what device they’re using. Here’s how to get it right:
+          With mobile internet usage surpassing desktop, a mobile-first approach isnt just smart—its essential. A mobile-friendly site ensures that your customers have a seamless experience no matter what device theyre using. Heres how to get it right:
         </p>
         <ul className="list-disc pl-6 mb-6">
           <li className="mt-2">
@@ -47,11 +47,11 @@ export default function Page() {
           2. Craft Compelling Content: Engage and Convert
         </h2>
         <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-          Content is king, but only if it’s compelling and relevant. Create engaging content that speaks directly to your audience’s needs and interests:
+          Content is king, but only if its compelling and relevant. Create engaging content that speaks directly to your audiences needs and interests:
         </p>
         <ul className="list-disc pl-6 mb-6">
           <li className="mt-2">
-            <span className="font-semibold text-gray-900 dark:text-white">High-Quality Visuals:</span> Use professional images and videos to capture attention and enhance your brand’s appeal.
+            <span className="font-semibold text-gray-900 dark:text-white">High-Quality Visuals:</span> Use professional images and videos to capture attention and enhance your brands appeal.
           </li>
           <li className="mt-2">
             <span className="font-semibold text-gray-900 dark:text-white">Valuable Blog Posts:</span> Share insights, tips, and stories that provide value and establish your expertise in your industry.
@@ -65,7 +65,7 @@ export default function Page() {
           3. Leverage SEO Magic: Boost Your Online Visibility
         </h2>
         <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-          Search Engine Optimization (SEO) is your ticket to higher search rankings and increased traffic. Here’s how to work your SEO magic:
+          Search Engine Optimization (SEO) is your ticket to higher search rankings and increased traffic. Heres how to work your SEO magic:
         </p>
         <ul className="list-disc pl-6 mb-6">
           <li className="mt-2">
@@ -83,7 +83,7 @@ export default function Page() {
           4. Integrate E-Commerce Savvy: Expand Your Sales Horizons
         </h2>
         <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-          For many small businesses, expanding into e-commerce can be a game-changer. Here’s how to do it right:
+          For many small businesses, expanding into e-commerce can be a game-changer. Heres how to do it right:
         </p>
         <ul className="list-disc pl-6 mb-6">
           <li className="mt-2">
@@ -119,7 +119,7 @@ export default function Page() {
           6. Stay Secure: Protect Your Business and Customers
         </h2>
         <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-          Website security is crucial in today’s digital environment. Safeguard your site with these best practices:
+          Website security is crucial in todays digital environment. Safeguard your site with these best practices:
         </p>
         <ul className="list-disc pl-6 mb-6">
           <li className="mt-2">
@@ -134,7 +134,7 @@ export default function Page() {
         </ul>
 
         <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mt-6">
-          <span className="font-semibold text-gray-900 dark:text-white">Conclusion:</span> In 2024, a well-developed website is more than just a digital storefront—it’s a dynamic tool for driving growth and success. By embracing a mobile-first approach, crafting compelling content, leveraging SEO, integrating e-commerce, enhancing user experience, and prioritizing security, you can transform your small business website into a powerful asset.
+          <span className="font-semibold text-gray-900 dark:text-white">Conclusion:</span> In 2024, a well-developed website is more than just a digital storefront—its a dynamic tool for driving growth and success. By embracing a mobile-first approach, crafting compelling content, leveraging SEO, integrating e-commerce, enhancing user experience, and prioritizing security, you can transform your small business website into a powerful asset.
         </p>
         <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mt-4">
           Ready to take your business to the next level? Implement these essential web development tips and watch your online presence thrive in the new year!

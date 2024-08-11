@@ -28,10 +28,10 @@ export const ServicesSection = () => {
           <div className="flex md:contents flex-row-reverse items-center">
             {/* Event Description for larger screens */}
             <div className="relative p-4 my-6 text-heading-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto hidden md:block">
-              <h3 className="text-lg font-medium md:text-3xl lg:text-4xl">
+              <h3 className="text-lg font-medium md:text-3xl lg:text-4xl teko">
                 BIOQUENCH
               </h3>
-              <p className="mt-2 sm:block hidden leading-6 text-base font-thin">
+              <p className="mt-2 sm:block hidden leading-6 text-base font-thin teko text-gray-300">
                 BioQuench offers advanced hydration solutions designed to
                 enhance well-being through pure, filtered water. Committed to
                 sustainability and innovation, BioQuench ensures high-quality
@@ -113,10 +113,10 @@ export const ServicesSection = () => {
 
             {/* Event Description for larger screens */}
             <div className="relative p-4 my-6 text-heading-white rounded-xl col-start-6 col-end-10 mr-auto hidden md:block">
-              <h3 className="text-lg font-medium md:text-3xl lg:text-4xl">
+              <h3 className="text-lg font-medium md:text-3xl lg:text-4xl  teko">
                 ELITE MUSCLE
               </h3>
-              <p className="mt-2 leading-6 text-base font-thin">
+              <p className="mt-2 leading-6 text-base font-thin teko text-gray-300">
                 Elite Muscle specializes in premium sports nutrition and fitness
                 supplements tailored to support intense training and optimal
                 performance. With a focus on quality and efficacy, Elite Muscle
@@ -145,10 +145,10 @@ export const ServicesSection = () => {
           <div className="flex md:contents flex-row-reverse items-center">
             {/* Event Description for larger screens */}
             <div className="relative p-4 my-6 text-heading-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto hidden md:block">
-              <h3 className="text-lg font-medium md:text-3xl lg:text-4xl">
+              <h3 className="text-lg font-medium md:text-3xl lg:text-4xl teko">
                 BETR
               </h3>
-              <p className="mt-2 leading-6 text-base font-thin">
+              <p className="mt-2 leading-6 text-base font-thin teko text-gray-300">
                 Established in 2024. BETR. IndiaFoodworks is an innovative force
                 poised to make significant strides across diverse F&B sectors.
                 The company envisions a dynamic presence in multiple verticals

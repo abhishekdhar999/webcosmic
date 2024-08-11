@@ -67,10 +67,10 @@ function OurServicesComponent({ loading }) {
                   <div className="w-full shadow-lg shadow-purple-400 bg-black flex flex-col md:flex-row rounded-2xl mx-4 md:mx-12 lg:mx-36 my-8">
                     {/* <!-- Left Section --> */}
                     <div className="left md:w-1/2 w-full my-8 md:my-24 mx-4 md:mx-6 p-2">
-                      <h1 className="text-2xl md:text-3xl font-extrabold text-left justify-center mb-4 md:mb-6">
+                      <h1 className="teko text-2xl md:text-3xl font-extrabold text-left justify-center mb-4 md:mb-6">
                         Web Design & Development
                       </h1>
-                      <p className="text-left font-thin text-sm md:text-base leading-6 md:leading-7 sm:block hidden">
+                      <p className="teko text-left font-thin text-sm md:text-base leading-6 md:leading-7 sm:block hidden">
                         Building Digital Excellence. Our team of expert
                         developers and designers is dedicated to crafting
                         personalized web solutions that elevate your brands
@@ -88,19 +88,19 @@ function OurServicesComponent({ loading }) {
                         <div className="flex flex-col md:flex-row md:flex-wrap my-4 md:my-8 gap-3">
                           {/* <!-- First Row of Buttons --> */}
                           <div className="flex flex-wrap gap-3">
-                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out">
+                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out teko">
                               Creative Web Design
                             </span>
-                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out">
+                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out teko">
                               Web Development
                             </span>
                           </div>
                           {/* <!-- Second Row of Buttons --> */}
                           <div className="flex sm:flex-wrap flex-col sm:flex-row gap-3 mt-3 md:mt-0">
-  <span className="inline-block rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out w-[200px] sm:w-auto">
+  <span className="inline-block rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out w-[200px] sm:w-auto teko">
     E-commerce Website
   </span>
-  <span className="inline-block rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out w-[120px] sm:w-auto">
+  <span className="inline-block rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out w-[120px] sm:w-auto teko">
     WordPress
   </span>
 </div>
@@ -122,13 +122,13 @@ function OurServicesComponent({ loading }) {
 
                 {/* Second Service Section */}
                 <div className="scroll-section">
-                  <div className="w-full shadow-lg shadow-purple-400 bg-black flex flex-col md:flex-row rounded-2xl mx-1 md:mx-12 lg:mx-36 my-8">
+                  <div className="w-full shadow-lg shadow-purple-400 bg-black flex flex-col md:flex-row rounded-2xl mx-1 md:mx-12 lg:mx-36 my-8 p-6">
                     {/* <!-- Left Section --> */}
                     <div className="left md:w-1/2 w-full my-8 md:my-24 mx-4 md:mx-6">
-                      <h1 className="text-2xl md:text-3xl font-extrabold text-left justify-center mb-4 md:mb-6">
+                      <h1 className="text-2xl md:text-3xl font-extrabold text-left justify-center mb-4 md:mb-6 teko">
                         Digital Marketing
                       </h1>
-                      <p className="text-left font-thin text-sm md:text-base leading-6 md:leading-7 sm:block hidden">
+                      <p className="text-left font-thin text-sm md:text-base leading-6 md:leading-7 sm:block hidden teko">
                         Driving Success Through Strategy. Our dynamic digital
                         marketing team crafts data-driven campaigns that
                         elevate your brands online presence. We specialize in
@@ -144,19 +144,19 @@ function OurServicesComponent({ loading }) {
                         <div className="flex flex-col md:flex-row md:flex-wrap my-4 md:my-8 gap-3">
                           {/* <!-- First Row of Buttons --> */}
                           <div className="flex flex-wrap gap-3">
-                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out">
+                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out teko">
                               Motion Graphics
                             </span>
-                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out">
+                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out teko">
                               Creative Campaigns
                             </span>
                           </div>
                           {/* <!-- Second Row of Buttons --> */}
                           <div className="flex flex-wrap gap-3 mt-3 md:mt-0">
-                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out">
+                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out teko">
                               Marketing Support
                             </span>
-                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out">
+                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out teko">
                               Search Engine Optimization
                             </span>
                           </div>
@@ -182,10 +182,10 @@ function OurServicesComponent({ loading }) {
                   <div className="w-full shadow-lg shadow-purple-400 bg-black flex flex-col md:flex-row rounded-2xl mx-6 md:mx-12 lg:mx-36 my-8">
                     {/* <!-- Left Section --> */}
                     <div className="left md:w-1/2 w-full my-8 md:my-24 mx-4 md:mx-6">
-                      <h1 className="text-2xl md:text-3xl font-extrabold text-left justify-center mb-4 md:mb-6">
+                      <h1 className="text-2xl md:text-3xl font-extrabold text-left justify-center mb-4 md:mb-6 teko">
                         Branding
                       </h1>
-                      <p className="text-left font-thin text-sm md:text-base leading-6 md:leading-7 sm:block hidden ">
+                      <p className="text-left font-thin text-sm md:text-base leading-6 md:leading-7 sm:block hidden teko">
                       At the heart of every successful business is a captivating brand. Our branding solutions are tailored to capture your essence and vision, translating them into compelling visuals and messaging. We specialize in crafting logos, taglines, and brand guidelines that not only look great but also communicate your unique story. Whether youre a startup or an established company, our goal is to enhance your brands presence and connect with your audience on a deeper level.
                       </p>
 
@@ -194,19 +194,19 @@ function OurServicesComponent({ loading }) {
                         <div className="flex flex-col md:flex-row md:flex-wrap my-4 md:my-8 gap-3">
                           {/* <!-- First Row of Buttons --> */}
                           <div className="flex flex-wrap gap-3">
-                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out sm:w-auto w-[200px]">
+                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out sm:w-auto w-[200px] teko">
                               Brand strategy
                             </span>
-                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out">
+                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out teko">
                               Tone of voice
                             </span>
                           </div>
                           {/* <!-- Second Row of Buttons --> */}
                           <div className="flex flex-wrap gap-3 mt-3 md:mt-0">
-                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out">
+                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out teko">
                               Visual identity
                             </span>
-                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out">
+                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out teko">
                               Press/News Release
                             </span>
                           </div>
@@ -232,10 +232,10 @@ function OurServicesComponent({ loading }) {
                   <div className="w-full shadow-lg shadow-purple-400 bg-black flex flex-col md:flex-row rounded-2xl mx-1 md:mx-12 lg:mx-36 my-8">
                     {/* <!-- Left Section --> */}
                     <div className="left md:w-1/2 w-full my-8 md:my-24 mx-4 md:mx-6">
-                      <h1 className="text-2xl md:text-3xl font-extrabold text-left justify-center mb-4 md:mb-6">
+                      <h1 className="text-2xl md:text-3xl font-extrabold text-left justify-center mb-4 md:mb-6 teko">
                         App Design & Development
                       </h1>
-                      <p className="text-left font-thin text-sm md:text-base leading-6 md:leading-7 sm:block hidden">
+                      <p className="text-left font-thin text-sm md:text-base leading-6 md:leading-7 sm:block hidden teko">
                       Transform your ideas into intuitive, user-friendly apps with our app design and development services. Our talented team excels in creating seamless digital experiences across platforms, from iOS to Android, ensuring that your app meets the highest standards of performance and aesthetics. We focus on user-centric designs that enhance engagement and functionality, bringing your vision to life with cutting-edge technology and creativity. Whether its a startup app or a complex enterprise solution, we deliver apps that not only meet but exceed your expectations.
                       </p>
 
@@ -244,19 +244,19 @@ function OurServicesComponent({ loading }) {
                         <div className="flex flex-col md:flex-row md:flex-wrap my-4 md:my-8 gap-3">
                           {/* <!-- First Row of Buttons --> */}
                           <div className="flex flex-wrap gap-3">
-                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out">
+                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out teko">
                               App Development
                             </span>
-                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out">
+                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out teko">
                               Android Application
                             </span>
                           </div>
                           {/* <!-- Second Row of Buttons --> */}
                           <div className="flex flex-wrap gap-3 mt-3 md:mt-0">
-                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out">
+                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out teko">
                               iOS Application
                             </span>
-                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out">
+                            <span className="rounded-full border-2 border-gray-300 text-white px-3 py-1 hover:bg-white hover:text-black font-semibold transition-all duration-300 ease-in-out teko">
                               App Management
                             </span>
                           </div>

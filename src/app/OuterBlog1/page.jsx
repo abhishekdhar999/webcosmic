@@ -18,10 +18,10 @@ export default function Page() {
 
       <div className="text p-4 sm:p-8 lg:p-12 max-w-4xl mx-auto">
         <h1 className="heading text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-gray-900 dark:text-white">
-          How an Outstanding Website Can Skyrocket Your Startup’s Growth!
+          How an Outstanding Website Can Skyrocket Your Startups Growth!
         </h1>
 
-        <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
+        <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed  teko">
           <span className="font-semibold text-gray-900 dark:text-white">Introduction:</span>
           A professional website in today's world of digital business is much more than an electronic pamphlet—a cornerstone of your brand, the look of your business, and a robust channel to attract and retain customers. For new businesses, a well-designed website is required in order to be competitive and stand out in a crowded marketplace. Let's review making a great first impression on the web and the great presentation of information, products, and services that a great website can provide to really energize your new business.
         </p>

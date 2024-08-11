@@ -10,10 +10,15 @@ module.exports = {
   "./src/app/**/*.{js,ts,jsx,tsx,mdx}",],
   
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'edu-vic': ['"Edu VIC WA NT Beginner"', 'cursive'],
+      },
+    },
   },
   variants: {
     extend: {},
   },
   plugins: [],
+  
 }

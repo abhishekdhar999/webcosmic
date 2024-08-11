@@ -76,7 +76,7 @@ link:"https://bioquench.in/"
               <div className="about-heading mb-4">
 
               <div className="about-heading mb-4">
-              <h1 className="text-3xl sm:mt-0 mt-24 md:text-6xl lg:text-7xl font-bold leading-tight sm:px-4 text-gray-800 dark:text-gray-100">
+              <h1 className="text-3xl sm:mt-0 mt-24 md:text-6xl lg:text-7xl font-bold leading-tight sm:px-4 text-gray-800 dark:text-gray-100  teko">
               Explore our curated selection of projects <br className="hidden md:block" />
       <span className=" text-[#9072d1]">
       that showcase our commitment to excellence and innovation.
@@ -109,7 +109,7 @@ link:"https://bioquench.in/"
 
     {/* <!-- Right Section --> */}
     <div className="right flex-1 w-full md:w-1/2">
-      <p className="font-thin text-lg text-center md:text-left">
+      <p className="font-thin text-lg text-center md:text-left text-gray-300 teko">
       As a burgeoning freelance agency, we are committed to providing innovative and reliable solutions tailored to the unique needs of each client. With a strong foundation built on creativity and expertise, we pride ourselves on delivering exceptional service across diverse projects.
       </p>
     </div>
@@ -130,7 +130,7 @@ link:"https://bioquench.in/"
             className="shadow-md rounded-lg overflow-hidden relative group block transition-transform duration-300 hover:scale-105"
           >
             <div className="w-[900px] flex items-center justify-between p-4 bg-white border-t border-r border-l border-gray-600 md:rounded-t-lg">
-              <h3 className="text-lg md:text-xl font-medium text-gray-800">
+              <h3 className="text-lg md:text-xl font-medium text-gray-800  teko">
                 BIOQUENCH
               </h3>
               <p className="text-sm md:text-base font-normal text-gray-600">
@@ -138,9 +138,7 @@ link:"https://bioquench.in/"
               </p>
             </div>
             <div className="aspect-w-4 aspect-h-3 md:rounded-lg relative overflow-hidden">
-              {/* <div className="absolute top-0 left-0 w-full h-full bg-black/80 p-4 md:p-8 opacity-0 transition-opacity duration-300 z-10 flex items-center justify-center text-white group-hover:opacity-100 text-center text-base md:text-lg font-light">
-                {work.description}
-              </div> */}
+              
               <Image
                 src="/workImages/bioquench.jpg"
                 alt="BIOQUENCH"
@@ -165,7 +163,7 @@ link:"https://bioquench.in/"
             className="shadow-md rounded-lg overflow-hidden relative group block transition-transform duration-300 hover:scale-105"
           >
             <div className="flex w-[900px] items-center justify-between p-4 bg-white border-t border-r border-l border-gray-600 md:rounded-t-lg">
-              <h3 className="text-lg md:text-xl font-medium text-gray-800">
+              <h3 className="text-lg md:text-xl font-medium text-gray-800  teko">
                 MAXXON
               </h3>
               <p className="text-sm md:text-base font-normal text-gray-600">
@@ -201,7 +199,7 @@ height={400}
             className="shadow-md rounded-lg overflow-hidden relative group block transition-transform duration-300 hover:scale-105"
           >
             <div className="flex items-center justify-between p-4 bg-white border-t border-r border-l border-gray-600 md:rounded-t-lg">
-              <h3 className="text-lg md:text-xl font-medium text-gray-800">
+              <h3 className="text-lg md:text-xl font-medium text-gray-800  teko">
                 ELITE MUSCLE
               </h3>
               <p className="text-sm md:text-base font-normal text-gray-600">
@@ -236,7 +234,7 @@ height={400}
             className="shadow-md rounded-lg overflow-hidden relative group block transition-transform duration-300 hover:scale-105"
           >
             <div className="flex items-center justify-between p-4 bg-white border-t border-r border-l border-gray-600 md:rounded-t-lg">
-              <h3 className="text-lg md:text-xl font-medium text-gray-800">
+              <h3 className="text-lg md:text-xl font-medium text-gray-800  teko">
                 BETR
               </h3>
               <p className="text-sm md:text-base font-normal text-gray-600">
@@ -271,7 +269,7 @@ height={400}
             className="shadow-md rounded-lg overflow-hidden relative group block transition-transform duration-300 hover:scale-105"
           >
             <div className="flex  items-center justify-between p-4 bg-white border-t border-r border-l border-gray-600 md:rounded-t-lg">
-              <h3 className="text-lg md:text-xl font-medium text-gray-800">
+              <h3 className="text-lg md:text-xl font-medium text-gray-800  teko">
                 TYCOON IMMIGRATION
               </h3>
               <p className="text-sm md:text-base font-normal text-gray-600">
@@ -306,7 +304,7 @@ height={400}
             className=" rounded-lg overflow-hidden relative group block transition-transform duration-300 hover:scale-105 shadow-lg "
           >
             <div className="flex  items-center justify-between p-4 bg-white border-t border-r border-l border-gray-600 md:rounded-t-lg">
-              <h3 className="text-lg md:text-xl font-medium text-gray-800">
+              <h3 className="text-lg md:text-xl font-medium text-gray-800  teko">
                 THE STUDY WAVE
               </h3>
               <p className="text-sm md:text-base font-normal text-gray-600">
@@ -332,7 +330,7 @@ height={400}
 
 <div className='flex justify-center items-center my-6'>
   <Link href={"Contacts"}>
-<button type="button" className="text-gray-300 bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800  rounded-lg  px-6 font-extrabold py-3 text-center me-2 mb-2 text-2xl flex "><span>Start your project</span> <span className='mx-2 mt-1'><FaArrowCircleRight /></span>
+<button type="button" className="text-gray-300 bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800  rounded-lg  px-6 font-extrabold py-3 text-center me-2 mb-2 text-2xl flex  teko"><span>Start your project</span> <span className='mx-2 mt-2'><FaArrowCircleRight /></span>
 </button>
 </Link>
 </div>

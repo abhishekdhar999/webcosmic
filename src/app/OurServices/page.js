@@ -53,7 +53,7 @@ export default function Page() {
 
 
               <div className="about-heading mb-4">
-              <h1 className="text-3xl sm:mt-0 mt-24 md:text-6xl lg:text-7xl font-bold leading-tight px-4 text-gray-800 dark:text-gray-100">
+              <h1 className="text-3xl sm:mt-0 mt-24 md:text-6xl lg:text-7xl font-bold leading-tight px-4 text-gray-800 dark:text-gray-100  teko">
       Experience the Web Like Never Before: <br className="hidden md:block" />
       <span className="text-teal-500 dark:text-teal-300">
         Where the Ordinary Becomes Extraordinary
@@ -94,13 +94,13 @@ export default function Page() {
             {/* <!-- Left Section --> */}
             <div className="left flex  items-center w-full md:w-1/2">
               <div className="border-l-2 border-gray-300 h-full pl-4">
-                <h1 className="text-4xl my-12 font-bold text-left mx-2"><span className='bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text'>S</span>ER<span className='bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text'>V</span>IC<span className='bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text'>E</span>S</h1>
+                <h1 className="text-4xl my-12 font-bold text-left mx-2 "><span className='bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text'>S</span>ER<span className='bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text'>V</span>IC<span className='bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text'>E</span>S</h1>
               </div>
             </div>
 
             {/* <!-- Right Section --> */}
             <div className="right flex-1 w-full md:w-1/2">
-              <p className="font-thin text-lg text-center md:text-left">
+              <p className="font-thin text-lg text-center md:text-left teko text-gray-300">
                 We turn the ordinary into the extraordinary. From website launches to
                 digital marketing, our services are crafted to elevate your brand and
                 drive success. Explore endless possibilities and let your business shine
@@ -112,7 +112,7 @@ export default function Page() {
         <Link href={"/Contacts"}>
           <span className="fixed bottom-8 right-8 bg-gray-400 border-4 border-white rounded-xl shadow-lg p-4">
             <div className="flex items-center space-x-2">
-              <h3 className="text-2xl font-semibold text-white">Start your journey</h3>
+              <h3 className="text-2xl font-semibold text-white  teko">Start your journey</h3>
               <span className="text-3xl text-white">
                 <FiArrowRight />
               </span>
@@ -131,11 +131,11 @@ export default function Page() {
               </span>
               <div className="p-5">
                 <span >
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  teko">
                     WEB DESIGN & DEVELOPMENT
                   </h5>
                 </span>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400  teko">
                   Crafting stunning websites and robust applications to elevate your
                   online presence.
                 </p>
@@ -152,11 +152,11 @@ export default function Page() {
               </span>
               <div className="p-5">
                 <span >
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  teko">
                     APP DESIGN & DEVELOPMENT
                   </h5>
                 </span>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400  teko">
                   Designing intuitive and engaging apps that drive user experience and
                   business growth.
                 </p>
@@ -173,11 +173,11 @@ export default function Page() {
               </span>
               <div className="p-5">
                 <span >
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  teko">
                     DIGITAL MARKETING
                   </h5>
                 </span>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400  teko">
                   Driving growth with strategic digital marketing campaigns that
                   amplify your brands reach.
                 </p>
@@ -197,11 +197,11 @@ export default function Page() {
               </span>
               <div className="p-5">
                 <span >
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  teko">
                     BRANDING
                   </h5>
                 </span>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400  teko">
                   Building impactful brands with distinctive identities and compelling
                   stories.
                 </p>
@@ -218,11 +218,11 @@ export default function Page() {
               </span>
               <div className="p-5">
                 <span >
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  teko">
                     GRAPHIC DESIGNING
                   </h5>
                 </span>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400  teko">
                   Creating persuasive and engaging content that resonates with your
                   audience and enhances your brand.
                 </p>
@@ -239,11 +239,11 @@ export default function Page() {
               </span>
               <div className="p-5">
                 <span >
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  teko">
                     CONTENT WRITING
                   </h5>
                 </span>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400  teko">
                   Designing visually striking graphics that capture attention and
                   communicate your message effectively.
                 </p>
@@ -265,7 +265,7 @@ export default function Page() {
               <div class="flex items-center space-x-4">
 
                 <SiPagespeedinsights class="text-4xl text-gray-900 dark:text-white" />
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Landing Page Development</h5>
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  teko">Landing Page Development</h5>
               </div>
             </a>
 
@@ -275,7 +275,7 @@ export default function Page() {
               <div class="flex items-center space-x-4">
 
                 <CgWebsite class="text-4xl text-gray-900 dark:text-white" />
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">ERP Development</h5>
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  teko">ERP Development</h5>
               </div>
             </a>
 
@@ -285,7 +285,7 @@ export default function Page() {
               <div class="flex items-center space-x-4">
 
                 <IoMdCart class="text-4xl text-gray-900 dark:text-white" />
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">E-Commerce Website</h5>
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  teko">E-Commerce Website</h5>
               </div>
             </a>
 
@@ -298,7 +298,7 @@ export default function Page() {
               <div class="flex items-center space-x-4">
 
                 <FaCode class="text-4xl text-gray-900 dark:text-white" />
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Web Designing & Development</h5>
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  teko">Web Designing & Development</h5>
               </div>
             </a>
 
@@ -320,7 +320,7 @@ export default function Page() {
                 <div class="flex items-center space-x-4">
 
                   <MdEmail class="text-4xl text-gray-900 dark:text-white" />
-                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">SMO-Social Media Management</h5>
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  teko">SMO-Social Media Management</h5>
                 </div>
               </a>
 
@@ -329,7 +329,7 @@ export default function Page() {
               <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md shadow-green-300 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <div class="flex items-center space-x-4">
                   <FaSearch class="text-4xl text-gray-900 dark:text-white" />
-                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">SEO - Search Engine Optimization</h5>
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  teko">SEO - Search Engine Optimization</h5>
                 </div>
               </a>
 
@@ -338,7 +338,7 @@ export default function Page() {
               <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md shadow-green-300 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <div class="flex items-center space-x-4">
                   <MdEmail class="text-4xl text-gray-900 dark:text-white" />
-                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Email Marketing Services</h5>
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  teko">Email Marketing Services</h5>
                 </div>
               </a>
 
@@ -350,7 +350,7 @@ export default function Page() {
               <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md shadow-green-300 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <div class="flex items-center space-x-4">
                   <BsFillMouse3Fill class="text-4xl text-gray-900 dark:text-white" />
-                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">PPC-Pay Per Click Advertising</h5>
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  teko">PPC-Pay Per Click Advertising</h5>
                 </div>
               </a>
 
@@ -359,14 +359,14 @@ export default function Page() {
               <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md shadow-green-300 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <div class="flex items-center space-x-4">
                   <BsGraphUpArrow class="text-4xl text-gray-900 dark:text-white" />
-                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">SMM - Social Media Marketing Services</h5>
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  teko">SMM - Social Media Marketing Services</h5>
                 </div>
               </a>
 
               <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md shadow-green-300 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <div class="flex items-center space-x-4">
                   <MdOutlineMessage class="text-4xl text-gray-900 dark:text-white" />
-                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">SMS,Whatsapp & Calls(IVR) Marketing</h5>
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white teko">SMS,Whatsapp & Calls(IVR) Marketing</h5>
                 </div>
               </a>
 
@@ -386,7 +386,7 @@ export default function Page() {
             <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md shadow-green-300 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <div class="flex items-center space-x-4">
                 <SiGooglemaps class="text-4xl text-gray-900 dark:text-white" />
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Google Maps & Reviews</h5>
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  teko">Google Maps & Reviews</h5>
               </div>
             </a>
 
@@ -395,7 +395,7 @@ export default function Page() {
             <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md shadow-green-300 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <div class="flex items-center space-x-4">
                 <MdBroadcastOnPersonal class="text-4xl text-gray-900 dark:text-white" />
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Personal Branding</h5>
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white teko">Personal Branding</h5>
               </div>
             </a>
 
@@ -404,7 +404,7 @@ export default function Page() {
             <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md shadow-green-300 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <div class="flex items-center space-x-4">
                 <GiWireframeGlobe class="text-4xl text-gray-900 dark:text-white" />
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Online Reputation Management</h5>
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  teko">Online Reputation Management</h5>
               </div>
             </a>
 
@@ -416,7 +416,7 @@ export default function Page() {
             <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md shadow-green-300 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <div class="flex items-center space-x-4">
                 <FaNewspaper class="text-4xl text-gray-900 dark:text-white" />
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Press Release & News Publishing</h5>
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white teko">Press Release & News Publishing</h5>
               </div>
             </a>
 
@@ -437,7 +437,7 @@ export default function Page() {
           <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md shadow-green-300 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
             <div class="flex items-center space-x-4">
               <FaFileAlt class="text-4xl text-gray-900 dark:text-white" />
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Content Writing</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white teko">Content Writing</h5>
             </div>
           </a>
 
@@ -446,7 +446,7 @@ export default function Page() {
           <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md shadow-green-300 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
             <div class="flex items-center space-x-4">
               <FiVideo class="text-4xl text-gray-900 dark:text-white" />
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Video Creation/Editing</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white teko">Video Creation/Editing</h5>
             </div>
           </a>
 
@@ -455,7 +455,7 @@ export default function Page() {
           <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md shadow-green-300 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
             <div class="flex items-center space-x-4">
               <FaBloggerB class="text-4xl text-gray-900 dark:text-white" />
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Blog Management/Content Marketing</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white teko">Blog Management/Content Marketing</h5>
             </div>
           </a>
         </div>
@@ -474,14 +474,14 @@ export default function Page() {
           <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md shadow-green-300 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
             <div class="flex items-center space-x-4">
               <ImAndroid class="text-4xl text-gray-900 dark:text-white" />
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Android Application Development</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white teko">Android Application Development</h5>
             </div>
           </a>
 
           <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md shadow-green-300 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
             <div class="flex items-center space-x-4">
               <FaApple class="text-4xl text-gray-900 dark:text-white" />
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">iOS Application Development</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white teko">iOS Application Development</h5>
             </div>
           </a>
 
@@ -502,7 +502,7 @@ export default function Page() {
           <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md shadow-green-300 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
             <div class="flex items-center space-x-4">
               <IoIosCreate class="text-4xl text-gray-900 dark:text-white" />
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Logo Designing</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white teko">Logo Designing</h5>
             </div>
           </a>
 
@@ -511,7 +511,7 @@ export default function Page() {
           <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md shadow-green-300 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
             <div class="flex items-center space-x-4">
               <AiOutlinePicture class="text-4xl text-gray-900 dark:text-white" />
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Poster Designing</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white teko">Poster Designing</h5>
             </div>
           </a>
 
@@ -520,7 +520,7 @@ export default function Page() {
           <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md shadow-green-300 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
             <div class="flex items-center space-x-4">
               <MdLightbulbCircle class="text-4xl text-gray-900 dark:text-white" />
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Add Creative Designing</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white teko">Add Creative Designing</h5>
             </div>
           </a>
 
