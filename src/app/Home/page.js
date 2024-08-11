@@ -36,7 +36,7 @@ export default function Homepage({loading}) {
     <>
 
 
-      <div className="flex mt-[130px] md:mb-0  mb-60 flex-col-reverse md:flex-row justify-center items-center h-[100vh]   lg:px-16 md:mt-0  sm:mt-[100px] ">
+      <div className="flex mt-[70px] md:mb-0  mb-60 flex-col-reverse md:flex-row justify-center items-center h-[100vh]   lg:px-16 md:mt-0  sm:mt-[30px] ">
   {/* Left Section */}
   <div className="relative lg:w-1/2 md:w-2/3 flex flex-col justify-center items-start space-y-6 p-6 mx-2">
   {/* Decorative Gradient Circles */}
