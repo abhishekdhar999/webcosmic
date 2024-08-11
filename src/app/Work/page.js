@@ -33,7 +33,7 @@ export default function Page() {
             start: 'top 80%', // Start the animation when the image is 80% from the top of the viewport
             end: 'top 20%', // End the animation when the image is 30% from the top of the viewport
             scrub: true, // Smooth scrolling animation
-            markers: true, // Debugging markers to see when the trigger starts and ends
+             // Debugging markers to see when the trigger starts and ends
           },
         }
       );
