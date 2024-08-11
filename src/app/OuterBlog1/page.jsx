@@ -1,6 +1,6 @@
-import React from 'react';
-import Image from 'next/image';
-import Navbar from '../Components/Navbar/Navbar';
+import React from "react";
+import Image from "next/image";
+import Navbar from "../Components/Navbar/Navbar";
 export default function Page() {
   return (
     <>
@@ -23,11 +23,11 @@ export default function Page() {
 
         <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed  teko">
           <span className="font-semibold text-gray-900 dark:text-white">Introduction:</span>
-          A professional website in today's world of digital business is much more than an electronic pamphlet—a cornerstone of your brand, the look of your business, and a robust channel to attract and retain customers. For new businesses, a well-designed website is required in order to be competitive and stand out in a crowded marketplace. Let's review making a great first impression on the web and the great presentation of information, products, and services that a great website can provide to really energize your new business.
+          A professional website in todays world of digital business is much more than an electronic pamphlet—a cornerstone of your brand, the look of your business, and a robust channel to attract and retain customers. For new businesses, a well-designed website is required in order to be competitive and stand out in a crowded marketplace. Lets review making a great first impression on the web and the great presentation of information, products, and services that a great website can provide to really energize your new business.
         </p>
 
         <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mt-6">
-          <span className="font-semibold text-gray-900 dark:text-white">First Impressions Last:</span> Engage Your Audience from the Very Beginning. Your website is probably the first point of contact between your business and potential customers. You want to leave a good first impression. Here's how you can make sure your website will impress them right from the outset:
+          <span className="font-semibold text-gray-900 dark:text-white">First Impressions Last:</span> Engage Your Audience from the Very Beginning. Your website is probably the first point of contact between your business and potential customers. You want to leave a good first impression. Heres how you can make sure your website will impress them right from the outset:
         </p>
 
         <ul className="list-disc pl-6 mt-4">
@@ -43,12 +43,12 @@ export default function Page() {
         </ul>
 
         <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mt-6">
-          <span className="font-semibold text-gray-900 dark:text-white">Show Off:</span> What You Sell—Products, Services, Tout Them with Flair. A professional website is a perfect platform where you can display your products and or services and make it clear why the client should come to you. Here's how you can do it right:
+          <span className="font-semibold text-gray-900 dark:text-white">Show Off:</span> What You Sell—Products, Services, Tout Them with Flair. A professional website is a perfect platform where you can display your products and or services and make it clear why the client should come to you. Heres how you can do it right:
         </p>
 
         <ul className="list-disc pl-6 mt-4">
           <li className="mt-2">
-            <span className="font-semibold text-gray-900 dark:text-white">High-quality images:</span> Use clean, high-resolution images to clearly bring out what you're selling, be it products or services. Attract and retain customers. This is a very powerful factor.
+            <span className="font-semibold text-gray-900 dark:text-white">High-quality images:</span> Use clean, high-resolution images to clearly bring out what youre selling, be it products or services. Attract and retain customers. This is a very powerful factor.
           </li>
           <li className="mt-2">
             <span className="font-semibold text-gray-900 dark:text-white">Detailed Descriptions:</span> Go on; make full, descriptive calls-out that really bring out the features and benefits of your offerings. The more informative and appealing, the better.
@@ -75,7 +75,7 @@ export default function Page() {
         </ul>
 
         <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mt-6">
-          <span className="font-semibold text-gray-900 dark:text-white">Boost Customer Engagement:</span> Make Contact and Support Easy. Ease of access and support are the pillars of great customer relations. Your website should not give any visitor a reason to stop from getting in touch and seeking help. Here's how:
+          <span className="font-semibold text-gray-900 dark:text-white">Boost Customer Engagement:</span> Make Contact and Support Easy. Ease of access and support are the pillars of great customer relations. Your website should not give any visitor a reason to stop from getting in touch and seeking help. Heres how:
         </p>
 
         <ul className="list-disc pl-6 mt-4">
