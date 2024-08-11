@@ -53,7 +53,7 @@ export default function Page() {
 
 
               <div className="about-heading mb-4">
-              <h1 className="text-3xl sm:mt-0 mt-24 md:text-6xl lg:text-7xl font-bold leading-tight px-4 text-gray-800 dark:text-gray-100  teko">
+              <h1 className="text-3xl sm:mt-0 mt-24 md:text-6xl lg:text-7xl font-bold leading-tight px-4 text-gray-800 dark:text-gray-100 ">
       Experience the Web Like Never Before: <br className="hidden md:block" />
       <span className="text-teal-500 dark:text-teal-300">
         Where the Ordinary Becomes Extraordinary

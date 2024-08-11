@@ -76,7 +76,7 @@ link:"https://bioquench.in/"
               <div className="about-heading mb-4">
 
               <div className="about-heading mb-4">
-              <h1 className="text-3xl sm:mt-0 mt-24 md:text-6xl lg:text-7xl font-bold leading-tight sm:px-4 text-gray-800 dark:text-gray-100  teko">
+              <h1 className="text-3xl sm:mt-0 mt-24 md:text-6xl lg:text-7xl font-bold leading-tight sm:px-4 text-gray-800 dark:text-gray-100  ">
               Explore our curated selection of projects <br className="hidden md:block" />
       <span className=" text-[#9072d1]">
       that showcase our commitment to excellence and innovation.
@@ -91,7 +91,7 @@ link:"https://bioquench.in/"
 
           <span className={`${style.shape} sm:block hidden overflow-hidden`} ></span> 
           <span className={`${style.shape} sm:block hidden`}></span> 
-          <span className={`${style.shape} overflow-hidden`}></span> 
+          <span className={`${style.shape} overflow-hidden `}></span> 
           <span className={`${style.shape} sm:block hidden`}></span> 
           <span className={style.shape} ></span> 
           <span className={style.shape}></span> 
