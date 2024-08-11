@@ -57,8 +57,8 @@ export default function Homepage({loading}) {
   </div>
 
   {/* Descriptive Text */}
-  <div className="text text-center ml-2 md:text-left text-gray-700 dark:text-gray-400 max-w-xl text-xl leading-relaxed md:block hidden">
-    <p>
+  <div className="text text-center ml-2 md:text-left text-gray-700 dark:text-yellow-100 max-w-xl text-xl leading-relaxed md:block hidden">
+    <p className=" font-serif">
       Lets face it, first impressions matter. Your websites an opportunity to wow your audience, so why choose bad design? Brands win over fans when they are brave enough to go beyond their creative comfort zone.
     </p>
   </div>
