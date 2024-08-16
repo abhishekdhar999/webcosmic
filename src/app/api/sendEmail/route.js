@@ -8,15 +8,15 @@ export async function POST(req) {
     let transporter = nodemailer.createTransport({
       service: process.env.SERVICE, // You can use other email services
       auth: {
-        user: process.env.EMAIL ,
-        pass: process.env.EMAIL_APPPASSWORD, // Your Gmail password or app password
+        user: `${process.env.EMAIL}` ,
+        pass:`${process.env.EMAIL_APPPASSWORD}`, // Your Gmail password or app password
       },
     });
 
     // Set up email data with unicode symbols
     let mailOptions = {
-      from: process.env.EMAIL, // Sender address
-      to: process.env.EMAIL, // List of receivers
+      from: `${process.env.EMAIL}`, // Sender address
+      to: `${process.env.EMAIL}`, // List of receivers
       subject: `webcosmic contact form messages`, // Subject line
       text: message, // Plain text body
       html: `
