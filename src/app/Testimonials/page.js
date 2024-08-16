@@ -20,7 +20,7 @@ const Testimonial = () => {
         testimonial: "WebCosmic and the team were very cooperative and responsive throughout the process. They provided us with a fantastic e-commerce website that met all our requirements. The seamless communication and professional approach made the entire experience enjoyable and stress-free.",
     },
     {
-        name: "Deepanshu Bhateja",
+        name: "Sutantar Brar",
         position: "Founder of EliteFitness",
         image: "/testimonials/author-03.jpg",
         short: "Highly Recommend",
