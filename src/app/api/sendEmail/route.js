@@ -6,7 +6,7 @@ export async function POST(req) {
 
     // Create a transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
-      service: process.env.SERVICE, // You can use other email services
+      service: `${process.env.SERVICE}`, // You can use other email services
       auth: {
         user: `${process.env.EMAIL}` ,
         pass:`${process.env.EMAIL_APPPASSWORD}`, // Your Gmail password or app password
