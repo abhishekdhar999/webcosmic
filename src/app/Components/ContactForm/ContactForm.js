@@ -3,7 +3,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import Navbar from '@/app/Components/Navbar/Navbar';
 import BlobMarquee from '../BlobMarquee/BlobMarquee';
 import Footer from '../Footer/Footer';
-import Image from 'next/image';
+
 const ContactForm = () => {
   const [selectedOptions, setSelectedOptions] = useState([]);
   const [formData, setFormData] = useState({
