@@ -11,15 +11,15 @@ export async function POST(req) {
     let transporter = nodemailer.createTransport({
       service: 'Gmail', // You can use other email services
       auth: {
-        user: "piratedgdtot@gmail.com" ,
-        pass: "ucdrklkvletkcffp", // Your Gmail password or app password
+        user: process.env.EMAIL ,
+        pass: process.env.EMAIL_APPPASSWORD, // Your Gmail password or app password
       },
     });
 
     // Set up email data with unicode symbols
     let mailOptions = {
-      from: "piratedgdtot@gmail.com", // Sender address
-      to: "piratedgdtot@gmail.com", // List of receivers
+      from: process.env.EMAIL, // Sender address
+      to: process.env.EMAIL, // List of receivers
       subject: `webcosmic subscribe newsletter messages`, // Subject line
       text: "subscribe news letter email", // Plain text body
       html: `

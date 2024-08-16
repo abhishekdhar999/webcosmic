@@ -1,27 +1,4 @@
 
-// // "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"
-// import sendgrid from '@sendgrid/mail';
-
-// sendgrid.setApiKey("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");
-
-// export async function POST(req, res) {
-//   try {
-//     const { name, email, message } = await req.json(); // Use await req.json() to parse the request body
-
-//     await sendgrid.send({
-//       to: 'recipient@example.com', // Replace with your recipient
-//       from: 'dhar.abhishek999@gmail.com', // Replace with your verified sender
-//       subject: `New message from ${name}`,
-//       text: message,
-//       html: `<p>You have a new message from ${name} (${email})</p><p>${message}</p>`,
-//     });
-
-//     return new Response(JSON.stringify({ message: 'Email sent successfully' }), { status: 200 });
-//   } catch (error) {
-//     console.error("Error sending email:", error);
-//     return new Response(JSON.stringify({ message: 'Failed to send email' }), { status: 500 });
-//   }
-// }
 
 import nodemailer from 'nodemailer';
 
@@ -33,15 +10,15 @@ export async function POST(req) {
     let transporter = nodemailer.createTransport({
       service: 'Gmail', // You can use other email services
       auth: {
-        user: "piratedgdtot@gmail.com" ,
-        pass: "ucdrklkvletkcffp", // Your Gmail password or app password
+        user: process.env.EMAIL ,
+        pass: process.env.EMAIL_APPPASSWORD, // Your Gmail password or app password
       },
     });
 
     // Set up email data with unicode symbols
     let mailOptions = {
-      from: "piratedgdtot@gmail.com", // Sender address
-      to: "piratedgdtot@gmail.com", // List of receivers
+      from: process.env.EMAIL, // Sender address
+      to: process.env.EMAIL, // List of receivers
       subject: `webcosmic contact form messages`, // Subject line
       text: message, // Plain text body
       html: `
