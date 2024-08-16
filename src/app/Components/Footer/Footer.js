@@ -4,24 +4,27 @@ import React, { useState } from 'react';
 import { BsLinkedin, BsFacebook, BsInstagram, BsTwitterX } from "react-icons/bs";
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import Image from 'next/image';
+
 export default function Footer() {
   const [email, setEmail] = useState('');
   const [copied, setCopied] = useState(false);
   const [successMessage, setSuccessMessage] = useState('');
+  
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
   };
 
   const handleSubscribe = async (e) => {
     e.preventDefault();
-    console.log("")
-    
-if(!email){
-  alert('Please fill out all fields and select at least one option.');
-  return;
-}
-const response = await fetch("/api/subscribeNewsletter", {
-  method:"POST",
+    console.log("");
+
+    if (!email) {
+      alert('Please fill out all fields and select at least one option.');
+      return;
+    }
+
+    const response = await fetch("/api/subscribeNewsletter", {
+      method: "POST",
       headers: {
         'Content-Type': 'application/json',
       },
@@ -29,20 +32,18 @@ const response = await fetch("/api/subscribeNewsletter", {
         email: email,
       }),
     });
+
     const result = await response.json();
     console.log(result);
 
     // Display success message and reset form
     if (response.ok) {
-      setSuccessMessage('Your have subscribed to the newsletter.');
+      setSuccessMessage('You have subscribed to the newsletter.');
       setEmail("");
-      
     } else {
       setSuccessMessage('There was an error sending your details. Please try again.');
     }
     alert(`Subscribed with email: ${email}`);
-
-    
   };
 
   const handleCopy = () => {
@@ -317,6 +318,10 @@ const response = await fetch("/api/subscribeNewsletter", {
               </div>
             </span>
           </CopyToClipboard>
+          <div className="mobile-numbers">
+            <span className="number ">+91 7508857909</span><br />
+            <span className="number  ">+91 8082810157</span>
+          </div>
           <div className="footer-socials">
             <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><BsLinkedin /></a>
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><BsFacebook /></a>

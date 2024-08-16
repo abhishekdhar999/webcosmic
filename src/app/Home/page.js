@@ -50,8 +50,8 @@ export default function Homepage({loading}) {
 
     {/* <!-- Heading --> */}
     <div className="heading text-center md:text-left p-1">
-      <h1 className="text-4xl sm:text-6xl md:hidden block md:text-6xl lg:text-8xl bg-gradient-to-r from-purple-500 to-indigo-600 bg-clip-text text-transparent leading-tight mb-4">WEBCOSMIC</h1>
-      <h1 className="teko md:block hidden sm:text-4xl md:text-6xl lg:text-8xl bg-gradient-to-r from-purple-500 to-indigo-600 bg-clip-text text-transparent leading-tight mb-4">WEBCOSMIC</h1>
+      <h1 className="text-4xl sm:text-6xl md:hidden block md:text-6xl lg:text-8xl bg-gradient-to-r from-purple-500 to-indigo-600 font-bold bg-clip-text text-transparent leading-tight mb-4">WEBCOSMIC</h1>
+      <h1 className="teko md:block hidden sm:text-4xl md:text-6xl lg:text-8xl bg-gradient-to-r from-purple-500 to-indigo-600 bg-clip-text text-transparent font-bold leading-tight mb-4">WEBCOSMIC</h1>
     </div>
 
     {/* <!-- Animated List --> */}

@@ -27,7 +27,7 @@ const About = () => {
       <Navbar />
 
       <div className=" mt-12">
-       <img className="h-[500px] mt-6 w-full" src="/AboutImages/Blue Modern Company Slogan LinkedIn Banner.png" alt="" />
+       <img className="md:h-[500px] sm:h-[300px] h-[200px] mt-6 w-full" src="/AboutImages/Blue Modern Company Slogan LinkedIn Banner.png" alt="" />
       </div>
 
       <div className="middle  mx-auto max-w-screen-xl px-4 py-8 my-16">

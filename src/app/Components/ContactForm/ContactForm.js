@@ -159,11 +159,7 @@ console.log("yaha tak")
           </div>
         </div>
 
-        {successMessage && (
-          <div className="mb-4 p-4 bg-green-500 text-black rounded">
-            {successMessage}
-          </div>
-        )}
+        
         <form onSubmit={handleSubmit}>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-8">
             {['A new website', 'Branding', 'Motion graphics', 'E-Commerce', 'Development', 'On-going support', 'App from scratch'].map((text) => (
@@ -241,6 +237,12 @@ console.log("yaha tak")
             </button>
           </div>
         </form>
+
+        {successMessage && (
+          <div className="mb-4 p-4 bg-green-500 text-black rounded">
+            {successMessage}
+          </div>
+        )}
       </div>
     </div>
 
