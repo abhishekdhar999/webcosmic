@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useRef } from 'react';
 import Footer from '../Components/Footer/Footer';
+import Navbar from '../Components/Navbar/Navbar';
 const Testimonial = () => {
 
   const data = [
@@ -114,17 +115,17 @@ const Testimonial = () => {
 
     return (
       <>
-      
-        <div className=" min-h-screen md:mx-24  md:mb-24  mb-[500px] text-white">
+      <Navbar></Navbar>
+        <div className=" min-h-screen md:mx-12 sm:mb-36 md:mb-36  mb-[470px] text-white ">
             <div className="container mx-auto py-16 px-4 relative">
                 <h2 className="md:text-6xl text-3xl  font-extrabold text-center mb-12 tracking-wider">
-                    CLIENTS TESTIMONIALS
+                    CLIENTS <span className='text-teal-400 '>TESTIMONIALS</span>
                 </h2>
 
                 <div className="relative">
                     <button 
                         onClick={() => scroll('left')} 
-                        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-transparent hover:bg-gray-600 text-white rounded-full p-3 shadow-lg transition-transform transform hover:scale-110 z-10 md:left-2 lg:left-4 border border-gray-700"
+                        className="absolute left-4 top-1/2 transform-translate-y-1/2 bg-transparent hover:bg-gray-600 text-white rounded-full p-3 shadow-lg transition-transform transform-hover:scale-110 z-10 md:left-2 lg:left-4 border border-gray-700"
                     >
                         <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
                             <path d="M13 16l-4-4 4-4 1.4 1.4L11.8 12H16v2H11.8l2.6 2.6L13 16z" />

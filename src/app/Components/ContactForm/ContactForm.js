@@ -15,6 +15,7 @@ const ContactForm = () => {
     agreement1: false,
     agreement2: false,
   });
+
   const [successMessage, setSuccessMessage] = useState('');
   const [greeting, setGreeting] = useState('hello');
   const greetings = ['Hello', 'Hi', 'Hey', 'Greetings', 'Howdy'];
@@ -53,16 +54,17 @@ const ContactForm = () => {
   };
 
   const handleSubmit = async (e) => {
+    console.log("iin")
     e.preventDefault();
-
+console.log(formData)
     // Basic validation
     if (!formData.firstName || !formData.lastName || !formData.email || !formData.budget || !formData.message || !formData.agreement2) {
       alert('Please fill out all fields and select at least one option.');
       return;
     }
-
-    const response = await fetch(`${process.env.NEXT_PUBLIC_CONTACT_POST_URL}`, {
-      method: 'POST',
+console.log("yaha tak")
+    const response = await fetch("/api/sendEmail", {
+  method:"POST",
       headers: {
         'Content-Type': 'application/json',
       },
@@ -147,7 +149,7 @@ const ContactForm = () => {
               <p className="font-extrabold text-base md:text-lg text-center md:text-left">
                 PH: +91 7508857909 <br />
                 PH: +91 8082810157 <br />
-                EMAIL: HELLO@GMAIL.COM
+                EMAIL: hello@webcosmic.tech 
                 <br/>
                 <span className="text-lg md:text-2xl bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">
                   we are just a call away
@@ -234,7 +236,7 @@ const ContactForm = () => {
           </div>
 
           <div className="flex justify-end">
-            <button type="submit" className="bg-white text-black px-4 sm:px-6 py-2 rounded-full hover:bg-gray-200 transition-colors duration-300">
+            <button onClick={handleSubmit} type="submit" className="bg-white text-black px-4 sm:px-6 py-2 rounded-full hover:bg-gray-200 transition-colors duration-300">
               Submit
             </button>
           </div>

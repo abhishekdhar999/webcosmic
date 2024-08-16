@@ -100,9 +100,9 @@ link:"https://bioquench.in/"
 
               <div className="about-heading mb-4">
               <h1 className="text-3xl sm:mt-0 mt-24 md:text-6xl lg:text-7xl font-bold leading-tight sm:px-4 text-gray-800 dark:text-gray-100  ">
-              Explore our curated selection of projects <br className="hidden md:block" />
+              Browse our featured projects  <br className="hidden md:block" />
       <span className=" text-[#9072d1]">
-      that showcase our commitment to excellence and innovation.
+      that define our pursuit of excellence and creativity.
       </span>
     </h1>
               </div>

@@ -7,14 +7,42 @@ import Image from 'next/image';
 export default function Footer() {
   const [email, setEmail] = useState('');
   const [copied, setCopied] = useState(false);
-
+  const [successMessage, setSuccessMessage] = useState('');
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
   };
 
-  const handleSubscribe = (e) => {
+  const handleSubscribe = async (e) => {
     e.preventDefault();
+    console.log("")
+    
+if(!email){
+  alert('Please fill out all fields and select at least one option.');
+  return;
+}
+const response = await fetch("/api/subscribeNewsletter", {
+  method:"POST",
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        email: email,
+      }),
+    });
+    const result = await response.json();
+    console.log(result);
+
+    // Display success message and reset form
+    if (response.ok) {
+      setSuccessMessage('Your have subscribed to the newsletter.');
+      setEmail("");
+      
+    } else {
+      setSuccessMessage('There was an error sending your details. Please try again.');
+    }
     alert(`Subscribed with email: ${email}`);
+
+    
   };
 
   const handleCopy = () => {
@@ -283,7 +311,7 @@ export default function Footer() {
         </div>
         <div className="footer-contact">
           <CopyToClipboard text="hello@webcosmic.com" onCopy={handleCopy}>
-            <span className="footer-email">hello@webcosmic.com
+            <span className="footer-email">hello@webcosmic.tech 
               <div className="copy-tooltip">
                 {copied ? 'Email copied!' : ' Click to Copy email address'}
               </div>

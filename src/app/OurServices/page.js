@@ -125,8 +125,8 @@ export default function Page() {
               <span >
                 <img
                   className="rounded-t-lg h-72"
-                  src="https://imgs.search.brave.com/gsCFGtDaNnxuDQw660AR8VpN8suNQpxzDWSPyC7Abjw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tYWdl/bmVzdC5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjEvMDIv/d2Vic2l0ZS1kZXZl/bG9wbWVudC1hbmQt/ZGVzaWduLTEuanBn"
-                  alt=""
+                  src="/servicespageImage/one.webp"
+                  alt="webdesignanddevelopment"
                 />
               </span>
               <div className="p-5">
@@ -146,8 +146,8 @@ export default function Page() {
               <span >
                 <img
                   className="rounded-t-lg h-72"
-                  src="https://imgs.search.brave.com/Jz505oZQ_f9kO9hQvVfGoanywxTqrEKtBjVNagnMLnw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5kZXNpZ25ydXNo/LmNvbS9hcnRpY2xl/cy82NDY0MDYvY29u/dmVyc2lvbnMvRW50/ZXJwcmlzZS1Nb2Jp/bGUtQXBwLURldmVs/b3BtZW50LVN0cmF0/ZWdpZXMtLVRpcHMt/LS1FeGFtcGxlcy1w/cmV2aWV3LmpwZw"
-                  alt=""
+                  src="/servicespageImage/two.webp"
+                  alt="appdesignanddevelopment"
                 />
               </span>
               <div className="p-5">
@@ -167,8 +167,8 @@ export default function Page() {
               <span >
                 <img
                   className="rounded-t-lg h-72"
-                  src="https://imgs.search.brave.com/lKF1j4LNdFHI0S12xtk8pdFSNceBskt3Bb4GN4jkc5E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTIy/MjgxMTE4MC9waG90/by9kaWdpdGFsLW1h/cmtldGluZy5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9cUJ2/MVcyclpaZWRqQm5h/OTRhUjVHREVnc0Vj/bUhyUnBvcUx2Yjcy/N1dlbz0"
-                  alt=""
+                  src="/servicespageImage/three.webp"
+                  alt="digitalmarketing"
                 />
               </span>
               <div className="p-5">
@@ -191,8 +191,8 @@ export default function Page() {
               <span>
                 <img
                   className="rounded-t-lg h-72"
-                  src="https://imgs.search.brave.com/1CKSagVJkm0CzBEyShz3bHeTnPdKcWiQZI1DnogG2kI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvODUw/ODgxMzAwL3Bob3Rv/L2JyYW5kLWJ1c2lu/ZXNzLWNvbmNlcHQu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PWhIa2RxSk5XNW45/bk9SSVZhMWhraEZW/STBtbk1ISi0yWWZL/WXpqY051YWM9"
-                  alt=""
+                  src="/servicespageImage/four.webp"
+                  alt="branding"
                 />
               </span>
               <div className="p-5">
@@ -212,8 +212,8 @@ export default function Page() {
               <span >
                 <img
                   className="rounded-t-lg h-72"
-                  src="https://imgs.search.brave.com/OsbIzdoZ5IetD4PGUVke45lsaUyEUoK_Irs4ZFfVL9w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzc5LzM1LzYy/LzM2MF9GXzM3OTM1/NjI5OV9FQWp2QzRH/eTFHd3h5ejRBOHo3/ZmNOVXpjYXdnNFF5/OC5qcGc"
-                  alt=""
+                  src="/servicespageImage/five.webp"
+                  alt="graphicdesigning"
                 />
               </span>
               <div className="p-5">
@@ -233,8 +233,8 @@ export default function Page() {
               <span >
                 <img
                   className="rounded-t-lg h-72"
-                  src="https://imgs.search.brave.com/8AIun6-sQRUMc4UKC4-Eo-uKDT02Qx5fqJapQEAOzGE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kcmlw/aWZ5LmlvL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIzLzAzLzMu/cG5n"
-                  alt=""
+                  src="/servicespageImage/six.webp"
+                  alt="contentwriting"
                 />
               </span>
               <div className="p-5">

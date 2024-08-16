@@ -31,8 +31,8 @@ const TestimonialSection = () => {
     <div>
    <div className="flex flex-col md:flex-row justify-center items-center md:mx-auto mx-0 md:space-x-4 space-y-6 md:space-y-0">
   
-  {/* Left Section */}
-  <div className="left text-center md:text-left">
+ 
+  <div className="left text-center md:text-left my-12">
     <h1 className="text-4xl sm:text-6xl md:text-9xl lg:text-[150px] ">
       <span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">U</span>SE<span className="bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">R</span>S
     </h1>
