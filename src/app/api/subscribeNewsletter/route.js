@@ -1,8 +1,7 @@
 
 
-
+require('dotenv').config();
 import nodemailer from 'nodemailer';
-
 export async function POST(req) {
   try {
     const { email } = await req.json();
