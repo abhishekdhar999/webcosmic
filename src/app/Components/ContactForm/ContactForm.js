@@ -148,7 +148,6 @@ console.log("yaha tak")
             <div className="right flex-1 w-full md:w-1/2">
               <p className="font-extrabold text-base md:text-lg text-center md:text-left">
                 PH: +91 7508857909 <br />
-                PH: +91 8082810157 <br />
                 EMAIL: hello@webcosmic.tech 
                 <br/>
                 <span className="text-lg md:text-2xl bg-gradient-to-r from-pink-600 via-blue-500 to-green-400 inline-block text-transparent bg-clip-text">
