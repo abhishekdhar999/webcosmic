@@ -320,7 +320,6 @@ export default function Footer() {
           </CopyToClipboard>
           <div className="mobile-numbers">
             <span className="number ">+91 7508857909</span><br />
-            <span className="number  ">+91 8082810157</span>
           </div>
           <div className="footer-socials">
             <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><BsLinkedin /></a>
